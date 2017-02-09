@@ -13,5 +13,45 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\CTP">
+      <UniqueIdentifier>{e256fe1e-64f1-406e-a9de-4f97ed0f60b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QuerySpi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TraderSpi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Query.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ThostFtdcMdApi.h">
+      <Filter>头文件\CTP</Filter>
+    </ClInclude>
+    <ClInclude Include="ThostFtdcTraderApi.h">
+      <Filter>头文件\CTP</Filter>
+    </ClInclude>
+    <ClInclude Include="ThostFtdcUserApiDataType.h">
+      <Filter>头文件\CTP</Filter>
+    </ClInclude>
+    <ClInclude Include="ThostFtdcUserApiStruct.h">
+      <Filter>头文件\CTP</Filter>
+    </ClInclude>
+    <ClInclude Include="QuerySpi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TraderSpi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Query.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

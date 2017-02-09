@@ -110,6 +110,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Query.cpp" />
+    <ClCompile Include="QuerySpi.cpp" />
+    <ClCompile Include="TraderSpi.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Query.h" />
+    <ClInclude Include="QuerySpi.h" />
+    <ClInclude Include="ThostFtdcMdApi.h" />
+    <ClInclude Include="ThostFtdcTraderApi.h" />
+    <ClInclude Include="ThostFtdcUserApiDataType.h" />
+    <ClInclude Include="ThostFtdcUserApiStruct.h" />
+    <ClInclude Include="TraderSpi.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
