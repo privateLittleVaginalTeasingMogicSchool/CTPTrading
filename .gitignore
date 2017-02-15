@@ -269,4 +269,10 @@ ModelManifest.xml
 *.exe
 *.out
 *.app
+
+# Libraries
+!thostmduserapi.dll
+!thostmduserapi.lib
+!thosttraderapi.dll
+!thosttraderapi.lib
 >>>>>>> 7c3e07b03a48a353f7ff08d09a19423b3f5f0349
