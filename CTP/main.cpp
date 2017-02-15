@@ -1,35 +1,42 @@
-#pragma comment(lib, ".\\thostmduserapi.lib")
-#pragma comment(lib, ".\\thosttraderapi.lib")
+#define _CRT_SECURE_NO_WARNINGS
+
+#pragma comment(lib, "thostmduserapi.lib")
+#pragma comment(lib, "thosttraderapi.lib")
 
 #include "Query.h"
 //#include "Trader.h"
 #include "ThostFtdcMdApi.h"
 #include "ThostFtdcTraderApi.h"
-
+#include "Query.h"
 #ifdef _WIN32
 #include<Windows.h>
 #endif
 
+int nRequestID;
+CThostFtdcDepthMarketDataField* MarketData;
+char* FRONTADD = "tcp://180.168.146.187:10010";
+const char* USERID = "082477";
+const char* PASSWD = "123456";
+const char* BROKER = "9999";
+CThostFtdcMdApi* mdapi;
+CThostFtdcMdSpi* mdspi;
+bool login;
+char* ppInstrumentID[1] = { "au1706" };
+int iInstrumentID = 1;
 
 int main()
 {
-	// 初始化询价对象
-	Query* query = new Query;
-	query->Init();
+	InitQuery();
+	while (!login);
 
-	// 添加合约
-	char* instruments[1] = { "au1706" };
-	query->SubscribeMarketData(instruments, 1);
+	mdapi->SubscribeMarketData(ppInstrumentID, iInstrumentID);
 
-	// 询价
 	while (true)
 	{
-		std::cout << query->MarketData.AskPrice1 << std::endl;
+		std::cout << MarketData->AskPrice1 << std::endl;
 #ifdef _WIN32
-		Sleep(500);
+		Sleep(1000);
 #endif
 	}
-
-	
-	delete query;
+	return 0;
 }

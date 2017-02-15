@@ -1,4 +1,11 @@
-//行情API
+/////////////////////////////////////////////////////////////////////////
+///@system 新一代交易所系统
+///@company 上海期货信息技术有限公司
+///@file ThostFtdcMdApi.h
+///@brief 定义了客户端接口
+///@history 
+///20060106	赵鸿昊		创建该文件
+/////////////////////////////////////////////////////////////////////////
 
 #if !defined(THOST_FTDCMDAPI_H)
 #define THOST_FTDCMDAPI_H
@@ -37,6 +44,7 @@ public:
 	///心跳超时警告。当长时间未收到报文时，该方法被调用。
 	///@param nTimeLapse 距离上次接收报文的时间
 	virtual void OnHeartBeatWarning(int nTimeLapse){};
+	
 
 	///登录请求响应
 	virtual void OnRspUserLogin(CThostFtdcRspUserLoginField *pRspUserLogin, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast) {};
@@ -53,8 +61,17 @@ public:
 	///取消订阅行情应答
 	virtual void OnRspUnSubMarketData(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast) {};
 
+	///订阅询价应答
+	virtual void OnRspSubForQuoteRsp(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast) {};
+
+	///取消订阅询价应答
+	virtual void OnRspUnSubForQuoteRsp(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast) {};
+
 	///深度行情通知
 	virtual void OnRtnDepthMarketData(CThostFtdcDepthMarketDataField *pDepthMarketData) {};
+
+	///询价通知
+	virtual void OnRtnForQuoteRsp(CThostFtdcForQuoteRspField *pForQuoteRsp) {};
 };
 
 class MD_API_EXPORT CThostFtdcMdApi
@@ -65,6 +82,10 @@ public:
 	///@return 创建出的UserApi
 	///modify for udp marketdata
 	static CThostFtdcMdApi *CreateFtdcMdApi(const char *pszFlowPath = "", const bool bIsUsingUdp=false, const bool bIsMulticast=false);
+	
+	///获取API的版本信息
+	///@retrun 获取到的版本号
+	static const char *GetApiVersion();
 	
 	///删除接口对象本身
 	///@remark 不再使用本接口对象时,调用该函数删除接口对象
@@ -115,6 +136,18 @@ public:
 	///@param nCount 要订阅/退订行情的合约个数
 	///@remark 
 	virtual int UnSubscribeMarketData(char *ppInstrumentID[], int nCount) = 0;
+	
+	///订阅询价。
+	///@param ppInstrumentID 合约ID  
+	///@param nCount 要订阅/退订行情的合约个数
+	///@remark 
+	virtual int SubscribeForQuoteRsp(char *ppInstrumentID[], int nCount) = 0;
+
+	///退订询价。
+	///@param ppInstrumentID 合约ID  
+	///@param nCount 要订阅/退订行情的合约个数
+	///@remark 
+	virtual int UnSubscribeForQuoteRsp(char *ppInstrumentID[], int nCount) = 0;
 
 	///用户登录请求
 	virtual int ReqUserLogin(CThostFtdcReqUserLoginField *pReqUserLoginField, int nRequestID) = 0;
