@@ -255,7 +255,6 @@ ModelManifest.xml
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -265,7 +264,6 @@ ModelManifest.xml
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
