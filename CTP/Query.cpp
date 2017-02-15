@@ -1,38 +1,20 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include"Query.h"
+#include"QuerySpi.h"
 
-char* Query::FRONTADD = "tcp://180.168.146.187:10010";
-
-Query::Query()
+void InitQuery()
 {
-	// Empty
-}
+	mdapi = CThostFtdcMdApi::CreateFtdcMdApi("./mdflow/");
+	
+	mdspi = new MdSpi;
+	mdapi->RegisterSpi(mdspi);
+	mdapi->RegisterFront(FRONTADD);
+	mdapi->Init();
 
-void Query::Init()
-{
-	_mdapi = CThostFtdcMdApi::CreateFtdcMdApi();
-	_mdspi = new QuerySpi(&(this->MarketData));
-	_mdapi->RegisterSpi(_mdspi);
-	_mdapi->RegisterFront(FRONTADD);
-	_mdapi->Init();
-}
+	nRequestID = 0;
+	login = false;
 
-
-
-Query::~Query()
-{
-	if (_mdspi)
-	{
-		delete _mdspi;
-		_mdspi = nullptr;
-	}
-}
-
-void Query::SubscribeMarketData(char * ppInstrumentID[], int nCount)
-{
-	_mdapi->SubscribeMarketData(ppInstrumentID, nCount);
-}
-
-void Query::UnSubscribeMarketData(char * ppInstrumentID[], int nCount)
-{
-	_mdapi->UnSubscribeMarketData(ppInstrumentID, nCount);
+	MarketData = new CThostFtdcDepthMarketDataField;
+	memset(MarketData, 0, sizeof(MarketData));
 }

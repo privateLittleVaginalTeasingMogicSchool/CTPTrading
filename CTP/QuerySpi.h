@@ -4,11 +4,21 @@
 
 #include<iostream>
 
-class QuerySpi : public CThostFtdcMdSpi
+extern int nRequestID;
+extern CThostFtdcDepthMarketDataField* MarketData;
+extern char* FRONTADD;
+extern const char* USERID;
+extern const char* PASSWD;
+extern const char* BROKER;
+extern CThostFtdcMdApi* mdapi;
+extern CThostFtdcMdSpi* mdspi;
+extern bool login;
+extern char* ppInstrumentID[1];
+extern int iInstrumentID;
+
+class MdSpi : public CThostFtdcMdSpi
 {
 public:
-	QuerySpi(CThostFtdcDepthMarketDataField* dstAdd);
-
 	///当客户端与交易后台建立起通信连接时（还未登录前），该方法被调用。
 	virtual void OnFrontConnected();
 
@@ -29,7 +39,7 @@ public:
 	virtual void OnRspUserLogin(CThostFtdcRspUserLoginField *pRspUserLogin, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast);
 
 	///登出请求响应
-	virtual void OnRspUserLogout(CThostFtdcUserLogoutField *pUserLogout, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast);
+	//virtual void OnRspUserLogout(CThostFtdcUserLogoutField *pUserLogout, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast);
 
 	///错误应答
 	virtual void OnRspError(CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast);
@@ -43,6 +53,7 @@ public:
 	///深度行情通知
 	virtual void OnRtnDepthMarketData(CThostFtdcDepthMarketDataField *pDepthMarketData);
 
-private:
-	CThostFtdcDepthMarketDataField* _dstAdd;
+	virtual void ReqUserLogin();
+	virtual bool IsErrorRspInfo(CThostFtdcRspInfoField *pRspInfo);
 };
+
