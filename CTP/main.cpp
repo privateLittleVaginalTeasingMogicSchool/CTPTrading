@@ -3,40 +3,47 @@
 #pragma comment(lib, "thostmduserapi.lib")
 #pragma comment(lib, "thosttraderapi.lib")
 
+#include "Common.h"
 #include "Query.h"
-//#include "Trader.h"
-#include "ThostFtdcMdApi.h"
-#include "ThostFtdcTraderApi.h"
-#include "Query.h"
-#ifdef _WIN32
-#include<Windows.h>
-#endif
+#include "Trade.h"
+#include<string>
 
-int nRequestID;
+
+int nMdRequestID = 0;
+int nTdRequestID = 0;
 CThostFtdcDepthMarketDataField* MarketData;
-char* FRONTADD = "tcp://180.168.146.187:10010";
-const char* USERID = "082477";
+char* FRONTADD_MD = "tcp://180.168.146.187:10010";
+char* FRONTADD_TD = "tcp://180.168.146.187:10000";
+int SESSION;
+int FRONTID;
+TThostFtdcOrderRefType ORDER_REF;
+const char* USERID = "079056";
 const char* PASSWD = "123456";
 const char* BROKER = "9999";
 CThostFtdcMdApi* mdapi;
-CThostFtdcMdSpi* mdspi;
-bool login;
+CThostFtdcTraderApi* tdapi;
+MdSpi* mdspi;
+TdSpi* tdspi;
+bool mdlogin = false;
+bool tdlogin = false;
 char* ppInstrumentID[1] = { "au1706" };
 int iInstrumentID = 1;
 
 int main()
 {
 	InitQuery();
-	while (!login);
-
+	while (!mdlogin);
+	InitTrade();
+	while (!tdlogin);
 	mdapi->SubscribeMarketData(ppInstrumentID, iInstrumentID);
+
+	SleepFor(1000);
+	tdspi->ReqOrderInsert(ppInstrumentID[0], THOST_FTDC_D_Buy, MarketData->AskPrice1);
 
 	while (true)
 	{
+		SleepFor(1000);
 		std::cout << MarketData->AskPrice1 << std::endl;
-#ifdef _WIN32
-		Sleep(1000);
-#endif
 	}
 	return 0;
 }

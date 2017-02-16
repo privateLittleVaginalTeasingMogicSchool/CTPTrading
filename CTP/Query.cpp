@@ -9,11 +9,8 @@ void InitQuery()
 	
 	mdspi = new MdSpi;
 	mdapi->RegisterSpi(mdspi);
-	mdapi->RegisterFront(FRONTADD);
+	mdapi->RegisterFront(FRONTADD_MD);
 	mdapi->Init();
-
-	nRequestID = 0;
-	login = false;
 
 	MarketData = new CThostFtdcDepthMarketDataField;
 	memset(MarketData, 0, sizeof(MarketData));

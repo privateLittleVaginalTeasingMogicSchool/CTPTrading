@@ -1,20 +1,8 @@
 #pragma once
 
-#include "ThostFtdcMdApi.h"
+#include "Common.h"
 
 #include<iostream>
-
-extern int nRequestID;
-extern CThostFtdcDepthMarketDataField* MarketData;
-extern char* FRONTADD;
-extern const char* USERID;
-extern const char* PASSWD;
-extern const char* BROKER;
-extern CThostFtdcMdApi* mdapi;
-extern CThostFtdcMdSpi* mdspi;
-extern bool login;
-extern char* ppInstrumentID[1];
-extern int iInstrumentID;
 
 class MdSpi : public CThostFtdcMdSpi
 {
