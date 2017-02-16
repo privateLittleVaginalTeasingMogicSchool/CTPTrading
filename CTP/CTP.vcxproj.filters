@@ -30,6 +30,12 @@
     <ClCompile Include="Query.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Trade.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ThostFtdcMdApi.h">
@@ -53,5 +59,16 @@
     <ClInclude Include="Query.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Trade.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="error.xml">
+      <Filter>头文件\CTP</Filter>
+    </Xml>
   </ItemGroup>
 </Project>

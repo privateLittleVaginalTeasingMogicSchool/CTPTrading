@@ -4,31 +4,33 @@
 
 #include<memory.h>
 #include<iostream>
-#include<Windows.h>
+#include<chrono>
+#include<thread>
 
 void MdSpi::OnRspError(CThostFtdcRspInfoField *pRspInfo,
 	int nRequestID, bool bIsLast)
 {
-	std::cerr << "--->>> " << "OnRspError" << std::endl;
+	std::cerr << "[md]Error: ";
 	IsErrorRspInfo(pRspInfo);
+	std::cerr << std::endl;
 }
 
 void MdSpi::OnFrontDisconnected(int nReason)
 {
-	std::cerr << "--->>> " << "OnFrontDisconnected" << std::endl;
-	std::cerr << "--->>> Reason = " << nReason << std::endl;
+	std::cerr << "[md]Front Disconnected... ";
+	std::cerr << "Reason: " << nReason << std::endl;
 }
 
 void MdSpi::OnHeartBeatWarning(int nTimeLapse)
 {
-	std::cerr << "--->>> " << "OnHeartBeatWarning" << std::endl;
-	std::cerr << "--->>> nTimerLapse = " << nTimeLapse << std::endl;
+	std::cerr << "[md]HeartBeatWarning: ";
+	std::cerr << "nTimerLapse = " << nTimeLapse << std::endl;
 }
 
 void MdSpi::OnFrontConnected()
 {
-	login = false;
-	std::cerr << "--->>> " << "OnFrontConnected" << std::endl;
+	mdlogin = false;
+	std::cerr << "[md]Front Connected..." << std::endl;
 	///用户登录请求
 	ReqUserLogin();
 }
@@ -40,31 +42,29 @@ void MdSpi::ReqUserLogin()
 	strcpy(req.BrokerID, BROKER);
 	strcpy(req.UserID, USERID);
 	strcpy(req.Password, PASSWD);
-	int iResult = mdapi->ReqUserLogin(&req, ++nRequestID);
-	std::cerr << "--->>> 发送用户登录请求: " << ((iResult == 0) ? "成功" : "失败") << std::endl;
-
+	int iResult = mdapi->ReqUserLogin(&req, ++nMdRequestID);
+	std::cerr << "[md]Send Login Request... " << ((iResult == 0) ? "Successed" : "Failed") << std::endl;
 }
 
 void MdSpi::OnRspUserLogin(CThostFtdcRspUserLoginField *pRspUserLogin,
 	CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
 {
-	std::cerr << "--->>> " << "OnRspUserLogin" << std::endl;
 	if (bIsLast && !IsErrorRspInfo(pRspInfo))
 	{
-		login = true;
+		mdlogin = true;
 		///获取当前交易日
-		std::cerr << "--->>> 获取当前交易日 = " << mdapi->GetTradingDay() << std::endl;
+		std::cerr << "[md]Date: " << mdapi->GetTradingDay() << std::endl;
 	}
 }
 
 void MdSpi::OnRspSubMarketData(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
 {
-	std::cerr << "OnRspSubMarketData" << std::endl;
+	
 }
 
 void MdSpi::OnRspUnSubMarketData(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
 {
-	std::cerr << "OnRspUnSubMarketData" << std::endl;
+	
 }
 
 void MdSpi::OnRtnDepthMarketData(CThostFtdcDepthMarketDataField *pDepthMarketData)
@@ -74,9 +74,8 @@ void MdSpi::OnRtnDepthMarketData(CThostFtdcDepthMarketDataField *pDepthMarketDat
 
 bool MdSpi::IsErrorRspInfo(CThostFtdcRspInfoField *pRspInfo)
 {
-	// 如果ErrorID != 0, 说明收到了错误的响应
 	bool bResult = ((pRspInfo) && (pRspInfo->ErrorID != 0));
 	if (bResult)
-		std::cerr << "--->>> ErrorID=" << pRspInfo->ErrorID << ", ErrorMsg=" << pRspInfo->ErrorMsg << std::endl;
+		std::cerr << "[md]ErrorID=" << pRspInfo->ErrorID << ", ErrorMsg=" << pRspInfo->ErrorMsg;
 	return bResult;
 }
