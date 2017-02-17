@@ -61,6 +61,7 @@ void TdSpi::OnRspSettlementInfoConfirm(CThostFtdcSettlementInfoConfirmField *pSe
 {
 	if (bIsLast && !IsErrorRspInfo(pRspInfo))
 	{
+		tdlogin = true;
 		///请求查询合约
 		std::cerr << "[td]Instruments:" << std::endl;
 		for (int i = 0;i < iInstrumentID;i++)
@@ -189,7 +190,7 @@ void TdSpi::ReqOrderInsert(const char* instrument_id, char direction, double lim
 	///用户代码
 	//	TThostFtdcUserIDType	UserID;
 	///报单价格条件: 限价
-	req.OrderPriceType = THOST_FTDC_OPT_AnyPrice;
+	req.OrderPriceType = THOST_FTDC_OPT_LimitPrice;
 	///买卖方向: 
 	req.Direction = direction;
 	///组合开平标志: 开仓
@@ -224,12 +225,12 @@ void TdSpi::ReqOrderInsert(const char* instrument_id, char direction, double lim
 	req.UserForceClose = 0;
 
 	int iResult = tdapi->ReqOrderInsert(&req, ++nTdRequestID);
-	std::cerr << "--->>> 报单录入请求: " << ((iResult == 0) ? ", 成功" : ", 失败") << std::endl;
+	std::cerr << "[td]Requst Order Insert... " << ((iResult == 0) ? "Successed" : "Failed") << std::endl;
 }
 
 void TdSpi::OnRspOrderInsert(CThostFtdcInputOrderField *pInputOrder, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
 {
-	std::cerr << "--->>> " << "OnRspOrderInsert" << std::endl;
+	std::cerr << "[td]Order: #" << pInputOrder->OrderRef << std::endl;
 	IsErrorRspInfo(pRspInfo);
 }
 
@@ -284,8 +285,9 @@ void TdSpi::OnRspOrderAction(CThostFtdcInputOrderActionField *pInputOrderAction,
 ///报单通知
 void TdSpi::OnRtnOrder(CThostFtdcOrderField *pOrder)
 {
-	std::cerr << "--->>> " << "OnRtnOrder" << std::endl;
-	std::cerr << pOrder->Direction << pOrder->LimitPrice << std::endl;
+	std::cerr << "[td]Direction: " << (pOrder->Direction == '0' ? "Buy" : "Sell")
+		<< ", Price: " << pOrder->LimitPrice
+		<< ", Status: " << pOrder->StatusMsg << std::endl;
 	/*if (IsMyOrder(pOrder))
 	{
 	if (IsTradingOrder(pOrder))
@@ -298,7 +300,9 @@ void TdSpi::OnRtnOrder(CThostFtdcOrderField *pOrder)
 ///成交通知
 void TdSpi::OnRtnTrade(CThostFtdcTradeField *pTrade)
 {
-	std::cerr << "--->>> " << "OnRtnTrade" << std::endl;
+	std::cerr << "[td]" << pTrade->InstrumentID
+		<< " At Price: " << pTrade->Price << ", " 
+		<< pTrade->Volume << " Traded" << std::endl;
 }
 
 void TdSpi::OnFrontDisconnected(int nReason)
