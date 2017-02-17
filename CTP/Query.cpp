@@ -5,6 +5,7 @@
 
 void InitQuery()
 {
+	system("md .\\mdflow");
 	mdapi = CThostFtdcMdApi::CreateFtdcMdApi("./mdflow/");
 	
 	mdspi = new MdSpi;

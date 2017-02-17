@@ -7,6 +7,7 @@
 
 void InitTrade()
 {
+	system("md .\\tdflow");
 	tdapi = CThostFtdcTraderApi::CreateFtdcTraderApi("./tdflow/");
 	tdspi = new TdSpi;
 	tdapi->RegisterSpi(tdspi);
