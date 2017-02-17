@@ -15,3 +15,8 @@ void InitQuery()
 	MarketData = new CThostFtdcDepthMarketDataField;
 	memset(MarketData, 0, sizeof(MarketData));
 }
+
+void UpdatePrice()
+{
+	SetCursorPosition(30, 0);
+}

@@ -5,6 +5,10 @@
 #include<chrono>
 #include<thread>
 
+#ifdef _WIN32
+#include <Windows.h>
+#endif
+
 class MdSpi;
 class TdSpi;
 
@@ -29,3 +33,8 @@ extern char* ppInstrumentID[1];
 extern int iInstrumentID;
 
 void SleepFor(int milliseconds);
+void StoreCursorPosition();
+void SetCursorPosition(int x, int y);
+void RestoreCursorPosition();
+void SetTextColor(int back_color, int fore_color);
+void RestoreTextColor();

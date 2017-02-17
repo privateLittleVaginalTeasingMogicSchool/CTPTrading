@@ -29,8 +29,21 @@ bool tdlogin = false;
 char* ppInstrumentID[1] = { "au1706" };
 int iInstrumentID = 1;
 
+void InitScreen()
+{
+	StoreCursorPosition();
+	SetCursorPosition(95, 0);
+	std::cout << "Ask: ";
+	SetCursorPosition(95, 1);
+	std::cout << "-----------";
+	SetCursorPosition(95, 2);
+	std::cout << "Bid: ";
+	RestoreCursorPosition();
+}
+
 int main()
 {
+	InitScreen();
 	InitQuery();
 	while (!mdlogin);
 	InitTrade();
@@ -38,12 +51,19 @@ int main()
 	mdapi->SubscribeMarketData(ppInstrumentID, iInstrumentID);
 
 	SleepFor(1000);
-	tdspi->ReqOrderInsert(ppInstrumentID[0], THOST_FTDC_D_Buy, MarketData->AskPrice1);
+	//tdspi->ReqOrderInsert(ppInstrumentID[0], THOST_FTDC_D_Sell, MarketData->BidPrice1);
 
 	while (true)
 	{
-		SleepFor(1000);
-		//std::cout << MarketData->AskPrice1 << std::endl;
+		SleepFor(500);
+		StoreCursorPosition();
+		SetCursorPosition(100, 0);
+		SetTextColor(NULL, FOREGROUND_RED);
+		std::cout << MarketData->AskPrice1 << std::endl;
+		SetCursorPosition(100, 2);
+		std::cout << MarketData->BidPrice1 << std::endl;
+		RestoreTextColor();
+		RestoreCursorPosition();
 	}
 	return 0;
 }
