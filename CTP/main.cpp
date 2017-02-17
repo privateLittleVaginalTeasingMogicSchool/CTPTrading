@@ -43,7 +43,7 @@ int main()
 	while (true)
 	{
 		SleepFor(1000);
-		std::cout << MarketData->AskPrice1 << std::endl;
+		//std::cout << MarketData->AskPrice1 << std::endl;
 	}
 	return 0;
 }
