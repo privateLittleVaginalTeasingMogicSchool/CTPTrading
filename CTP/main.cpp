@@ -51,7 +51,7 @@ int main()
 	mdapi->SubscribeMarketData(ppInstrumentID, iInstrumentID);
 
 	SleepFor(1000);
-	//tdspi->ReqOrderInsert(ppInstrumentID[0], THOST_FTDC_D_Sell, MarketData->BidPrice1);
+	OrderSend(ppInstrumentID[0], THOST_FTDC_OF_Open, THOST_FTDC_D_Buy, 1);
 
 	while (true)
 	{
