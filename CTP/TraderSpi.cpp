@@ -194,13 +194,13 @@ void TdSpi::ReqOrderInsert(const char* instrument_id, char direction, double lim
 	///买卖方向: 
 	req.Direction = direction;
 	///组合开平标志: 开仓
-	req.CombOffsetFlag[0] = THOST_FTDC_OF_Open;
+	req.CombOffsetFlag[0] = THOST_FTDC_OF_CloseToday;
 	///组合投机套保标志
 	req.CombHedgeFlag[0] = THOST_FTDC_HF_Speculation;
 	///价格
 	req.LimitPrice = limit_price;
 	///数量: 1
-	req.VolumeTotalOriginal = 1;
+	req.VolumeTotalOriginal = 4;
 	///有效期类型: 当日有效
 	req.TimeCondition = THOST_FTDC_TC_GFD;
 	///GTD日期
@@ -288,13 +288,6 @@ void TdSpi::OnRtnOrder(CThostFtdcOrderField *pOrder)
 	std::cerr << "[td]Direction: " << (pOrder->Direction == '0' ? "Buy" : "Sell")
 		<< ", Price: " << pOrder->LimitPrice
 		<< ", Status: " << pOrder->StatusMsg << std::endl;
-	/*if (IsMyOrder(pOrder))
-	{
-	if (IsTradingOrder(pOrder))
-	ReqOrderAction(pOrder);
-	else if (pOrder->OrderStatus == THOST_FTDC_OST_Canceled)
-	cout << "--->>> 撤单成功" << std::endl;
-	}*/
 }
 
 ///成交通知
