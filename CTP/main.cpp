@@ -52,7 +52,7 @@ int main()
 
 	SleepFor(1000);
 	OrderSend(ppInstrumentID[0], THOST_FTDC_OF_Open, THOST_FTDC_D_Buy, 1);
-
+	
 	while (true)
 	{
 		SleepFor(500);
