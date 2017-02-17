@@ -54,7 +54,7 @@ public:
 	///请求查询投资者持仓
 	void ReqQryInvestorPosition();
 	///报单录入请求
-	void ReqOrderInsert(const char* instrument_id, char direction, double limit_price=0, double stop_price=0);
+	//void ReqOrderInsert(const char* instrument_id, char direction, double limit_price=0, double stop_price=0);
 	///报单操作请求
 	void ReqOrderAction(CThostFtdcOrderField *pOrder);
 
