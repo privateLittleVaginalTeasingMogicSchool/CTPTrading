@@ -52,6 +52,7 @@ int main()
 	while (true)
 	{
 		SleepFor(500);
+		OrderSend(ppInstrumentID[0], THOST_FTDC_OF_CloseToday, THOST_FTDC_D_Sell, 1);
 		StoreCursorPosition();
 		SetCursorPosition(100, 1);
 		SetTextColor(NULL, FOREGROUND_RED);
