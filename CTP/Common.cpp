@@ -12,6 +12,20 @@ void SleepFor(int milliseconds)
 	std::this_thread::sleep_for(tsleep);
 }
 
+void InitScreen()
+{
+	StoreCursorPosition();
+	SetCursorPosition(95, 0);
+	std::cout << "     " << ppInstrumentID[0];
+	SetCursorPosition(95, 1);
+	std::cout << "Ask: ";
+	SetCursorPosition(95, 2);
+	std::cout << "-----------------";
+	SetCursorPosition(95, 3);
+	std::cout << "Bid: ";
+	RestoreCursorPosition();
+}
+
 #ifdef _WIN32
 CONSOLE_SCREEN_BUFFER_INFO cursor_info;
 HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
