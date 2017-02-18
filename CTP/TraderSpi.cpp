@@ -298,6 +298,72 @@ void TdSpi::OnRtnTrade(CThostFtdcTradeField *pTrade)
 		<< pTrade->Volume << " Traded" << std::endl;
 }
 
+void TdSpi::OnRspQryTrade(
+	CThostFtdcTradeField *pTrade,
+	CThostFtdcRspInfoField *pRspInfo,
+	int nRequestID,
+	bool bIsLast)
+{
+	if (bIsLast)
+	{
+		std::cerr << pTrade->TradeDate << " " << pTrade->TradeTime << " "
+			<< "#" << pTrade->OrderRef
+			<< ((pTrade->Direction == THOST_FTDC_D_Buy) ? " Buy  " : " Sell ")
+			<< (pTrade->Volume)
+			<< " " << pTrade->InstrumentID << " "
+			<< " @ " << std::fixed << std::setprecision(2) << pTrade->Price
+			<< pTrade->Volume * ((pTrade->Direction == THOST_FTDC_D_Buy) ? (MarketData->BidPrice1 - pTrade->Price) :
+			(pTrade->Price - MarketData->AskPrice1)) << std::endl;
+	}
+}
+
+void TdSpi::OnRspQryInvestorPositionDetail(
+	CThostFtdcInvestorPositionDetailField *pInvestorPositionDetail,
+	CThostFtdcRspInfoField *pRspInfo,
+	int nRequestID,
+	bool bIsLast)
+{
+	ReqQryTrade(pInvestorPositionDetail->TradeID);
+}
+
+void TdSpi::OnRspQryInvestorPositionCombineDetail(
+	CThostFtdcInvestorPositionCombineDetailField *pInvestorPositionCombineDetail,
+	CThostFtdcRspInfoField *pRspInfo,
+	int nRequestID, bool bIsLast)
+{
+	if (bIsLast)
+	{
+		//std::cout << pInvestorPositionCombineDetail->TradeID << std::endl;
+		pInvestorPositionCombineDetail->TradeID;
+	}
+}
+
+void TdSpi::ReqQryInvestorPositionDetail()
+{
+	CThostFtdcQryInvestorPositionDetailField QryInvestorPositionDetail;
+	strcpy(QryInvestorPositionDetail.BrokerID, BROKER);
+	strcpy(QryInvestorPositionDetail.InstrumentID, ppInstrumentID[0]);
+	strcpy(QryInvestorPositionDetail.InvestorID, USERID);
+	tdapi->ReqQryInvestorPositionDetail(&QryInvestorPositionDetail, ++nTdRequestID);
+}
+
+void TdSpi::ReqQryInvestorPositionCombineDetail()
+{
+	//CThostFtdcQryInvestorPositionCombineDetailField QryInvestorPositionCombineDetail;
+
+}
+
+void TdSpi::ReqQryTrade(const char* trade_id)
+{
+	CThostFtdcQryTradeField QryTrade;
+	strcpy(QryTrade.BrokerID, BROKER);
+	strcpy(QryTrade.ExchangeID, XCHGER);
+	//strcpy(QryTrade.InstrumentID, ppInstrumentID[0]);
+	strcpy(QryTrade.InvestorID, USERID);
+	strcpy(QryTrade.TradeID, trade_id);
+	tdapi->ReqQryTrade(&QryTrade, ++nTdRequestID);
+}
+
 void TdSpi::OnFrontDisconnected(int nReason)
 {
 	std::cerr << "--->>> " << "OnFrontDisconnected" << std::endl;

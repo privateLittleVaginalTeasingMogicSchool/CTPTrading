@@ -6,7 +6,9 @@
 #include "Common.h"
 #include "Query.h"
 #include "Trade.h"
-#include<string>
+
+#include<iomanip>
+#include<vector>
 
 
 int nMdRequestID = 0;
@@ -20,6 +22,7 @@ TThostFtdcOrderRefType ORDER_REF;
 const char* USERID = "079056";
 const char* PASSWD = "123456";
 const char* BROKER = "9999";
+const char* XCHGER = "SHFE";
 CThostFtdcMdApi* mdapi;
 CThostFtdcTraderApi* tdapi;
 MdSpi* mdspi;
@@ -28,20 +31,30 @@ bool mdlogin = false;
 bool tdlogin = false;
 char* ppInstrumentID[1] = { "au1706" };
 int iInstrumentID = 1;
+std::vector<TThostFtdcTradeIDType> trade_orders;
+Logger lg("log.txt");
 
 void InitScreen()
 {
 	StoreCursorPosition();
 	SetCursorPosition(95, 0);
-	std::cout << "Ask: ";
+	std::cout << "     " << ppInstrumentID[0];
 	SetCursorPosition(95, 1);
-	std::cout << "-----------";
+	std::cout << "Ask: ";
 	SetCursorPosition(95, 2);
+	std::cout << "-----------------";
+	SetCursorPosition(95, 3);
 	std::cout << "Bid: ";
 	RestoreCursorPosition();
 }
 
 int main()
+{
+	double a = 123;
+	lg << a << Log::endl;
+}
+
+int _main()
 {
 	InitScreen();
 	InitQuery();
@@ -51,17 +64,19 @@ int main()
 	mdapi->SubscribeMarketData(ppInstrumentID, iInstrumentID);
 
 	SleepFor(1000);
-	OrderSend(ppInstrumentID[0], THOST_FTDC_OF_Open, THOST_FTDC_D_Buy, 1);
+	DisplayOrders();
+	//OrderSend(ppInstrumentID[0], THOST_FTDC_OF_CloseToday, THOST_FTDC_D_Sell, 1);
 	
 	while (true)
 	{
 		SleepFor(500);
 		StoreCursorPosition();
-		SetCursorPosition(100, 0);
+		SetCursorPosition(100, 1);
 		SetTextColor(NULL, FOREGROUND_RED);
-		std::cout << MarketData->AskPrice1 << std::endl;
-		SetCursorPosition(100, 2);
-		std::cout << MarketData->BidPrice1 << std::endl;
+		std::cout << std::fixed;
+		std::cout << std::setprecision(2) << MarketData->AskPrice1 << "   " << MarketData->AskVolume1 << "   " << std::endl;
+		SetCursorPosition(100, 3);
+		std::cout << std::setprecision(2) << MarketData->BidPrice1 << "   " << MarketData->BidVolume1 << "   " << std::endl;
 		RestoreTextColor();
 		RestoreCursorPosition();
 	}

@@ -72,6 +72,7 @@ void MdSpi::OnRtnDepthMarketData(CThostFtdcDepthMarketDataField *pDepthMarketDat
 	memcpy(MarketData, pDepthMarketData, sizeof(CThostFtdcDepthMarketDataField));
 }
 
+
 bool MdSpi::IsErrorRspInfo(CThostFtdcRspInfoField *pRspInfo)
 {
 	bool bResult = ((pRspInfo) && (pRspInfo->ErrorID != 0));

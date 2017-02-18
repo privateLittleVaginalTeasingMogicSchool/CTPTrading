@@ -43,6 +43,24 @@ public:
 	///成交通知
 	virtual void OnRtnTrade(CThostFtdcTradeField *pTrade);
 
+	virtual void OnRspQryTrade(
+		CThostFtdcTradeField *pTrade,
+		CThostFtdcRspInfoField *pRspInfo,
+		int nRequestID,
+		bool bIsLast);
+
+	virtual void OnRspQryInvestorPositionDetail(
+		CThostFtdcInvestorPositionDetailField *pInvestorPositionDetail,
+		CThostFtdcRspInfoField *pRspInfo,
+		int nRequestID,
+		bool bIsLast);
+
+	virtual void OnRspQryInvestorPositionCombineDetail(
+		CThostFtdcInvestorPositionCombineDetailField *pInvestorPositionCombineDetail,
+		CThostFtdcRspInfoField *pRspInfo,
+		int nRequestID, bool bIsLast);
+
+
 	///用户登录请求
 	void ReqUserLogin();
 	///投资者结算结果确认
@@ -53,6 +71,10 @@ public:
 	void ReqQryTradingAccount();
 	///请求查询投资者持仓
 	void ReqQryInvestorPosition();
+	void ReqQryInvestorPositionDetail();
+	void ReqQryInvestorPositionCombineDetail();
+	void ReqQryTrade(const char* trade_id);
+
 	///报单录入请求
 	//void ReqOrderInsert(const char* instrument_id, char direction, double limit_price=0, double stop_price=0);
 	///报单操作请求
