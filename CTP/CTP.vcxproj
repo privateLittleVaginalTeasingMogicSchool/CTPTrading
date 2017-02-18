@@ -111,6 +111,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Common.cpp" />
+    <ClCompile Include="Logger.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Query.cpp" />
     <ClCompile Include="QuerySpi.cpp" />
@@ -119,6 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common.h" />
+    <ClInclude Include="Logger.h" />
     <ClInclude Include="Query.h" />
     <ClInclude Include="QuerySpi.h" />
     <ClInclude Include="ThostFtdcMdApi.h" />

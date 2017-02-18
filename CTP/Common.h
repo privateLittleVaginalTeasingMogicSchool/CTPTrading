@@ -2,6 +2,7 @@
 
 #include "ThostFtdcMdApi.h"
 #include "ThostFtdcTraderApi.h"
+#include "Logger.h"
 #include<chrono>
 #include<thread>
 
@@ -23,6 +24,7 @@ extern TThostFtdcOrderRefType ORDER_REF;
 extern const char* USERID;
 extern const char* PASSWD;
 extern const char* BROKER;
+extern const char* XCHGER;
 extern CThostFtdcMdApi* mdapi;
 extern MdSpi* mdspi;
 extern CThostFtdcTraderApi* tdapi;
@@ -31,6 +33,7 @@ extern bool mdlogin;
 extern bool tdlogin;
 extern char* ppInstrumentID[1];
 extern int iInstrumentID;
+extern FILE* logger;
 
 void SleepFor(int milliseconds);
 void StoreCursorPosition();
@@ -38,3 +41,4 @@ void SetCursorPosition(int x, int y);
 void RestoreCursorPosition();
 void SetTextColor(int back_color, int fore_color);
 void RestoreTextColor();
+

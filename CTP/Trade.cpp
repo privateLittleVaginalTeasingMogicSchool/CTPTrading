@@ -26,23 +26,23 @@ void OrderSend(const char* instrument_id, char type, char direction, int volume)
 	///投资者代码
 	strcpy(req.InvestorID, USERID);
 	///合约代码
-	strcpy(req.InstrumentID, ppInstrumentID[0]);
+	strcpy(req.InstrumentID, instrument_id);
 	///报单引用
 	//strcpy(req.OrderRef, ORDER_REF);
 	///用户代码
 	//	TThostFtdcUserIDType	UserID;
 	///报单价格条件: 限价
-	req.OrderPriceType = THOST_FTDC_OPT_AnyPrice;
+	req.OrderPriceType = THOST_FTDC_OPT_LimitPrice;
 	///买卖方向: 
 	req.Direction = direction;
 	///组合开平标志: 开仓
-	req.CombOffsetFlag[0] = THOST_FTDC_OF_Open;
+	req.CombOffsetFlag[0] = type;
 	///组合投机套保标志
 	req.CombHedgeFlag[0] = THOST_FTDC_HF_Speculation;
 	///价格
-	req.LimitPrice = 0;
+	req.LimitPrice = (direction == THOST_FTDC_D_Buy) ? MarketData->AskPrice1 : MarketData->BidPrice1;
 	///数量: 1
-	req.VolumeTotalOriginal = 1;
+	req.VolumeTotalOriginal = volume;
 	///有效期类型: 当日有效
 	req.TimeCondition = THOST_FTDC_TC_GFD;
 	///GTD日期
@@ -68,4 +68,9 @@ void OrderSend(const char* instrument_id, char type, char direction, int volume)
 
 	int iResult = tdapi->ReqOrderInsert(&req, ++nTdRequestID);
 	std::cerr << "[td]Requst Order Insert... " << ((iResult == 0) ? "Successed" : "Failed") << std::endl;
+}
+
+void DisplayOrders()
+{
+	tdspi->ReqQryInvestorPositionDetail();
 }
