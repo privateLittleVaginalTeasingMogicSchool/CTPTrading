@@ -33,9 +33,11 @@ extern bool mdlogin;
 extern bool tdlogin;
 extern char* ppInstrumentID[1];
 extern int iInstrumentID;
-extern FILE* logger;
+extern Log lgr;
+
 
 void SleepFor(int milliseconds);
+void InitScreen();
 void StoreCursorPosition();
 void SetCursorPosition(int x, int y);
 void RestoreCursorPosition();

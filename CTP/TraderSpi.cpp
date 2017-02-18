@@ -12,7 +12,7 @@ bool IsFlowControl(int iResult)
 
 void TdSpi::OnFrontConnected()
 {
-	std::cerr << "[td]Front Connected..." << std::endl;
+	lgr << Log::t << "[td]Front Connected..." << Log::endl;
 	///用户登录请求
 	ReqUserLogin();
 }
@@ -25,7 +25,7 @@ void TdSpi::ReqUserLogin()
 	strcpy(req.UserID, USERID);
 	strcpy(req.Password, PASSWD);
 	int iResult = tdapi->ReqUserLogin(&req, ++nTdRequestID);
-	std::cerr << "[td]Send Login Request... " << ((iResult == 0) ? "Successed" : "Failed") << std::endl;
+	lgr << Log::t << "[td]Send Login Request... " << ((iResult == 0) ? "Successed" : "Failed") << Log::endl;
 }
 
 void TdSpi::OnRspUserLogin(CThostFtdcRspUserLoginField *pRspUserLogin,
@@ -40,7 +40,7 @@ void TdSpi::OnRspUserLogin(CThostFtdcRspUserLoginField *pRspUserLogin,
 		iNextOrderRef++;
 		sprintf(ORDER_REF, "%d", iNextOrderRef);
 		///获取当前交易日
-		std::cerr << "[td]Date: " << tdapi->GetTradingDay() << std::endl;
+		lgr << Log::t << "[td]Date: " << tdapi->GetTradingDay() << Log::endl;
 		///投资者结算结果确认
 		SleepFor(1000);
 		ReqSettlementInfoConfirm();
@@ -54,7 +54,7 @@ void TdSpi::ReqSettlementInfoConfirm()
 	strcpy(req.BrokerID, BROKER);
 	strcpy(req.InvestorID, USERID);
 	int iResult = tdapi->ReqSettlementInfoConfirm(&req, ++nTdRequestID);
-	std::cerr << "[td]Request Settlement Info Confirm... " << ((iResult == 0) ? "Successed" : "Failed") << std::endl;
+	lgr << Log::t << "[td]Request Settlement Info Confirm... " << ((iResult == 0) ? "Successed" : "Failed") << Log::endl;
 }
 
 void TdSpi::OnRspSettlementInfoConfirm(CThostFtdcSettlementInfoConfirmField *pSettlementInfoConfirm, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
@@ -63,7 +63,7 @@ void TdSpi::OnRspSettlementInfoConfirm(CThostFtdcSettlementInfoConfirmField *pSe
 	{
 		tdlogin = true;
 		///请求查询合约
-		std::cerr << "[td]Instruments:" << std::endl;
+		lgr << Log::t << "[td]Instruments:" << Log::endl;
 		for (int i = 0;i < iInstrumentID;i++)
 		{
 			ReqQryInstrument(ppInstrumentID[i]);
@@ -82,12 +82,12 @@ void TdSpi::ReqQryInstrument(const char* instrument)
 		int iResult = tdapi->ReqQryInstrument(&req, ++nTdRequestID);
 		if (!IsFlowControl(iResult))
 		{
-			std::cerr << "[td]Request Query Instrument... " << ((iResult == 0) ? "Successed" : "Failed") << std::endl;
+			lgr << Log::t << "[td]Request Query Instrument... " << ((iResult == 0) ? "Successed" : "Failed") << Log::endl;
 			break;
 		}
 		else
 		{
-			std::cerr << "[td]Request Query Instrument... " << "Flow Control" << std::endl;
+			lgr << Log::t << "[td]Request Query Instrument... " << "Flow Control" << Log::endl;
 		}
 	} // while
 }
@@ -96,7 +96,7 @@ void TdSpi::OnRspQryInstrument(CThostFtdcInstrumentField *pInstrument, CThostFtd
 {
 	if (bIsLast && !IsErrorRspInfo(pRspInfo))
 	{
-		std::cerr << "[td]Instrument Id:\t" << pInstrument->InstrumentID << std::endl;
+		lgr << Log::t << "[td]Instrument Id:\t" << pInstrument->InstrumentID << Log::endl;
 		///请求查询合约
 		SleepFor(1000);
 		ReqQryTradingAccount();
@@ -115,12 +115,12 @@ void TdSpi::ReqQryTradingAccount()
 		int iResult = tdapi->ReqQryTradingAccount(&req, ++nTdRequestID);
 		if (!IsFlowControl(iResult))
 		{
-			std::cerr << "[td]Request Query Trading Account... " << ((iResult == 0) ? "Successed" : "Failed") << std::endl;
+			lgr << Log::t << "[td]Request Query Trading Account... " << ((iResult == 0) ? "Successed" : "Failed") << Log::endl;
 			break;
 		}
 		else
 		{
-			std::cerr << "[td]Request Query Trading Account... " << "Flow Control" << std::endl;
+			lgr << Log::t << "[td]Request Query Trading Account... " << "Flow Control" << Log::endl;
 		}
 	} // while
 }
@@ -129,10 +129,10 @@ void TdSpi::OnRspQryTradingAccount(CThostFtdcTradingAccountField *pTradingAccoun
 {
 	if (bIsLast && !IsErrorRspInfo(pRspInfo))
 	{
-		std::cerr << std::fixed << std::setprecision(2) << "[td]Balance: " << pTradingAccount->Balance << std::endl;
-		std::cerr << std::fixed << std::setprecision(2) << "[td]Available: " << pTradingAccount->Available << std::endl;
-		std::cerr << std::fixed << std::setprecision(2) << "[td]Close Profit: " << pTradingAccount->CloseProfit << std::endl;
-		std::cerr << std::fixed << std::setprecision(2) << "[td]Position Profit: " << pTradingAccount->PositionProfit << std::endl;
+		lgr << Log::t << Log::_2point << "[td]Balance: " << pTradingAccount->Balance << Log::endl;
+		lgr << Log::t << Log::_2point << "[td]Available: " << pTradingAccount->Available << Log::endl;
+		lgr << Log::t << Log::_2point << "[td]Close Profit: " << pTradingAccount->CloseProfit << Log::endl;
+		lgr << Log::t << Log::_2point << "[td]Position Profit: " << pTradingAccount->PositionProfit << Log::endl;
 		///请求查询投资者持仓
 		SleepFor(1000);
 		ReqQryInvestorPosition();
@@ -152,12 +152,12 @@ void TdSpi::ReqQryInvestorPosition()
 		int iResult = tdapi->ReqQryInvestorPosition(&req, ++nTdRequestID);
 		if (!IsFlowControl(iResult))
 		{
-			std::cerr << "[td]Request Query Investor Position... " << ((iResult == 0) ? "Successed" : "Failed") << std::endl;
+			lgr << Log::t << "[td]Request Query Investor Position... " << ((iResult == 0) ? "Successed" : "Failed") << Log::endl;
 			break;
 		}
 		else
 		{
-			std::cerr << "[td]Request Query Investor Position... " << "Flow Control" << std::endl;
+			lgr << Log::t << "[td]Request Query Investor Position... " << "Flow Control" << Log::endl;
 		}
 	} // while
 }
@@ -168,7 +168,7 @@ void TdSpi::OnRspQryInvestorPosition(CThostFtdcInvestorPositionField *pInvestorP
 	{
 		if (pInvestorPosition)
 		{
-			std::cerr << "[td]Open Volume:" << pInvestorPosition->OpenVolume << std::endl;
+			lgr << Log::t << "[td]Open Volume:" << pInvestorPosition->OpenVolume << Log::endl;
 		}
 		///报单录入请求
 		//ReqOrderInsert(ppInstrumentID[0], THOST_FTDC_D_Buy);
@@ -225,12 +225,12 @@ void TdSpi::OnRspQryInvestorPosition(CThostFtdcInvestorPositionField *pInvestorP
 //	req.UserForceClose = 0;
 //
 //	int iResult = tdapi->ReqOrderInsert(&req, ++nTdRequestID);
-//	std::cerr << "[td]Requst Order Insert... " << ((iResult == 0) ? "Successed" : "Failed") << std::endl;
+//	lgr << Log::t << "[td]Requst Order Insert... " << ((iResult == 0) ? "Successed" : "Failed") << Log::endl;
 //}
 
 void TdSpi::OnRspOrderInsert(CThostFtdcInputOrderField *pInputOrder, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
 {
-	std::cerr << "[td]Order: #" << pInputOrder->OrderRef << std::endl;
+	lgr << Log::t << "[td]Order: #" << pInputOrder->OrderRef << Log::endl;
 	IsErrorRspInfo(pRspInfo);
 }
 
@@ -272,30 +272,30 @@ void TdSpi::ReqOrderAction(CThostFtdcOrderField *pOrder)
 	strcpy(req.InstrumentID, pOrder->InstrumentID);
 
 	int iResult = tdapi->ReqOrderAction(&req, ++nTdRequestID);
-	std::cerr << "--->>> 报单操作请求: " << iResult << ((iResult == 0) ? ", 成功" : ", 失败") << std::endl;
+	lgr << Log::t << "--->>> 报单操作请求: " << iResult << ((iResult == 0) ? ", 成功" : ", 失败") << Log::endl;
 	ORDER_ACTION_SENT = true;
 }
 
 void TdSpi::OnRspOrderAction(CThostFtdcInputOrderActionField *pInputOrderAction, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
 {
-	std::cerr << "--->>> " << "OnRspOrderAction" << std::endl;
+	lgr << Log::t << "--->>> " << "OnRspOrderAction" << Log::endl;
 	IsErrorRspInfo(pRspInfo);
 }
 
 ///报单通知
 void TdSpi::OnRtnOrder(CThostFtdcOrderField *pOrder)
 {
-	std::cerr << "[td]Direction: " << (pOrder->Direction == '0' ? "Buy" : "Sell")
+	lgr << Log::t << "[td]Direction: " << (pOrder->Direction == '0' ? "Buy" : "Sell")
 		<< ", Price: " << pOrder->LimitPrice
-		<< ", Status: " << pOrder->StatusMsg << std::endl;
+		<< ", Status: " << pOrder->StatusMsg << Log::endl;
 }
 
 ///成交通知
 void TdSpi::OnRtnTrade(CThostFtdcTradeField *pTrade)
 {
-	std::cerr << "[td]" << pTrade->InstrumentID
+	lgr << Log::t << "[td]" << pTrade->InstrumentID
 		<< " At Price: " << pTrade->Price << ", " 
-		<< pTrade->Volume << " Traded" << std::endl;
+		<< pTrade->Volume << " Traded" << Log::endl;
 }
 
 void TdSpi::OnRspQryTrade(
@@ -306,14 +306,14 @@ void TdSpi::OnRspQryTrade(
 {
 	if (bIsLast)
 	{
-		std::cerr << pTrade->TradeDate << " " << pTrade->TradeTime << " "
+		lgr << Log::t << pTrade->TradeDate << " " << pTrade->TradeTime << " "
 			<< "#" << pTrade->OrderRef
 			<< ((pTrade->Direction == THOST_FTDC_D_Buy) ? " Buy  " : " Sell ")
 			<< (pTrade->Volume)
 			<< " " << pTrade->InstrumentID << " "
-			<< " @ " << std::fixed << std::setprecision(2) << pTrade->Price
+			<< " @ " << Log::_2point << pTrade->Price
 			<< pTrade->Volume * ((pTrade->Direction == THOST_FTDC_D_Buy) ? (MarketData->BidPrice1 - pTrade->Price) :
-			(pTrade->Price - MarketData->AskPrice1)) << std::endl;
+			(pTrade->Price - MarketData->AskPrice1)) << Log::endl;
 	}
 }
 
@@ -333,7 +333,7 @@ void TdSpi::OnRspQryInvestorPositionCombineDetail(
 {
 	if (bIsLast)
 	{
-		//std::cout << pInvestorPositionCombineDetail->TradeID << std::endl;
+		//std::cout << pInvestorPositionCombineDetail->TradeID << Log::endl;
 		pInvestorPositionCombineDetail->TradeID;
 	}
 }
@@ -366,14 +366,14 @@ void TdSpi::ReqQryTrade(const char* trade_id)
 
 void TdSpi::OnFrontDisconnected(int nReason)
 {
-	std::cerr << "--->>> " << "OnFrontDisconnected" << std::endl;
-	std::cerr << "--->>> Reason = " << nReason << std::endl;
+	lgr << Log::t << "--->>> " << "OnFrontDisconnected" << Log::endl;
+	lgr << Log::t << "--->>> Reason = " << nReason << Log::endl;
 }
 
 void TdSpi::OnHeartBeatWarning(int nTimeLapse)
 {
-	std::cerr << "--->>> " << "OnHeartBeatWarning" << std::endl;
-	std::cerr << "--->>> nTimerLapse = " << nTimeLapse << std::endl;
+	lgr << Log::t << "--->>> " << "OnHeartBeatWarning" << Log::endl;
+	lgr << Log::t << "--->>> nTimerLapse = " << nTimeLapse << Log::endl;
 }
 
 void TdSpi::OnRspError(CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
@@ -386,7 +386,7 @@ bool TdSpi::IsErrorRspInfo(CThostFtdcRspInfoField *pRspInfo)
 	// 如果ErrorID != 0, 说明收到了错误的响应
 	bool bResult = ((pRspInfo) && (pRspInfo->ErrorID != 0));
 	if (bResult)
-		std::cerr << "[td]ErrorID=" << pRspInfo->ErrorID << ", ErrorMsg=" << pRspInfo->ErrorMsg << std::endl;
+		lgr << Log::t << "[td]ErrorID=" << pRspInfo->ErrorID << ", ErrorMsg=" << pRspInfo->ErrorMsg << Log::endl;
 	return bResult;
 }
 

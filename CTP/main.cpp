@@ -32,29 +32,11 @@ bool tdlogin = false;
 char* ppInstrumentID[1] = { "au1706" };
 int iInstrumentID = 1;
 std::vector<TThostFtdcTradeIDType> trade_orders;
-Logger lg("log.txt");
+Logger lgr("log.txt");
 
-void InitScreen()
-{
-	StoreCursorPosition();
-	SetCursorPosition(95, 0);
-	std::cout << "     " << ppInstrumentID[0];
-	SetCursorPosition(95, 1);
-	std::cout << "Ask: ";
-	SetCursorPosition(95, 2);
-	std::cout << "-----------------";
-	SetCursorPosition(95, 3);
-	std::cout << "Bid: ";
-	RestoreCursorPosition();
-}
+
 
 int main()
-{
-	double a = 123;
-	lg << a << Log::endl;
-}
-
-int _main()
 {
 	InitScreen();
 	InitQuery();
@@ -64,7 +46,7 @@ int _main()
 	mdapi->SubscribeMarketData(ppInstrumentID, iInstrumentID);
 
 	SleepFor(1000);
-	DisplayOrders();
+	//DisplayOrders();
 	//OrderSend(ppInstrumentID[0], THOST_FTDC_OF_CloseToday, THOST_FTDC_D_Sell, 1);
 	
 	while (true)
