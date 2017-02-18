@@ -314,6 +314,7 @@ void TdSpi::OnRspQryTrade(
 			<< " @ " << Log::_2point << pTrade->Price
 			<< pTrade->Volume * ((pTrade->Direction == THOST_FTDC_D_Buy) ? (MarketData->BidPrice1 - pTrade->Price) :
 			(pTrade->Price - MarketData->AskPrice1)) << Log::endl;
+		SleepFor(1000);
 	}
 }
 
@@ -323,6 +324,7 @@ void TdSpi::OnRspQryInvestorPositionDetail(
 	int nRequestID,
 	bool bIsLast)
 {
+	SleepFor(1000);
 	ReqQryTrade(pInvestorPositionDetail->TradeID);
 }
 
@@ -344,6 +346,7 @@ void TdSpi::ReqQryInvestorPositionDetail()
 	strcpy(QryInvestorPositionDetail.BrokerID, BROKER);
 	strcpy(QryInvestorPositionDetail.InstrumentID, ppInstrumentID[0]);
 	strcpy(QryInvestorPositionDetail.InvestorID, USERID);
+	SleepFor(1000);
 	tdapi->ReqQryInvestorPositionDetail(&QryInvestorPositionDetail, ++nTdRequestID);
 }
 

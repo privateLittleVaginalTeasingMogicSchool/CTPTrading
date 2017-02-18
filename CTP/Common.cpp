@@ -14,7 +14,6 @@ void SleepFor(int milliseconds)
 
 void InitScreen()
 {
-	StoreCursorPosition();
 	SetCursorPosition(95, 0);
 	std::cout << "     " << ppInstrumentID[0];
 	SetCursorPosition(95, 1);
@@ -23,7 +22,7 @@ void InitScreen()
 	std::cout << "-----------------";
 	SetCursorPosition(95, 3);
 	std::cout << "Bid: ";
-	RestoreCursorPosition();
+	SetCursorPosition(0, 0);
 }
 
 #ifdef _WIN32
