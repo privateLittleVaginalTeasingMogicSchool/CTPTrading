@@ -36,6 +36,7 @@ char* ppInstrumentID[1] = { "au1706" };
 int iInstrumentID = 1;
 std::vector<TThostFtdcTradeIDType> trade_orders;
 Logger lgr("log.txt");
+extern bool EAEnabled = false;
 
 /*
 	线程0：报价更新
@@ -44,15 +45,6 @@ Logger lgr("log.txt");
 std::vector<std::thread> threads(5);
 
 bool output_mutex = false;
-
-//int main()
-//{
-//	Init();
-//	threads[1] = std::thread(command::thread_work);
-//	threads[1].join();
-//	return 0;
-//}
-
 
 int main()
 {
@@ -64,12 +56,11 @@ int main()
 	mdapi->SubscribeMarketData(ppInstrumentID, iInstrumentID);
 	threads[0] = std::thread(price::thread_work);
 	threads[1] = std::thread(command::thread_work);
-	threads[0].join();
-	threads[1].join();
+	
 	SleepFor(1000);
-	//DisplayOrders();
 	OrderSend(ppInstrumentID[0], THOST_FTDC_OF_CloseToday, THOST_FTDC_D_Sell, 1);
 	
-
+	threads[0].join();
+	threads[1].join();
 	return 0;
 }

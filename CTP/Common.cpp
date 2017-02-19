@@ -14,7 +14,7 @@ void SleepFor(int milliseconds)
 
 void InitScreen()
 {
-	_Get_Output_Mutex
+	//_Get_Output_Mutex
 	system("mode con:cols=110  lines=51");
 	SetCursorPosition(90, 0);
 	std::cout << "     " << ppInstrumentID[0];
@@ -28,7 +28,7 @@ void InitScreen()
 	std::cout << "Command > ";
 	SetCursorPosition(0, 0);
 
-	_Release_Output_Mutex
+	//_Release_Output_Mutex
 }
 
 void InitThreads()
