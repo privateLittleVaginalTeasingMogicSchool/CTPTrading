@@ -1,4 +1,6 @@
 #include "Common.h"
+#include "price.h"
+#include "command.h"
 
 #ifdef _WIN32
 #include <Windows.h>
@@ -33,13 +35,10 @@ void InitScreen()
 
 void InitThreads()
 {
-
-}
-
-void Init()
-{
-	InitScreen();
-	InitThreads();
+	threads[0] = std::thread(price::thread_work);
+	threads[1] = std::thread(command::thread_work);
+	threads[0].join();
+	threads[1].join();
 }
 
 #ifdef _WIN32

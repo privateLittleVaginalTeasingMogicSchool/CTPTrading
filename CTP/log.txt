@@ -376,3 +376,344 @@
 [01:46:26] [td]Order: #
 [01:46:26] [td]ErrorID=50, ErrorMsg=CTP:平今仓位不足
 [01:46:26] [td]Instrument Id:	au1706
+[01:49:17] [md]Front Connected...
+[01:49:17] [md]Send Login Request... Successed
+[01:49:17] [md]Date: 20170220
+[01:49:17] [td]Front Connected...
+[01:49:17] [td]Send Login Request... Successed
+[01:49:17] [td]Date: 20170220
+[01:49:18] [td]Request Settlement Info Confirm... Successed
+[01:49:19] [td]Instruments:
+[01:49:19] [cm]b [num]          买num手
+[01:49:19] [cm]s [num]          卖num手
+[01:49:19] [cm]cb [num]         平买num手
+[01:49:19] [cm]cs [num]         平卖num手
+[01:49:19] [cm]q                停止自动交易
+[01:49:19] [cm]rs               （重新）开始自动交易
+[01:49:19] [cm]exit             退出程序
+[01:49:20] [01:49:20] [td]Requst Order Insert... [td]Request Query Instrument... SuccessedSuccessed
+
+[01:49:20] [td]Order: #
+[01:49:20] [td]ErrorID=50, ErrorMsg=CTP:平今仓位不足
+[01:49:20] [td]Instrument Id:	au1706
+[01:49:22] [td]Request Query Trading Account... Successed
+[01:49:22] [td]Balance: 999750.00
+[01:49:22] [td]Available: 999750.00
+[01:49:22] [td]Close Profit: -50.00
+[01:49:22] [td]Position Profit: 0.00
+[01:49:24] [td]Request Query Investor Position... Successed
+[01:49:24] [td]Open Volume:1
+[01:49:24] [cm]b [num]          买num手
+[01:49:24] [cm]s [num]          卖num手
+[01:49:24] [cm]cb [num]         平买num手
+[01:49:24] [cm]cs [num]         平卖num手
+[01:49:24] [cm]q                停止自动交易
+[01:49:24] [cm]rs               （重新）开始自动交易
+[01:49:24] [cm]exit             退出程序
+[01:49:25] [cm]b [num]          买num手
+[01:49:25] [cm]s [num]          卖num手
+[01:49:25] [cm]cb [num]         平买num手
+[01:49:25] [cm]cs [num]         平卖num手
+[01:49:25] [cm]q                停止自动交易
+[01:49:25] [cm]rs               （重新）开始自动交易
+[01:49:25] [cm]exit             退出程序
+[01:49:26] [cm]b [num]          买num手
+[01:49:26] [cm]s [num]          卖num手
+[01:49:26] [cm]cb [num]         平买num手
+[01:49:26] [cm]cs [num]         平卖num手
+[01:49:26] [cm]q                停止自动交易
+[01:49:26] [cm]rs               （重新）开始自动交易
+[01:49:26] [cm]exit             退出程序
+[01:49:27] [cm]b [num]          买num手
+[01:49:27] [cm]s [num]          卖num手
+[01:49:27] [cm]cb [num]         平买num手
+[01:49:27] [cm]cs [num]         平卖num手
+[01:49:27] [cm]q                停止自动交易
+[01:49:27] [cm]rs               （重新）开始自动交易
+[01:49:27] [cm]exit             退出程序
+[01:49:28] [cm]b [num]          买num手
+[01:49:28] [cm]s [num]          卖num手
+[01:49:28] [cm]cb [num]         平买num手
+[01:49:28] [cm]cs [num]         平卖num手
+[01:49:28] [cm]q                停止自动交易
+[01:49:28] [cm]rs               （重新）开始自动交易
+[01:49:28] [cm]exit             退出程序
+[01:49:29] [cm]b [num]          买num手
+[01:49:29] [cm]s [num]          卖num手
+[01:49:29] [cm]cb [num]         平买num手
+[01:49:29] [cm]cs [num]         平卖num手
+[01:49:29] [cm]q                停止自动交易
+[01:49:29] [cm]rs               （重新）开始自动交易
+[01:49:29] [cm]exit             退出程序
+[01:49:30] [cm]b [num]          买num手
+[01:49:30] [cm]s [num]          卖num手
+[01:49:30] [cm]cb [num]         平买num手
+[01:49:30] [cm]cs [num]         平卖num手
+[01:49:30] [cm]q                停止自动交易
+[01:49:30] [cm]rs               （重新）开始自动交易
+[01:49:30] [cm]exit             退出程序
+[01:49:31] [cm]b [num]          买num手
+[01:49:31] [cm]s [num]          卖num手
+[01:49:31] [cm]cb [num]         平买num手
+[01:49:31] [cm]cs [num]         平卖num手
+[01:49:31] [cm]q                停止自动交易
+[01:49:31] [cm]rs               （重新）开始自动交易
+[01:49:31] [cm]exit             退出程序
+[01:49:34] [cm]b [num]          买num手
+[01:49:34] [cm]s [num]          卖num手
+[01:49:34] [cm]cb [num]         平买num手
+[01:49:34] [cm]cs [num]         平卖num手
+[01:49:34] [cm]q                停止自动交易
+[01:49:34] [cm]rs               （重新）开始自动交易
+[01:49:34] [cm]exit             退出程序
+[01:49:35] [cm]b [num]          买num手
+[01:49:35] [cm]s [num]          卖num手
+[01:49:35] [cm]cb [num]         平买num手
+[01:49:35] [cm]cs [num]         平卖num手
+[01:49:35] [cm]q                停止自动交易
+[01:49:35] [cm]rs               （重新）开始自动交易
+[01:49:35] [cm]exit             退出程序
+[01:49:36] [cm]b [num]          买num手
+[01:49:36] [cm]s [num]          卖num手
+[01:49:36] [cm]cb [num]         平买num手
+[01:49:36] [cm]cs [num]         平卖num手
+[01:49:36] [cm]q                停止自动交易
+[01:49:36] [cm]rs               （重新）开始自动交易
+[01:49:36] [cm]exit             退出程序
+[01:49:37] [cm]b [num]          买num手
+[01:49:37] [cm]s [num]          卖num手
+[01:49:37] [cm]cb [num]         平买num手
+[01:49:37] [cm]cs [num]         平卖num手
+[01:49:37] [cm]q                停止自动交易
+[01:49:37] [cm]rs               （重新）开始自动交易
+[01:49:37] [cm]exit             退出程序
+[01:49:37] [cm]b [num]          买num手
+[01:49:37] [cm]s [num]          卖num手
+[01:49:37] [cm]cb [num]         平买num手
+[01:49:37] [cm]cs [num]         平卖num手
+[01:49:37] [cm]q                停止自动交易
+[01:49:37] [cm]rs               （重新）开始自动交易
+[01:49:37] [cm]exit             退出程序
+[01:49:38] [cm]b [num]          买num手
+[01:49:38] [cm]s [num]          卖num手
+[01:49:38] [cm]cb [num]         平买num手
+[01:49:38] [cm]cs [num]         平卖num手
+[01:49:38] [cm]q                停止自动交易
+[01:49:38] [cm]rs               （重新）开始自动交易
+[01:49:38] [cm]exit             退出程序
+[01:49:38] [cm]b [num]          买num手
+[01:49:38] [cm]s [num]          卖num手
+[01:49:38] [cm]cb [num]         平买num手
+[01:49:38] [cm]cs [num]         平卖num手
+[01:49:38] [cm]q                停止自动交易
+[01:49:38] [cm]rs               （重新）开始自动交易
+[01:49:38] [cm]exit             退出程序
+[01:49:39] [cm]b [num]          买num手
+[01:49:39] [cm]s [num]          卖num手
+[01:49:39] [cm]cb [num]         平买num手
+[01:49:39] [cm]cs [num]         平卖num手
+[01:49:39] [cm]q                停止自动交易
+[01:49:39] [cm]rs               （重新）开始自动交易
+[01:49:39] [cm]exit             退出程序
+[01:49:42] [cm]b [num]          买num手
+[01:49:42] [cm]s [num]          卖num手
+[01:49:42] [cm]cb [num]         平买num手
+[01:49:42] [cm]cs [num]         平卖num手
+[01:49:42] [cm]q                停止自动交易
+[01:49:42] [cm]rs               （重新）开始自动交易
+[01:49:42] [cm]exit             退出程序
+[01:50:21] [md]Front Connected...
+[01:50:21] [md]Send Login Request... Successed
+[01:50:21] [md]Date: 20170220
+[01:50:21] [td]Front Connected...
+[01:50:21] [td]Send Login Request... Successed
+[01:50:21] [td]Date: 20170220
+[01:50:22] [td]Request Settlement Info Confirm... Successed
+[01:50:22] [td]Instruments:
+[01:50:23] [td]Requst Order Insert... Successed
+[01:50:23] [td]Request Query Instrument... Successed
+[01:50:23] [td]Order: #
+[01:50:23] [td]ErrorID=50, ErrorMsg=CTP:平今仓位不足
+[01:50:23] [td]Instrument Id:	au1706
+[01:50:25] [td]Request Query Trading Account... Successed
+[01:50:25] [td]Balance: 999750.00
+[01:50:25] [td]Available: 999750.00
+[01:50:25] [td]Close Profit: -50.00
+[01:50:25] [td]Position Profit: 0.00
+[01:50:26] [cm]Illegal Input!
+[01:50:27] [td]Request Query Investor Position... Successed
+[01:50:27] [td]Open Volume:1
+[01:50:28] [cm]Illegal Input!
+[01:50:29] [cm]Illegal Input!
+[01:50:31] [cm]b [num]          买num手
+[01:50:31] [cm]s [num]          卖num手
+[01:50:31] [cm]cb [num]         平买num手
+[01:50:31] [cm]cs [num]         平卖num手
+[01:50:31] [cm]q                停止自动交易
+[01:50:31] [cm]rs               （重新）开始自动交易
+[01:50:31] [cm]exit             退出程序
+[01:50:32] [cm]b [num]          买num手
+[01:50:32] [cm]s [num]          卖num手
+[01:50:32] [cm]cb [num]         平买num手
+[01:50:32] [cm]cs [num]         平卖num手
+[01:50:32] [cm]q                停止自动交易
+[01:50:32] [cm]rs               （重新）开始自动交易
+[01:50:32] [cm]exit             退出程序
+[01:50:32] [cm]b [num]          买num手
+[01:50:32] [cm]s [num]          卖num手
+[01:50:32] [cm]cb [num]         平买num手
+[01:50:32] [cm]cs [num]         平卖num手
+[01:50:32] [cm]q                停止自动交易
+[01:50:32] [cm]rs               （重新）开始自动交易
+[01:50:32] [cm]exit             退出程序
+[01:50:34] [cm]b [num]          买num手
+[01:50:34] [cm]s [num]          卖num手
+[01:50:34] [cm]cb [num]         平买num手
+[01:50:34] [cm]cs [num]         平卖num手
+[01:50:34] [cm]q                停止自动交易
+[01:50:34] [cm]rs               （重新）开始自动交易
+[01:50:34] [cm]exit             退出程序
+[01:50:35] [cm]b [num]          买num手
+[01:50:35] [cm]s [num]          卖num手
+[01:50:35] [cm]cb [num]         平买num手
+[01:50:35] [cm]cs [num]         平卖num手
+[01:50:35] [cm]q                停止自动交易
+[01:50:35] [cm]rs               （重新）开始自动交易
+[01:50:35] [cm]exit             退出程序
+[01:50:37] [cm]b [num]          买num手
+[01:50:37] [cm]s [num]          卖num手
+[01:50:37] [cm]cb [num]         平买num手
+[01:50:37] [cm]cs [num]         平卖num手
+[01:50:37] [cm]q                停止自动交易
+[01:50:37] [cm]rs               （重新）开始自动交易
+[01:50:37] [cm]exit             退出程序
+[01:52:01] [md]Front Connected...
+[01:52:01] [md]Send Login Request... Successed
+[01:52:01] [md]Date: 20170220
+[01:52:01] [td]Front Connected...
+[01:52:01] [td]Send Login Request... Successed
+[01:52:01] [td]Date: 20170220
+[01:52:02] [td]Request Settlement Info Confirm... Successed
+[01:52:02] [td]Instruments:
+[01:52:03] [01:52:03] [td]Request Query Instrument... [td]Requst Order Insert... SuccessedSuccessed
+
+[01:52:03] [td]Instrument Id:	au1706
+[01:52:05] [td]Request Query Trading Account... Successed
+[01:52:05] [td]Order: #
+[01:52:05] [td]ErrorID=50, ErrorMsg=CTP:平今仓位不足
+[01:52:06] [td]Balance: 999750.00
+[01:52:06] [td]Available: 999750.00
+[01:52:06] [td]Close Profit: -50.00
+[01:52:06] [td]Position Profit: 0.00
+[01:52:08] [td]Request Query Investor Position... Successed
+[01:52:10] [td]Open Volume:1
+[01:57:06] [md]Front Connected...
+[01:57:06] [md]Send Login Request... Successed
+[01:57:06] [md]Date: 20170220
+[01:57:06] [td]Front Connected...
+[01:57:06] [td]Send Login Request... Successed
+[01:57:06] [td]Date: 20170220
+[01:57:07] [td]Request Settlement Info Confirm... Successed
+[01:57:07] [td]Instruments:
+[01:57:08] [01:57:08] [td]Request Query Instrument... [td]Requst Order Insert... SuccessedSuccessed
+
+[01:57:09] [td]Order: #
+[01:57:09] [td]ErrorID=50, ErrorMsg=CTP:平今仓位不足
+[01:57:09] [td]Instrument Id:	au1706
+[01:57:11] [td]Request Query Trading Account... Successed
+[01:57:11] [td]Balance: 999750.00
+[01:57:11] [td]Available: 999750.00
+[01:57:11] [td]Close Profit: -50.00
+[01:57:11] [td]Position Profit: 0.00
+[01:57:13] [td]Request Query Investor Position... Successed
+[01:57:13] [td]Open Volume:1
+[01:57:23] [md]Front Connected...
+[01:57:23] [md]Send Login Request... Successed
+[01:57:23] [md]Date: 20170220
+[01:57:23] [td]Front Connected...
+[01:57:23] [td]Send Login Request... Successed
+[01:57:24] [td]Date: 20170220
+[01:57:25] [td]Request Settlement Info Confirm... Successed
+[01:57:25] [td]Instruments:
+[01:57:26] [01:57:26] [td]Requst Order Insert... [td]Request Query Instrument... SuccessedSuccessed
+
+[01:57:26] [td]Order: #
+[01:57:26] [td]ErrorID=50, ErrorMsg=CTP:平今仓位不足
+[01:57:26] [td]Instrument Id:	au1706
+[01:57:30] [md]Front Connected...
+[01:57:30] [md]Send Login Request... Successed
+[01:57:30] [md]Date: 20170220
+[01:57:30] [td]Front Connected...
+[01:57:30] [td]Send Login Request... Successed
+[01:57:30] [td]Date: 20170220
+[01:57:31] [td]Request Settlement Info Confirm... Successed
+[01:57:31] [td]Instruments:
+[01:57:32] [01:57:32] [td]Request Query Instrument... [td]Requst Order Insert... SuccessedSuccessed
+
+[01:57:32] [td]Order: #
+[01:57:32] [td]ErrorID=50, ErrorMsg=CTP:平今仓位不足
+[01:57:32] [td]Instrument Id:	au1706
+[01:57:34] [td]Request Query Trading Account... Successed
+[01:57:34] [td]Balance: 999750.00
+[01:57:34] [td]Available: 999750.00
+[01:57:34] [td]Close Profit: -50.00
+[01:57:34] [td]Position Profit: 0.00
+[01:57:36] [td]Request Query Investor Position... Successed
+[01:57:36] [td]Open Volume:1
+[01:57:43] [md]Front Connected...
+[01:57:43] [md]Send Login Request... Successed
+[01:57:43] [md]Date: 20170220
+[01:57:43] [td]Front Connected...
+[01:57:43] [td]Send Login Request... Successed
+[01:57:43] [td]Date: 20170220
+[01:57:44] [td]Request Settlement Info Confirm... Successed
+[01:57:44] [td]Instruments:
+[01:57:45] [01:57:45] [td]Requst Order Insert... [td]Request Query Instrument... SuccessedSuccessed
+
+[01:57:45] [td]Order: #
+[01:57:45] [td]ErrorID=50, ErrorMsg=CTP:平今仓位不足
+[01:57:45] [td]Instrument Id:	au1706
+[01:57:47] [td]Request Query Trading Account... Successed
+[01:57:47] [td]Balance: 999750.00
+[01:57:47] [td]Available: 999750.00
+[01:57:47] [td]Close Profit: -50.00
+[01:57:47] [td]Position Profit: 0.00
+[01:57:49] [td]Request Query Investor Position... Successed
+[01:57:50] [td]Open Volume:1
+[01:58:03] [md]Front Connected...
+[01:58:03] [md]Send Login Request... Successed
+[01:58:03] [md]Date: 20170220
+[01:58:03] [td]Front Connected...
+[01:58:03] [td]Send Login Request... Successed
+[01:58:03] [td]Date: 20170220
+[01:58:04] [td]Request Settlement Info Confirm... Successed
+[01:58:04] [td]Instruments:
+[01:58:05] [01:58:05] [td]Requst Order Insert... [td]Request Query Instrument... SuccessedSuccessed
+
+[01:58:06] [td]Order: #
+[01:58:06] [td]ErrorID=50, ErrorMsg=CTP:平今仓位不足
+[01:58:06] [td]Instrument Id:	au1706
+[01:58:08] [td]Request Query Trading Account... Successed
+[01:58:08] [td]Balance: 999750.00
+[01:58:08] [td]Available: 999750.00
+[01:58:08] [td]Close Profit: -50.00
+[01:58:08] [td]Position Profit: 0.00
+[01:58:10] [td]Request Query Investor Position... Successed
+[01:58:10] [td]Open Volume:1
+[02:01:14] [md]Front Connected...
+[02:01:14] [md]Send Login Request... Successed
+[02:01:14] [md]Date: 20170220
+[02:01:14] [td]Front Connected...
+[02:01:14] [td]Send Login Request... Successed
+[02:01:14] [td]Date: 20170220
+[02:01:15] [td]Request Settlement Info Confirm... Successed
+[02:01:15] [td]Instruments:
+[02:01:16] [td]Request Query Instrument... Successed
+[02:01:16] [td]Instrument Id:	au1706
+[02:01:18] [td]Request Query Trading Account... Successed
+[02:01:18] [td]Balance: 999750.00
+[02:01:18] [td]Available: 999750.00
+[02:01:18] [td]Close Profit: -50.00
+[02:01:18] [td]Position Profit: 0.00
+[02:01:20] [td]Request Query Investor Position... Successed
+[02:01:20] [td]Open Volume:1

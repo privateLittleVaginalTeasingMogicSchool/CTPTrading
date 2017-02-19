@@ -48,19 +48,15 @@ bool output_mutex = false;
 
 int main()
 {
-	Init();
+	InitScreen();
 	InitQuery();
 	while (!mdlogin);
 	InitTrade();
 	while (!tdlogin);
 	mdapi->SubscribeMarketData(ppInstrumentID, iInstrumentID);
-	threads[0] = std::thread(price::thread_work);
-	threads[1] = std::thread(command::thread_work);
+	InitThreads();
 	
-	SleepFor(1000);
 	OrderSend(ppInstrumentID[0], THOST_FTDC_OF_CloseToday, THOST_FTDC_D_Sell, 1);
 	
-	threads[0].join();
-	threads[1].join();
 	return 0;
 }
