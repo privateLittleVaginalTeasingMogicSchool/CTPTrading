@@ -38,6 +38,8 @@ extern Log lgr;
 extern bool output_mutex;
 extern std::vector<std::thread> threads;
 
+extern bool EAEnabled;
+
 
 void SleepFor(int milliseconds);
 void InitScreen();

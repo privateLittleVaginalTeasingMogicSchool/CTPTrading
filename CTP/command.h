@@ -13,5 +13,6 @@ public:
 	static bool can_dispatch;
 	static char buffer[1024];
 	static char* pbuf;
-	static std::thread* analyzer;
+
+	static std::thread* Analyzer;
 };
