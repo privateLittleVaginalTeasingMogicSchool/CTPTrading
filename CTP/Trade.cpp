@@ -67,7 +67,7 @@ void OrderSend(const char* instrument_id, char type, char direction, int volume)
 	req.UserForceClose = 0;
 
 	int iResult = tdapi->ReqOrderInsert(&req, ++nTdRequestID);
-	std::cerr << "[td]Requst Order Insert... " << ((iResult == 0) ? "Successed" : "Failed") << std::endl;
+	lgr << Log::t << "[td]Requst Order Insert... " << ((iResult == 0) ? "Successed" : "Failed") << Log::endl;
 }
 
 void DisplayOrders()
