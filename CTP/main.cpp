@@ -7,6 +7,9 @@
 #include "Query.h"
 #include "Trade.h"
 
+#include "price.h"
+#include "command.h"
+
 #include<iomanip>
 #include<vector>
 
@@ -34,33 +37,39 @@ int iInstrumentID = 1;
 std::vector<TThostFtdcTradeIDType> trade_orders;
 Logger lgr("log.txt");
 
+/*
+	线程0：报价更新
+	线程1：接受命令
+*/
+std::vector<std::thread> threads(5);
+
+bool output_mutex = false;
+
+//int main()
+//{
+//	Init();
+//	threads[1] = std::thread(command::thread_work);
+//	threads[1].join();
+//	return 0;
+//}
 
 
 int main()
 {
-	InitScreen();
+	Init();
 	InitQuery();
 	while (!mdlogin);
 	InitTrade();
 	while (!tdlogin);
 	mdapi->SubscribeMarketData(ppInstrumentID, iInstrumentID);
-
+	threads[0] = std::thread(price::thread_work);
+	threads[1] = std::thread(command::thread_work);
+	threads[0].join();
+	threads[1].join();
 	SleepFor(1000);
 	//DisplayOrders();
+	OrderSend(ppInstrumentID[0], THOST_FTDC_OF_CloseToday, THOST_FTDC_D_Sell, 1);
 	
-	while (true)
-	{
-		OrderSend(ppInstrumentID[0], THOST_FTDC_OF_CloseToday, THOST_FTDC_D_Sell, 1);
-		SleepFor(500);
-		StoreCursorPosition();
-		SetCursorPosition(95, 1);
-		SetTextColor(NULL, FOREGROUND_RED);
-		std::cout << std::fixed;
-		std::cout << std::setprecision(2) << MarketData->AskPrice1 << "   " << MarketData->AskVolume1 << "   " << std::endl;
-		SetCursorPosition(95, 3);
-		std::cout << std::setprecision(2) << MarketData->BidPrice1 << "   " << MarketData->BidVolume1 << "   " << std::endl;
-		RestoreTextColor();
-		RestoreCursorPosition();
-	}
+
 	return 0;
 }

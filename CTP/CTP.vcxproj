@@ -110,17 +110,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="command.cpp" />
     <ClCompile Include="Common.cpp" />
     <ClCompile Include="Logger.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="price.cpp" />
     <ClCompile Include="Query.cpp" />
     <ClCompile Include="QuerySpi.cpp" />
     <ClCompile Include="Trade.cpp" />
-    <ClCompile Include="TraderSpi.cpp" />
+    <ClCompile Include="TradeSpi.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="command.h" />
     <ClInclude Include="Common.h" />
     <ClInclude Include="Logger.h" />
+    <ClInclude Include="price.h" />
     <ClInclude Include="Query.h" />
     <ClInclude Include="QuerySpi.h" />
     <ClInclude Include="ThostFtdcMdApi.h" />
@@ -128,7 +132,7 @@
     <ClInclude Include="ThostFtdcUserApiDataType.h" />
     <ClInclude Include="ThostFtdcUserApiStruct.h" />
     <ClInclude Include="Trade.h" />
-    <ClInclude Include="TraderSpi.h" />
+    <ClInclude Include="TradeSpi.h" />
   </ItemGroup>
   <ItemGroup>
     <Xml Include="error.xml" />

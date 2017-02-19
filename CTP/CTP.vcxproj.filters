@@ -16,15 +16,15 @@
     <Filter Include="头文件\CTP">
       <UniqueIdentifier>{e256fe1e-64f1-406e-a9de-4f97ed0f60b9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\threads">
+      <UniqueIdentifier>{be37a344-5abc-4aaa-b4dc-faef0e09eb1a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="QuerySpi.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="TraderSpi.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Query.cpp">
@@ -37,6 +37,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Logger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="price.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeSpi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="command.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -56,9 +65,6 @@
     <ClInclude Include="QuerySpi.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="TraderSpi.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="Query.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -70,6 +76,15 @@
     </ClInclude>
     <ClInclude Include="Logger.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="price.h">
+      <Filter>头文件\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeSpi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="command.h">
+      <Filter>头文件\threads</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
