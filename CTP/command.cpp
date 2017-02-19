@@ -90,7 +90,7 @@ void command::analyze_command()
 	switch (cmd[0])
 	{
 		case 'h':
-			//_Get_Output_Mutex
+			_Get_Output_Mutex
 			lgr << Log::t << "[cm]b [num]          买num手" << Log::endl
 				<< Log::t << "[cm]s [num]          卖num手" << Log::endl
 				<< Log::t << "[cm]cb [num]         平买num手" << Log::endl
@@ -98,7 +98,7 @@ void command::analyze_command()
 				<< Log::t << "[cm]q                停止自动交易" << Log::endl
 				<< Log::t << "[cm]rs               （重新）开始自动交易" << Log::endl
 				<< Log::t << "[cm]exit             退出程序" << Log::endl;
-			//_Release_Output_Mutex
+			_Release_Output_Mutex
 			break;
 		case 'b':
 			break;
