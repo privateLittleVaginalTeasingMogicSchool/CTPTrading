@@ -14,13 +14,14 @@ void SleepFor(int milliseconds)
 
 void InitScreen()
 {
-	SetCursorPosition(95, 0);
+	system("mode con:cols=110  lines=31");
+	SetCursorPosition(90, 0);
 	std::cout << "     " << ppInstrumentID[0];
-	SetCursorPosition(95, 1);
+	SetCursorPosition(90, 1);
 	std::cout << "Ask: ";
-	SetCursorPosition(95, 2);
+	SetCursorPosition(90, 2);
 	std::cout << "-----------------";
-	SetCursorPosition(95, 3);
+	SetCursorPosition(90, 3);
 	std::cout << "Bid: ";
 	SetCursorPosition(0, 0);
 }

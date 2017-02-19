@@ -57,14 +57,15 @@ Logger& Logger::operator<<(Logger& (__cdecl *pfunc)(Logger&))
 Logger& Logger::endl(Logger& logger)
 {
 	logger._line_cnt++;
-	if (logger._line_cnt >= 18)
+	std::endl(logger._os);
+	std::endl(logger._of);
+	if (logger._line_cnt >= 30)
 	{
 		logger._line_cnt = 0;
 		system("cls");
 		InitScreen();
 	}
-	std::endl(logger._os);
-	std::endl(logger._of);
+	
 	return (logger);
 }
 

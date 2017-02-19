@@ -47,18 +47,17 @@ int main()
 
 	SleepFor(1000);
 	//DisplayOrders();
-	//OrderSend(ppInstrumentID[0], THOST_FTDC_OF_CloseToday, THOST_FTDC_D_Sell, 1);
 	
 	while (true)
 	{
-		SleepFor(500);
 		OrderSend(ppInstrumentID[0], THOST_FTDC_OF_CloseToday, THOST_FTDC_D_Sell, 1);
+		SleepFor(500);
 		StoreCursorPosition();
-		SetCursorPosition(100, 1);
+		SetCursorPosition(95, 1);
 		SetTextColor(NULL, FOREGROUND_RED);
 		std::cout << std::fixed;
 		std::cout << std::setprecision(2) << MarketData->AskPrice1 << "   " << MarketData->AskVolume1 << "   " << std::endl;
-		SetCursorPosition(100, 3);
+		SetCursorPosition(95, 3);
 		std::cout << std::setprecision(2) << MarketData->BidPrice1 << "   " << MarketData->BidVolume1 << "   " << std::endl;
 		RestoreTextColor();
 		RestoreCursorPosition();
