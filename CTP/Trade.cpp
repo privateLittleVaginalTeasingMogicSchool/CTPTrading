@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 #include "Trade.h"
-#include "TraderSpi.h"
+#include "TradeSpi.h"
 
 #include <iostream>
 

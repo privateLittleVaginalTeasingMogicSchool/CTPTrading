@@ -14,7 +14,8 @@ void SleepFor(int milliseconds)
 
 void InitScreen()
 {
-	system("mode con:cols=110  lines=31");
+	_Get_Output_Mutex
+	system("mode con:cols=110  lines=51");
 	SetCursorPosition(90, 0);
 	std::cout << "     " << ppInstrumentID[0];
 	SetCursorPosition(90, 1);
@@ -23,7 +24,22 @@ void InitScreen()
 	std::cout << "-----------------";
 	SetCursorPosition(90, 3);
 	std::cout << "Bid: ";
+	SetCursorPosition(0, 49);
+	std::cout << "Command > ";
 	SetCursorPosition(0, 0);
+
+	_Release_Output_Mutex
+}
+
+void InitThreads()
+{
+
+}
+
+void Init()
+{
+	InitScreen();
+	InitThreads();
 }
 
 #ifdef _WIN32
@@ -37,17 +53,15 @@ void SetCursorPosition(int x, int y)
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), cursorPosition);
 }
 
-void StoreCursorPosition()
+void StoreCursorPosition(COORD* coord)
 {
 	GetConsoleScreenBufferInfo(handle, &cursor_info);
+	memcpy(coord, &cursor_info.dwCursorPosition, sizeof(coord));
 }
 
-void RestoreCursorPosition()
+void RestoreCursorPosition(COORD* coord)
 {
-	COORD cursorPosition;
-	cursorPosition.X = cursor_info.dwCursorPosition.X;
-	cursorPosition.Y = cursor_info.dwCursorPosition.Y;
-	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), cursorPosition);
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), *coord);
 }
 #else
 void SetCursorPosition(int x, int y)
