@@ -2,8 +2,10 @@
 
 #include "Common.h"
 #include "command.h"
+#include "Trade.h"
 
 #include <conio.h>
+#include <sstream>
 
 COORD command::coord;
 char command::buffer[1024] = { 0 };
@@ -19,7 +21,7 @@ void command::thread_work()
 		{
 			if (!can_input)
 				continue;
-			_Get_Output_Mutex
+			
 			StoreCursorPosition(&coord);
 			SetCursorPosition(pbuf - buffer + 10, 49);
 			switch (c)
@@ -28,6 +30,7 @@ void command::thread_work()
 					{
 						can_input = false;
 						int len = (int)(pbuf - buffer);
+						_Get_Output_Mutex
 						for (int i = 0;i < len; i++)
 						{
 							putchar('\b');
@@ -40,6 +43,7 @@ void command::thread_work()
 						{
 							putchar('\b');
 						}
+						_Release_Output_Mutex
 						*pbuf = 0;
 						Analyzer = new std::thread(analyze_command);
 					}
@@ -49,19 +53,22 @@ void command::thread_work()
 						if (pbuf>buffer)
 						{
 							pbuf--;
+							_Get_Output_Mutex
 							puts("\b \b");
+							_Release_Output_Mutex
 						}
 					}
 					break;
 				default:
 					{
 						*(pbuf++) = c;
+						_Get_Output_Mutex
 						putchar(c);
+						_Release_Output_Mutex
 					}
 					break;
 			}
 			RestoreCursorPosition(&coord);
-			_Release_Output_Mutex
 		}
 	}
 }
@@ -87,54 +94,107 @@ void command::analyze_command()
 	pbuf = buffer;
 	can_input = true;
 
-	switch (cmd[0])
+	std::string cmdstr = cmd;
+	lgr << Log::t << "[cm]Command Received (" << cmd << ")" << Log::endl;
+
+
+	if (cmdstr == "h")
 	{
-		case 'h':
-			_Get_Output_Mutex
-			lgr << Log::t << "[cm]b [num]          买num手" << Log::endl
-				<< Log::t << "[cm]s [num]          卖num手" << Log::endl
-				<< Log::t << "[cm]cb [num]         平买num手" << Log::endl
-				<< Log::t << "[cm]cs [num]         平卖num手" << Log::endl
-				<< Log::t << "[cm]q                停止自动交易" << Log::endl
-				<< Log::t << "[cm]rs               （重新）开始自动交易" << Log::endl
-				<< Log::t << "[cm]exit             退出程序" << Log::endl;
-			_Release_Output_Mutex
-			break;
-		case 'b':
-			break;
-		case 's':
-			break;
-		case 'c':
+		lgr << Log::t << "[cm]b [num]          买num手" << Log::endl
+			<< Log::t << "[cm]s [num]          卖num手" << Log::endl
+			<< Log::t << "[cm]cb [num]         平买num手" << Log::endl
+			<< Log::t << "[cm]cs [num]         平卖num手" << Log::endl
+			<< Log::t << "[cm]q                停止自动交易" << Log::endl
+			<< Log::t << "[cm]rs               （重新）开始自动交易" << Log::endl
+			<< Log::t << "[cm]exit             退出程序" << Log::endl;
+	}
+	
+	else if (cmdstr == "cl")
+	{
+		system("cls");
+		InitScreen();
+	}
+	
+	else if (cmdstr[0] == 'b')
+	{
+		if (cmdstr[1] == ' ')
+		{
+			try
 			{
-				switch (cmd[1])
-				{
-					case 'b':
-						break;
-					case 's':
-						break;
-					case 'l':
-						system("cls");
-						InitScreen();
-						break;
-					default:
-						_Get_Output_Mutex
-						lgr << Log::t << "[cm]Illegal Input!" << Log::endl;
-						_Release_Output_Mutex
-						break;
-				}
+				std::stringstream ss(cmd + 2);
+				int lot = 0;
+				ss >> lot;
+				OrderSend(ppInstrumentID[0], THOST_FTDC_OF_Open, THOST_FTDC_D_Buy, lot);
 			}
-		case 'q':
-			break;
-		case 'r':
-			break;
-		case 'e':
-			break;
-		default:
-			_Get_Output_Mutex
-			lgr << Log::t << "[cm]Illegal Input!" << Log::endl;
-			_Release_Output_Mutex
-			break;
+
+			catch (std::exception)
+			{
+				lgr << "Illegal Command" << Log::endl;
+			}
+		}
+		else
+			lgr << "Illegal Command" << Log::endl;
 	}
 
+	else if (cmdstr[0] == 's')
+	{
+		if (cmdstr[1] == ' ')
+		{
+			try
+			{
+				std::stringstream ss(cmd + 2);
+				int lot = 0;
+				ss >> lot;
+				OrderSend(ppInstrumentID[0], THOST_FTDC_OF_Open, THOST_FTDC_D_Sell, lot);
+			}
+
+			catch (std::exception)
+			{
+				lgr << "Illegal Command" << Log::endl;
+			}
+		}
+		else
+			lgr << "Illegal Command" << Log::endl;
+	}
+
+	else if (cmdstr[0] == 'c')
+	{
+		if (cmdstr[1] == 'b')
+		{
+			try
+			{
+				std::stringstream ss(cmd + 3);
+				int lot = 0;
+				ss >> lot;
+				OrderSend(ppInstrumentID[0], THOST_FTDC_OF_CloseToday, THOST_FTDC_D_Sell, lot);
+			}
+
+			catch (std::exception)
+			{
+				lgr << "Illegal Command" << Log::endl;
+			}
+		}
+		else if (cmdstr[1] == 's')
+		{
+			try
+			{
+				std::stringstream ss(cmd + 3);
+				int lot = 0;
+				ss >> lot;
+				OrderSend(ppInstrumentID[0], THOST_FTDC_OF_CloseToday, THOST_FTDC_D_Buy, lot);
+			}
+
+			catch (std::exception)
+			{
+				lgr << "Illegal Command" << Log::endl;
+			}
+		}
+		else
+			lgr << "Illegal Command" << Log::endl;
+	}
+
+	else
+		lgr << "Illegal Command" << Log::endl;
+	
 	Analyzer = nullptr;
 }
