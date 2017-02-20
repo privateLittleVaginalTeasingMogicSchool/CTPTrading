@@ -56,7 +56,6 @@ int main()
 	mdapi->SubscribeMarketData(ppInstrumentID, iInstrumentID);
 	InitThreads();
 	
-	OrderSend(ppInstrumentID[0], THOST_FTDC_OF_CloseToday, THOST_FTDC_D_Sell, 1);
 	
 	return 0;
 }
