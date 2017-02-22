@@ -3,16 +3,15 @@
 #include "Logger.h"
 #include "Common.h"
 #include <fstream>
+#include <sstream>
 #include <iostream>
 #include <iomanip>
 #include <time.h>
 
 
 Logger::Logger(const char* fpath)
-	:_os(std::cerr.rdbuf())
 {
 	_of.open(fpath, std::ios::app);
-	_line_cnt = 0;
 }
 
 Logger::~Logger()
@@ -23,7 +22,7 @@ Logger::~Logger()
 Logger& Logger::operator << (const char* str)
 {
 	_Get_Output_Mutex
-	_os << str;
+	info.append(str);
 	_of << str;
 	_Release_Output_Mutex
 	return (*this);
@@ -32,7 +31,9 @@ Logger& Logger::operator << (const char* str)
 Logger& Logger::operator << (double num)
 {
 	_Get_Output_Mutex
-	_os << num;
+	std::stringstream ss;
+	ss << num;
+	info.append(ss.str());
 	_of << num;
 	_Release_Output_Mutex
 	return (*this);
@@ -41,7 +42,9 @@ Logger& Logger::operator << (double num)
 Logger& Logger::operator << (int num)
 {
 	_Get_Output_Mutex
-	_os << num;
+	std::stringstream ss;
+	ss << num;
+	info.append(ss.str());
 	_of << num;
 	_Release_Output_Mutex
 	return (*this);
@@ -50,7 +53,7 @@ Logger& Logger::operator << (int num)
 Logger& Logger::operator << (char c)
 {
 	_Get_Output_Mutex
-	_os << c;
+	info.push_back(c);
 	_of << c;
 	_Release_Output_Mutex
 	return (*this);
@@ -64,15 +67,9 @@ Logger& Logger::operator<<(Logger& (__cdecl *pfunc)(Logger&))
 Logger& Logger::endl(Logger& logger)
 {
 	_Get_Output_Mutex
-	logger._line_cnt++;
-	std::endl(logger._os);
+	NewInfo(logger.info);
 	std::endl(logger._of);
-	if (logger._line_cnt >= 45)
-	{
-		logger._line_cnt = 0;
-		system("cls");
-		InitScreen();
-	}
+	logger.info = "";
 	_Release_Output_Mutex
 	return (logger);
 }
@@ -80,8 +77,6 @@ Logger& Logger::endl(Logger& logger)
 Logger& Logger::_2point(Logger& logger)
 {
 	_Get_Output_Mutex
-	std::fixed(logger._os);
-	(*std::setprecision(2)._Pfun)(logger._os, 2);
 	std::fixed(logger._of);
 	(*std::setprecision(2)._Pfun)(logger._of, 2);
 	_Release_Output_Mutex
@@ -97,7 +92,7 @@ Logger& Logger::t(Logger& logger)
 	nows[19] = ']';
 	nows[20] = ' ';
 	nows[21] = 0;
-	logger._os << nows + 10;
+	logger.info.append(nows + 10);
 	logger._of << nows + 10;
 	_Release_Output_Mutex
 	return logger;

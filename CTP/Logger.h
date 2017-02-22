@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <fstream>
+#include <string>
 
 
 class Logger
@@ -18,9 +19,8 @@ public:
 	static Logger& _2point(Logger& logger);
 	static Logger& t(Logger& logger);
 private:
-	std::ostream _os;
 	std::ofstream _of;
-	int _line_cnt;
+	std::string info;
 };
 
 typedef Logger Log;

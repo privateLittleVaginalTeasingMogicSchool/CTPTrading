@@ -7,7 +7,7 @@
 
 void InitTrade()
 {
-	system("md .\\tdflow");
+	//system("md .\\tdflow");
 	tdapi = CThostFtdcTraderApi::CreateFtdcTraderApi("./tdflow/");
 	tdspi = new TdSpi;
 	tdapi->RegisterSpi(tdspi);
@@ -68,6 +68,16 @@ void OrderSend(const char* instrument_id, char type, char direction, int volume)
 
 	int iResult = tdapi->ReqOrderInsert(&req, ++nTdRequestID);
 	lgr << Log::t << "[td]Requst Order Insert... " << ((iResult == 0) ? "Successed" : "Failed") << Log::endl;
+}
+
+int GetHolding()
+{
+	return 0;
+}
+
+void OrderClose(const char* instrument_id, char direction, int volume)
+{
+	//OrderSend(instrument_id, THOST_FTDC_OF_Close)
 }
 
 void DisplayOrders()

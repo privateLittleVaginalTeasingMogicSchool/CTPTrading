@@ -1,0 +1,3607 @@
+123
+456
+123
+[md]Front Connected...
+[md]Send Login Request... Successed
+[md]Date: 20170220
+[td]Front Connected...
+[td]Send Login Request... Successed
+[td]Date: 20170220
+[td]Request Settlement Info Confirm... Successed
+[td]Instruments:
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[md]Front Connected...
+[md]Send Login Request... Successed
+[md]Date: 20170220
+[td]Front Connected...
+[td]Send Login Request... Successed
+[td]Date: 20170220
+[td]Request Settlement Info Confirm... Successed
+[td]Instruments:
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[td]Request Query Instrument... Flow Control
+[md]Front Connected...
+[md]Send Login Request... Successed
+[md]Date: 20170220
+[td]Front Connected...
+[td]Send Login Request... Successed
+[td]Date: 20170220
+[td]Request Settlement Info Confirm... Successed
+[td]Instruments:
+[td]Request Query Instrument... Successed
+[td]Instrument Id:	au1706
+[td]Request Query Trading Account... Successed
+[td]Balance: 999750.00
+[td]Available: 999750.00
+[td]Close Profit: -50.00
+[td]Position Profit: 0.00
+[td]Request Query Investor Position... Successed
+[td]Open Volume:1
+[17:06:13] [md]Front Connected...
+[17:06:13] [md]Send Login Request... Successed
+[17:06:13] [md]Date: 20170220
+[17:06:50] [md]Front Connected...
+[17:06:50] [md]Send Login Request... Successed
+[17:06:50] [md]Date: 20170220
+[17:06:50] [td]Front Connected...
+[17:06:50] [td]Send Login Request... Successed
+[17:06:50] [td]Date: 20170220
+[17:06:51] [td]Request Settlement Info Confirm... Successed
+[17:06:52] [td]Instruments:
+[17:06:53] [td]Request Query Instrument... Successed
+[17:06:53] [td]Instrument Id:	au1706
+[17:06:54] [cm]Command Received (exit)
+[17:06:55] [td]Request Query Trading Account... Successed
+[17:06:55] [td]Balance: 998960.00
+[17:06:55] [td]Available: 932528.00
+[17:06:55] [td]Close Profit: -500.00
+[17:06:55] [td]Position Profit: -200.00
+[17:08:21] [md]Front Connected...
+[17:08:21] [md]Send Login Request... Successed
+[17:08:21] [md]Date: 20170220
+[17:08:21] [td]Front Connected...
+[17:08:21] [td]Send Login Request... Successed
+[17:08:21] [td]Date: 20170220
+[17:08:22] [td]Request Settlement Info Confirm... Successed
+[17:08:23] [td]Instruments:
+[17:08:23] [cm]Command Received (exit)
+[17:08:24] [td]Request Query Instrument... Successed
+[00:06:39] [md]Front Connected...
+[00:06:39] [md]Send Login Request... Successed
+[00:06:39] [md]Date: 20170221
+[00:06:39] [td]Front Connected...
+[00:06:39] [td]Send Login Request... Successed
+[00:06:39] [td]Date: 20170221
+[00:06:40] [td]Request Settlement Info Confirm... Successed
+[00:06:40] [td]Instruments:
+[00:06:41] [td]Request Query Instrument... Successed
+[00:06:41] [td]Instrument Id:	au1706
+[00:06:43] [td]Request Query Trading Account... Successed
+[00:06:43] [td]Balance: 996760.00
+[00:06:43] [td]Available: 930196.00
+[00:06:43] [td]Close Profit: 0.00
+[00:06:43] [td]Position Profit: -200.00
+[00:06:45] [td]Request Query Investor Position... Successed
+[00:06:45] [td]Open Volume:0
+[00:47:24] [md]Front Connected...
+[00:47:24] [md]Send Login Request... Successed
+[00:47:24] [md]Date: 20170221
+[00:47:24] [td]Front Connected...
+[00:47:24] [td]Send Login Request... Successed
+[00:47:24] [td]Date: 20170221
+[00:47:25] [td]Request Settlement Info Confirm... Successed
+[00:47:25] [td]Instruments:
+[00:47:26] [td]Request Query Instrument... Successed
+[00:47:26] [td]Instrument Id:	au1706
+[00:47:28] [td]Request Query Trading Account... Successed
+[00:47:28] [td]Balance: 996760.00
+[00:47:28] [td]Available: 930196.00
+[00:47:28] [td]Close Profit: 0.00
+[00:47:28] [td]Position Profit: -200.00
+[00:47:30] [td]Request Query Investor Position... Successed
+[00:47:30] [td]Open Volume:0
+[00:47:39] [cm]Command Received (cs 1)
+[00:47:39] [td]Requst Order Insert... Successed
+[00:47:39] [td]Order: #
+[00:47:39] [td]ErrorID=50, ErrorMsg=CTP:平今仓位不足
+[00:47:42] [cm]Command Received (cb 1)
+[00:47:42] [td]Requst Order Insert... Successed
+[00:47:42] [td]Order: #
+[00:47:42] [td]ErrorID=50, ErrorMsg=CTP:平今仓位不足
+[01:03:39] [md]Front Connected...
+[01:03:39] [md]Send Login Request... Successed
+[01:03:39] [md]Date: 20170221
+[01:03:39] [td]Front Connected...
+[01:03:39] [td]Send Login Request... Successed
+[01:03:39] [td]Date: 20170221
+[01:03:40] [td]Request Settlement Info Confirm... Successed
+[01:03:41] [td]Instruments:
+[01:03:42] [td]Request Query Instrument... Successed
+[01:03:42] [td]Instrument Id:	au1706
+[01:03:44] [td]Request Query Trading Account... Successed
+[01:03:44] [td]Balance: 996760.00
+[01:03:44] [td]Available: 930196.00
+[01:03:44] [td]Close Profit: 0.00
+[01:03:44] [td]Position Profit: -200.00
+[01:03:46] [td]Request Query Investor Position... Successed
+[01:03:46] [td]Open Volume:0
+[01:03:49] [cm]Command Received (cs 1)
+[01:03:49] [td]Requst Order Insert... Successed
+[01:03:50] [td]Direction: Buy, Price: 277.45, Status: 报单已提交
+[01:03:50] [td]Direction: Buy, Price: 277.45, Status: 报单已提交
+[01:03:50] [td]Direction: Buy, Price: 277.45, Status: 全部成交报单已提交
+[01:03:50] [td]au1706 At Price: 277.45, 1 Traded
+[01:03:52] [cm]Command Received (cs 1)
+[01:03:52] [td]Requst Order Insert... Successed
+[01:03:53] [td]Direction: Buy, Price: 277.45, Status: 报单已提交
+[01:03:53] [td]Direction: Buy, Price: 277.45, Status: 报单已提交
+[01:03:53] [td]Direction: Buy, Price: 277.45, Status: 全部成交报单已提交
+[01:03:53] [td]au1706 At Price: 277.45, 1 Traded
+[01:03:54] [cm]Command Received (cs 1)
+[01:03:54] [td]Requst Order Insert... Successed
+[01:03:54] [td]Direction: Buy, Price: 277.45, Status: 报单已提交
+[01:03:54] [td]Direction: Buy, Price: 277.45, Status: 报单已提交
+[01:03:54] [td]Direction: Buy, Price: 277.45, Status: 全部成交报单已提交
+[01:03:54] [td]au1706 At Price: 277.45, 1 Traded
+[01:03:56] [cm]Command Received (cs 1)
+[01:03:56] [td]Requst Order Insert... Successed
+[01:03:56] [td]Direction: Buy, Price: 277.45, Status: 报单已提交
+[01:03:56] [td]Direction: Buy, Price: 277.45, Status: 报单已提交
+[01:03:56] [td]Direction: Buy, Price: 277.45, Status: 全部成交报单已提交
+[01:03:56] [td]au1706 At Price: 277.45, 1 Traded
+[01:03:57] [cm]Command Received (cs 1)
+[01:03:57] [td]Requst Order Insert... Successed
+[01:03:57] [td]Order: #
+[01:03:57] [td]ErrorID=51, ErrorMsg=CTP:平昨仓位不足
+[01:04:14] [md]Front Connected...
+[01:04:14] [md]Send Login Request... Successed
+[01:04:14] [md]Date: 20170221
+[01:04:14] [td]Front Connected...
+[01:04:14] [td]Send Login Request... Successed
+[01:04:15] [td]Date: 20170221
+[01:04:16] [td]Request Settlement Info Confirm... Successed
+[01:04:16] [td]Instruments:
+[01:04:17] [td]Request Query Instrument... Successed
+[01:04:17] [td]Instrument Id:	au1706
+[01:04:19] [td]Request Query Trading Account... Successed
+[01:04:19] [td]Balance: 996520.00
+[01:04:19] [td]Available: 996520.00
+[01:04:19] [td]Close Profit: -400.00
+[01:04:19] [td]Position Profit: 0.00
+[01:04:21] [td]Request Query Investor Position... Successed
+[01:04:21] [td]Open Volume:0
+[01:04:27] [cm]Command Received (cs 1)
+[01:04:27] [td]Requst Order Insert... Successed
+[01:04:27] [td]Order: #
+[01:04:27] [td]ErrorID=51, ErrorMsg=CTP:平昨仓位不足
+[01:04:33] [cm]Command Received (s 1)
+[01:04:33] [td]Requst Order Insert... Successed
+[01:04:33] [td]Direction: Sell, Price: 277.40, Status: 报单已提交
+[01:04:33] [td]Direction: Sell, Price: 277.40, Status: 报单已提交
+[01:04:33] [td]Direction: Sell, Price: 277.40, Status: 全部成交报单已提交
+[01:04:33] [td]au1706 At Price: 277.40, 1 Traded
+[01:04:35] [cm]Command Received (cs 1)
+[01:04:35] [td]Requst Order Insert... Successed
+[01:04:35] [td]Order: #
+[01:04:35] [td]ErrorID=51, ErrorMsg=CTP:平昨仓位不足
+[01:14:16] [md]Front Connected...
+[01:14:16] [md]Send Login Request... Successed
+[01:14:16] [md]Date: 20170221
+[01:14:16] [td]Front Connected...
+[01:14:16] [td]Send Login Request... Successed
+[01:14:16] [td]Date: 20170221
+[01:14:17] [td]Request Settlement Info Confirm... Successed
+[01:14:17] [td]Instruments:
+[01:14:18] [td]Request Query Instrument... Successed
+[01:14:18] [td]Instrument Id:	au1706
+[01:14:20] [td]Request Query Trading Account... Successed
+[01:14:20] [td]Balance: 996510.00
+[01:14:20] [td]Available: 979866.00
+[01:14:20] [td]Close Profit: -400.00
+[01:14:20] [td]Position Profit: 0.00
+[01:14:22] [td]Request Query Investor Position... Successed
+[01:14:22] [td]Open Volume:1
+[01:22:25] [md]Front Connected...
+[01:22:25] [md]Send Login Request... Successed
+[01:22:25] [md]Date: 20170221
+[01:22:25] [td]Front Connected...
+[01:22:25] [td]Send Login Request... Successed
+[01:22:25] [td]Date: 20170221
+[01:22:26] [td]Request Settlement Info Confirm... Successed
+[01:22:26] [td]Instruments:
+[01:22:27] [td]Request Query Instrument... Successed
+[01:30:26] [md]Front Connected...
+[01:30:26] [md]Send Login Request... Successed
+[01:30:26] [md]Date: 20170221
+[01:30:26] [td]Front Connected...
+[01:30:26] [td]Send Login Request... Successed
+[01:30:26] [td]Date: 20170221
+[01:30:27] [td]Request Settlement Info Confirm... Successed
+[01:30:27] [td]Instruments:
+[01:30:28] [td]Request Query Instrument... Successed
+[01:31:13] [md]Front Connected...
+[01:31:13] [md]Send Login Request... Successed
+[01:31:13] [md]Date: 20170221
+[01:31:13] [td]Front Connected...
+[01:31:13] [td]Send Login Request... Successed
+[01:31:13] [td]Date: 20170221
+[01:31:14] [td]Request Settlement Info Confirm... Successed
+[01:31:14] [td]Instruments:
+[01:31:15] [td]Request Query Instrument... Successed
+[01:31:49] [md]Front Connected...
+[01:31:49] [md]Send Login Request... Successed
+[01:31:49] [md]Date: 20170221
+[01:31:49] [td]Front Connected...
+[01:31:49] [td]Send Login Request... Successed
+[01:31:49] [td]Date: 20170221
+[01:31:50] [td]Request Settlement Info Confirm... Successed
+[01:31:50] [td]Instruments:
+[01:31:51] [td]Request Query Instrument... Successed
+[01:32:14] [md]Front Connected...
+[01:32:14] [md]Send Login Request... Successed
+[01:32:14] [md]Date: 20170221
+[01:32:14] [td]Front Connected...
+[01:32:14] [td]Send Login Request... Successed
+[01:32:14] [td]Date: 20170221
+[01:32:15] [td]Request Settlement Info Confirm... Successed
+[01:32:15] [td]Instruments:
+[01:32:16] [td]Request Query Instrument... Successed
+[01:33:04] [md]Front Connected...
+[01:33:04] [md]Send Login Request... Successed
+[01:33:04] [md]Date: 20170221
+[01:33:04] [td]Front Connected...
+[01:33:04] [td]Send Login Request... Successed
+[01:33:04] [td]Date: 20170221
+[01:33:05] [td]Request Settlement Info Confirm... Successed
+[01:33:05] [td]Instruments:
+[01:33:06] [td]Request Query Instrument... Successed
+[01:34:03] [md]Front Connected...
+[01:34:03] [md]Send Login Request... Successed
+[01:34:04] [md]Date: 20170221
+[01:34:04] [td]Front Connected...
+[01:34:04] [td]Send Login Request... Successed
+[01:34:04] [td]Date: 20170221
+[01:34:05] [td]Request Settlement Info Confirm... Successed
+[01:34:05] [td]Instruments:
+[01:34:06] [td]Request Query Instrument... Successed
+[01:34:41] [md]Front Connected...
+[01:34:41] [md]Send Login Request... Successed
+[01:34:41] [md]Date: 20170221
+[01:34:41] [td]Front Connected...
+[01:34:41] [td]Send Login Request... Successed
+[01:34:41] [td]Date: 20170221
+[01:34:42] [td]Request Settlement Info Confirm... Successed
+[01:34:42] [td]Instruments:
+[01:34:43] [td]Request Query Instrument... Successed
+[01:34:43] [td]Instrument Id:	i1705
+[01:34:45] [td]Request Query Trading Account... Successed
+[01:34:45] [td]Balance: 996560.00
+[01:34:45] [td]Available: 979866.00
+[01:34:45] [td]Close Profit: -400.00
+[01:34:45] [td]Position Profit: 50.00
+[01:34:47] [td]Request Query Investor Position... Successed
+[01:40:36] [md]Front Connected...
+[01:40:36] [md]Send Login Request... Successed
+[01:40:36] [md]Date: 20170221
+[01:40:36] [td]Front Connected...
+[01:40:36] [td]Send Login Request... Successed
+[01:40:36] [td]Date: 20170221
+[01:40:37] [td]Request Settlement Info Confirm... Successed
+[01:40:37] [td]Instruments:
+[01:40:38] [td]Request Query Instrument... Successed
+[01:40:38] [td]Instrument Id:	i1705
+[01:40:40] [td]Request Query Trading Account... Successed
+[01:40:40] [td]Balance: 996610.00
+[01:40:40] [td]Available: 979866.00
+[01:40:40] [td]Close Profit: -400.00
+[01:40:40] [td]Position Profit: 100.00
+[01:40:42] [td]Request Query Investor Position... Successed
+[01:40:44] [cm]Command Received (b 1)
+[01:40:44] [td]Requst Order Insert... Successed
+[01:40:44] [td]Direction: Buy, Price: 727.50, Status: 报单已提交
+[01:40:44] [td]Direction: Buy, Price: 727.50, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[01:58:46] [md]Front Connected...
+[01:58:46] [md]Send Login Request... Successed
+[01:58:46] [md]Date: 20170221
+[01:58:46] [td]Front Connected...
+[01:58:46] [td]Send Login Request... Successed
+[01:58:46] [td]Date: 20170221
+[01:58:47] [td]Request Settlement Info Confirm... Successed
+[01:58:47] [td]Instruments:
+[01:58:48] [td]Request Query Instrument... Successed
+[01:58:48] [td]Instrument Id:	i1705
+[01:58:50] [td]Request Query Trading Account... Successed
+[01:58:50] [td]Balance: 996560.00
+[01:58:50] [td]Available: 979866.00
+[01:58:50] [td]Close Profit: -400.00
+[01:58:50] [td]Position Profit: 50.00
+[01:58:52] [td]Request Query Investor Position... Successed
+[01:58:52] [td]Open Volume:0
+[01:59:58] [md]Front Connected...
+[01:59:58] [md]Send Login Request... Successed
+[01:59:58] [md]Date: 20170221
+[01:59:58] [td]Front Connected...
+[01:59:58] [td]Send Login Request... Successed
+[01:59:59] [td]Date: 20170221
+[02:00:00] [td]Request Settlement Info Confirm... Successed
+[02:00:00] [td]Instruments:[02:00:00] 
+[td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:00] [td]Requst Order Insert... Successed
+[02:00:11] [md]Front Connected...
+[02:00:11] [md]Send Login Request... Successed
+[02:00:11] [md]Date: 20170221
+[02:00:11] [td]Front Connected...
+[02:00:11] [td]Send Login Request... Successed
+[02:00:11] [td]Date: 20170221
+[02:00:12] [td]Request Settlement Info Confirm... Successed
+[02:00:12] [td]Instruments:[02:00:12] 
+[td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:00:13] [td]Requst Order Insert... Successed
+[02:08:03] [md]Front Connected...
+[02:08:03] [md]Send Login Request... Successed
+[02:08:03] [md]Date: 20170221
+[02:08:03] [td]Front Connected...
+[02:08:03] [td]Send Login Request... Successed
+[02:08:03] [td]Date: 20170221
+[02:08:04] [td]Request Settlement Info Confirm... Successed
+[02:08:04] [td]Instruments:[02:08:04] 
+[td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:04] [td]Requst Order Insert... Successed
+[02:08:27] [md]Front Connected...
+[02:08:27] [md]Send Login Request... Successed
+[02:08:27] [md]Date: 20170221
+[02:08:28] [td]Front Connected...
+[02:08:28] [td]Send Login Request... Successed
+[02:08:28] [td]Date: 20170221
+[02:08:29] [td]Request Settlement Info Confirm... Successed
+[02:08:29] [td]Instruments:[02:08:29] 
+[td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:29] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed[02:08:30] 
+[td]Request Query Instrument... [02:08:30] Successed[td]Requst Order Insert... Successed
+
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [02:08:30] [td]Requst Order Insert... [td]Order: #Successed
+
+[02:08:30] [02:08:30] [td]Requst Order Insert... [td]ErrorID=Successed15
+, ErrorMsg=[02:08:30] CTP:报单字段有误
+[td]Requst Order Insert... [02:08:30] Successed[td]Order: #
+
+[02:08:30] [02:08:30] [td]Requst Order Insert... Successed[td]ErrorID=
+30[02:08:30] , ErrorMsg=[td]Requst Order Insert... CTP:平仓量超过持仓量Successed
+
+[02:08:30] [02:08:30] [td]Requst Order Insert... [td]Order: #Successed
+
+[02:08:30] [02:08:30] [td]Requst Order Insert... [td]ErrorID=Successed30
+, ErrorMsg=[02:08:30] CTP:平仓量超过持仓量[td]Requst Order Insert... Successed
+
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed
+[02:08:30] [td]Requst Order Insert... Successed[02:08:30] [td]Direction: Buy
+, Price: [02:08:30] 727.5[td]Requst Order Insert... , Status: Successed报单已提交
+
+[02:08:30] [02:08:30] [td]Order: #[td]Requst Order Insert... Successed
+
+[02:08:30] [02:08:30] [td]ErrorID=[td]Requst Order Insert... 30Successed, ErrorMsg=CTP:平仓量超过持仓量
+
+[02:08:30] [02:08:30] [td]Requst Order Insert... [td]Order: #Successed
+
+[02:08:30] [02:08:30] [td]ErrorID=30[td]Requst Order Insert... , ErrorMsg=SuccessedCTP:平仓量超过持仓量
+
+[02:08:30] [02:08:30] [td]Direction: [td]Requst Order Insert... BuySuccessed, Price: 
+727.5[02:08:30] , Status: [td]Requst Order Insert... 报单已提交Successed
+
+[02:08:30] [02:08:30] [td]Requst Order Insert... [td]Direction: SuccessedBuy, Price: 727.5
+, Status: [02:08:30] 报单已提交[td]Requst Order Insert... Successed
+
+[02:08:30] [02:08:30] [td]Direction: [td]Requst Order Insert... BuySuccessed, Price: 727.5
+, Status: [02:08:30] 报单已提交[td]Requst Order Insert... Successed
+
+[02:08:30] [02:08:30] [td]Direction: [td]Requst Order Insert... BuySuccessed, Price: 
+727.5[02:08:30] , Status: [td]Requst Order Insert... 已撤单报单被拒绝DCE:当前状态禁止此项操作Successed
+
+[02:08:30] [02:08:30] [td]Direction: Buy, Price: 727.5[td]Requst Order Insert... , Status: Successed已撤单报单被拒绝DCE:当前状态禁止此项操作
+
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:30] [td]Order: #
+[02:08:30] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:30] [td]Order: #
+[02:08:30] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:30] [td]Order: #
+[02:08:30] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:30] [td]Order: #
+[02:08:30] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:30] [td]Order: #
+[02:08:30] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:30] [td]Order: #
+[02:08:30] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:30] [td]Order: #
+[02:08:30] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:30] [td]Direction: Buy, Price: 727.5[02:08:30] [td]Requst Order Insert... , Status: Successed报单已提交
+
+[02:08:30] [02:08:30] [td]Direction: Buy, Price: 727.5[td]Requst Order Insert... , Status: Successed报单已提交
+
+[02:08:30] [02:08:30] [td]Requst Order Insert... Successed[td]Direction: Buy, Price: 727.5
+, Status: [02:08:30] 已撤单报单被拒绝DCE:当前状态禁止此项操作[td]Requst Order Insert... Successed
+
+[02:08:30] [02:08:30] [td]Requst Order Insert... Successed[td]Direction: 
+Buy[02:08:30] [td]Requst Order Insert... Successed
+, Price: [02:08:30] 727.5[td]Requst Order Insert... , Status: Successed已撤单报单被拒绝DCE:当前状态禁止此项操作
+
+[02:08:30] [02:08:30] [td]Requst Order Insert... Successed[td]Direction: Buy, Price: 727.5
+, Status: [02:08:30] [td]Requst Order Insert... 已撤单报单被拒绝DCE:当前状态禁止此项操作Successed
+
+[02:08:30] [02:08:30] [td]Requst Order Insert... [td]Order: #Successed
+
+[02:08:30] [02:08:30] [td]Requst Order Insert... Successed
+[td]ErrorID=[02:08:30] [td]Requst Order Insert... Successed30, ErrorMsg=CTP:平仓量超过持仓量
+
+[02:08:30] [02:08:30] [td]Requst Order Insert... Successed[td]Order: #
+
+[02:08:30] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:30] [td]Order: #
+[02:08:30] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:30] [td]Order: #
+[02:08:30] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:30] [td]Order: #
+[02:08:30] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:30] [td]Order: #
+[02:08:30] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:30] [td]Order: #
+[02:08:30] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:30] [td]Order: #
+[02:08:30] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:30] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:30] [02:08:30] [td]Requst Order Insert... Successed[td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+
+[02:08:30] [02:08:30] [td]Direction: Buy[td]Requst Order Insert... Successed
+, Price: [02:08:30] [td]Requst Order Insert... Successed727.5
+, Status: [02:08:30] [td]Requst Order Insert... Successed已撤单报单被拒绝DCE:当前状态禁止此项操作
+
+[02:08:30] [02:08:30] [td]Requst Order Insert... [td]Direction: Buy, Price: 727.5Successed, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+
+[02:08:30] [02:08:30] [td]Direction: Buy, Price: 727.5[td]Requst Order Insert... Successed, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+
+[02:08:30] [02:08:30] [td]Direction: Buy, Price: 727.5[td]Requst Order Insert... Successed, Status: 
+已撤单报单被拒绝DCE:当前状态禁止此项操作[02:08:30] [td]Requst Order Insert... Successed
+
+[02:08:31] [02:08:31] [td]Instrument Id:	[td]Requst Order Insert... Successedi1705
+
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:31] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:32] [td]Requst Order Insert... Successed
+[02:08:33] [02:08:33] [td]Request Query Trading Account... [td]Requst Order Insert... SuccessedSuccessed
+
+[02:08:33] [02:08:33] [td]Order: #[td]Requst Order Insert... Successed
+
+[02:08:33] [02:08:33] [td]ErrorID=[td]Requst Order Insert... 30Successed, ErrorMsg=
+CTP:平仓量超过持仓量[02:08:33] 
+[td]Requst Order Insert... Successed
+[02:08:33] [02:08:33] [td]Direction: [td]Requst Order Insert... SuccessedBuy, Price: 727.5, Status: 报单已提交
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... [td]Order: #Successed
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... [td]ErrorID=Successed30, ErrorMsg=CTP:平仓量超过持仓量
+
+[02:08:33] [02:08:33] [td]Order: #[td]Requst Order Insert... 
+Successed[02:08:33] [td]ErrorID=
+30[02:08:33] , ErrorMsg=[td]Requst Order Insert... SuccessedCTP:平仓量超过持仓量
+
+[02:08:33] [02:08:33] [td]Order: #[td]Requst Order Insert... Successed
+[02:08:33] 
+[td]ErrorID=[02:08:33] 30[td]Requst Order Insert... , ErrorMsg=SuccessedCTP:平仓量超过持仓量
+[02:08:33] 
+[td]Direction: [02:08:33] [td]Requst Order Insert... Buy, Price: 727.5Successed, Status: 报单已提交
+
+[02:08:33] [02:08:33] [td]Direction: [td]Requst Order Insert... BuySuccessed, Price: 
+727.5, Status: [02:08:33] 报单已提交[td]Requst Order Insert... 
+Successed[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+
+[02:08:33] [02:08:33] [td]Direction: Buy[td]Requst Order Insert... Successed, Price: 727.5
+, Status: [02:08:33] [td]Requst Order Insert... Successed
+已撤单报单被拒绝DCE:当前状态禁止此项操作[02:08:33] 
+[td]Requst Order Insert... [02:08:33] [td]Direction: Buy, Price: 727.5Successed, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:33] 
+[td]Requst Order Insert... [02:08:33] Successed[td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+
+[02:08:33] [02:08:33] [td]Direction: Buy, Price: 727.5[td]Requst Order Insert... Successed, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+
+[02:08:33] [02:08:33] [td]Order: #[td]Requst Order Insert... Successed
+[02:08:33] 
+[td]ErrorID=[02:08:33] [td]Requst Order Insert... Successed30
+, ErrorMsg=[02:08:33] CTP:平仓量超过持仓量[td]Requst Order Insert... Successed
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... Successed[td]Direction: 
+Buy[02:08:33] [td]Requst Order Insert... Successed, Price: 727.5, Status: 报单已提交
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... Successed[td]Order: #
+
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [td]Requst Order Insert... Successed[02:08:33] [td]ErrorID=30
+, ErrorMsg=[02:08:33] [td]Requst Order Insert... SuccessedCTP:平仓量超过持仓量
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... Successed[td]Order: #
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... [td]ErrorID=Successed30
+, ErrorMsg=[02:08:33] CTP:平仓量超过持仓量[td]Requst Order Insert... 
+Successed[02:08:33] 
+[td]Order: #[02:08:33] [td]Requst Order Insert... Successed
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... Successed[td]ErrorID=
+30[02:08:33] , ErrorMsg=[td]Requst Order Insert... CTP:平仓量超过持仓量Successed
+
+[02:08:33] [02:08:33] [td]Order: #[td]Requst Order Insert... Successed
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... Successed[td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+
+[02:08:33] [02:08:33] [td]Direction: Buy[td]Requst Order Insert... Successed, Price: 727.5, Status: 报单已提交
+
+[02:08:33] [02:08:33] [td]Direction: Buy, Price: 727.5[td]Requst Order Insert... Successed, Status: 报单已提交
+
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:33] [td]Order: #
+[02:08:33] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:33] [td]Order: #
+[02:08:33] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:33] [td]Order: #
+[02:08:33] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:33] [td]Order: #
+[02:08:33] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作[02:08:33] [td]Requst Order Insert... Successed
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... [td]Direction: SuccessedBuy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... [td]Direction: SuccessedBuy, Price: 727.5
+, Status: [02:08:33] [td]Requst Order Insert... Successed已撤单报单被拒绝DCE:当前状态禁止此项操作
+
+[02:08:33] [02:08:33] [td]Direction: Buy, Price: 727.5[td]Requst Order Insert... , Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作Successed
+
+[02:08:33] [02:08:33] [td]Order: #[td]Requst Order Insert... Successed
+
+[02:08:33] [02:08:33] [td]ErrorID=[td]Requst Order Insert... 30Successed, ErrorMsg=
+CTP:平仓量超过持仓量[02:08:33] 
+[td]Requst Order Insert... [02:08:33] Successed[td]Order: #
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... [td]ErrorID=Successed30
+, ErrorMsg=[02:08:33] CTP:平仓量超过持仓量[td]Requst Order Insert... 
+Successed[02:08:33] 
+[td]Direction: [02:08:33] Buy, Price: 727.5[td]Requst Order Insert... , Status: 报单已提交Successed
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... [td]Direction: SuccessedBuy, Price: 727.5, Status: 报单已提交
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... [td]Order: #Successed
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... Successed[td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:33] [td]Order: #
+[02:08:33] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:33] [td]Order: #
+[02:08:33] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:33] [td]Order: #
+[02:08:33] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:33] [td]Order: #
+[02:08:33] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:33] [td]Order: #
+[02:08:33] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:33] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:33] [td]Order: #
+[02:08:33] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:33] [td]Order: #[02:08:33] [td]Requst Order Insert... Successed
+
+[02:08:33] [02:08:33] [td]ErrorID=30[td]Requst Order Insert... Successed, ErrorMsg=
+CTP:平仓量超过持仓量[02:08:33] [td]Requst Order Insert... 
+Successed[02:08:33] [td]Order: #
+
+[02:08:33] [02:08:33] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量[td]Requst Order Insert... Successed
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... Successed[td]Order: #
+
+[02:08:33] [02:08:33] [td]ErrorID=30[td]Requst Order Insert... Successed, ErrorMsg=CTP:平仓量超过持仓量
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... [td]Order: #Successed
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... Successed[td]ErrorID=30
+, ErrorMsg=[02:08:33] CTP:平仓量超过持仓量[td]Requst Order Insert... Successed
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... Successed[td]Order: #
+
+[02:08:33] [02:08:33] [td]ErrorID=30[td]Requst Order Insert... , ErrorMsg=CTP:平仓量超过持仓量Successed
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... Successed[td]Direction: Buy, Price: 727.5, Status: 报单已提交
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... Successed[td]Direction: 
+Buy[02:08:33] , Price: [td]Requst Order Insert... Successed727.5
+, Status: [02:08:33] 报单已提交
+[td]Requst Order Insert... [02:08:33] [td]Direction: Buy, Price: 727.5Successed, Status: 报单已提交
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... [td]Order: #Successed
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... [td]ErrorID=Successed30
+, ErrorMsg=[02:08:33] CTP:平仓量超过持仓量[td]Requst Order Insert... 
+Successed[02:08:33] 
+[td]Order: #[02:08:33] [td]Requst Order Insert... 
+Successed[02:08:33] 
+[td]ErrorID=[02:08:33] 30[td]Requst Order Insert... , ErrorMsg=SuccessedCTP:平仓量超过持仓量
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... [td]Order: #Successed
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... [td]ErrorID=Successed30
+, ErrorMsg=[02:08:33] CTP:平仓量超过持仓量[td]Requst Order Insert... 
+Successed[02:08:33] 
+[td]Direction: [02:08:33] Buy[td]Requst Order Insert... , Price: Successed727.5
+, Status: [02:08:33] 报单已提交[td]Requst Order Insert... 
+Successed[02:08:33] 
+[td]Direction: [02:08:33] Buy[td]Requst Order Insert... , Price: Successed727.5, Status: 报单已提交
+[02:08:33] 
+[td]Direction: [02:08:33] [td]Requst Order Insert... SuccessedBuy, Price: 727.5
+, Status: [02:08:33] [td]Requst Order Insert... Successed报单已提交
+
+[02:08:33] [td]Requst Order Insert... Successed
+[02:08:33] [02:08:33] [td]Requst Order Insert... Successed[td]Order: #
+
+[02:08:33] [02:08:33] [td]ErrorID=30[td]Requst Order Insert... Successed, ErrorMsg=CTP:平仓量超过持仓量
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... Successed[td]Order: #
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... Successed[td]ErrorID=30
+, ErrorMsg=[02:08:33] [td]Requst Order Insert... SuccessedCTP:平仓量超过持仓量
+
+[02:08:33] [02:08:33] [td]Order: #[td]Requst Order Insert... Successed
+[02:08:33] 
+[td]ErrorID=[02:08:33] [td]Requst Order Insert... Successed30, ErrorMsg=CTP:平仓量超过持仓量
+
+[02:08:33] [02:08:33] [td]Order: #[td]Requst Order Insert... Successed
+[02:08:33] 
+[td]ErrorID=[02:08:33] [td]Requst Order Insert... Successed30, ErrorMsg=CTP:平仓量超过持仓量
+
+[02:08:33] [02:08:33] [td]Requst Order Insert... [td]Order: #Successed
+
+[02:08:34] [02:08:34] [td]Requst Order Insert... [td]ErrorID=Successed30, ErrorMsg=CTP:平仓量超过持仓量
+
+[02:08:34] [02:08:34] [td]Requst Order Insert... [td]Order: #Successed
+
+[02:08:34] [02:08:34] [td]Requst Order Insert... Successed
+[td]ErrorID=[02:08:34] [td]Requst Order Insert... Successed30
+, ErrorMsg=[02:08:34] [td]Requst Order Insert... SuccessedCTP:平仓量超过持仓量
+
+[02:08:34] [02:08:34] [td]Order: #[td]Requst Order Insert... Successed
+
+[02:08:34] [02:08:34] [td]Requst Order Insert... Successed[td]ErrorID=
+30[02:08:34] [td]Requst Order Insert... Successed, ErrorMsg=CTP:平仓量超过持仓量
+
+[02:08:34] [02:08:34] [td]Direction: Buy, Price: 727.5[td]Requst Order Insert... Successed, Status: 报单已提交
+
+[02:08:34] [02:08:34] [td]Requst Order Insert... Successed[td]Direction: Buy, Price: 727.5, Status: 报单已提交
+
+[02:08:34] [02:08:34] [td]Direction: Buy, Price: 727.5[td]Requst Order Insert... Successed, Status: 报单已提交
+
+[02:08:34] [02:08:34] [td]Order: #[td]Requst Order Insert... Successed
+
+[02:08:34] [02:08:34] [td]Requst Order Insert... [td]ErrorID=Successed30
+, ErrorMsg=CTP:平仓量超过持仓量[02:08:34] [td]Requst Order Insert... Successed
+
+[02:08:34] [02:08:34] [td]Requst Order Insert... Successed[td]Order: #
+
+[02:08:34] [02:08:34] [td]ErrorID=30[td]Requst Order Insert... Successed, ErrorMsg=CTP:平仓量超过持仓量
+
+[02:08:34] [02:08:34] [td]Requst Order Insert... [td]Order: #Successed
+
+[02:08:34] [02:08:34] [td]Requst Order Insert... [td]ErrorID=Successed30
+, ErrorMsg=[02:08:34] CTP:平仓量超过持仓量[td]Requst Order Insert... 
+Successed[02:08:34] 
+[td]Order: #[02:08:34] [td]Requst Order Insert... 
+Successed[02:08:34] 
+[td]ErrorID=[02:08:34] 30[td]Requst Order Insert... , ErrorMsg=SuccessedCTP:平仓量超过持仓量
+
+[02:08:34] [02:08:34] [td]Requst Order Insert... Successed
+[td]Order: #[02:08:34] [td]Requst Order Insert... 
+Successed[02:08:34] 
+[td]ErrorID=[02:08:34] [td]Requst Order Insert... Successed30, ErrorMsg=CTP:平仓量超过持仓量
+
+[02:08:34] [02:08:34] [td]Requst Order Insert... Successed[td]Direction: Buy, Price: 727.5, Status: 报单已提交
+
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:34] [02:08:34] [td]Requst Order Insert... Successed[td]Direction: Buy, Price: 
+727.5[02:08:34] [td]Requst Order Insert... , Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作Successed
+
+[02:08:34] [02:08:34] [td]Direction: Buy, Price: 727.5[td]Requst Order Insert... Successed, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+
+[02:08:34] [td]Requst Order Insert... [02:08:34] [td]Direction: SuccessedBuy, Price: 727.5
+, Status: [02:08:34] [td]Requst Order Insert... Successed已撤单报单被拒绝DCE:当前状态禁止此项操作
+
+[02:08:34] [02:08:34] [td]Requst Order Insert... Successed[td]Direction: Buy, Price: 727.5, Status: 
+已撤单报单被拒绝DCE:当前状态禁止此项操作[02:08:34] [td]Requst Order Insert... Successed
+
+[02:08:34] [02:08:34] [td]Requst Order Insert... Successed[td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+
+[02:08:34] [02:08:34] [td]Direction: Buy, Price: 727.5[td]Requst Order Insert... Successed, Status: 
+已撤单报单被拒绝DCE:当前状态禁止此项操作[02:08:34] [td]Requst Order Insert... Successed
+
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [02:08:34] [td]Requst Order Insert... [td]Direction: SuccessedBuy
+, Price: [02:08:34] [td]Requst Order Insert... 727.5Successed, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+
+[02:08:34] [td]Direction: Buy, Price: 727.5[02:08:34] [td]Requst Order Insert... , Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+Successed[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+
+[02:08:34] [02:08:34] [td]Direction: Buy, Price: 727.5[td]Requst Order Insert... , Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作Successed
+
+[02:08:34] [02:08:34] [td]Requst Order Insert... Successed[td]Direction: Buy
+, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:34] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [td]Requst Order Insert... Successed
+[02:08:34] [02:08:34] [td]Order: #[td]Requst Order Insert... Successed
+
+[02:08:34] [02:08:34] [td]ErrorID=[td]Requst Order Insert... 30Successed, ErrorMsg=CTP:平仓量超过持仓量
+
+[02:08:34] [02:08:34] [td]Order: #[td]Requst Order Insert... Successed
+
+[02:08:34] [td]Requst Order Insert... Successed[02:08:34] 
+[td]ErrorID=[02:08:34] [td]Requst Order Insert... Successed30, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:34] 
+[td]Requst Order Insert... [02:08:34] Successed[td]Order: #
+
+[02:08:34] [02:08:34] [td]ErrorID=30[td]Requst Order Insert... Successed, ErrorMsg=CTP:平仓量超过持仓量
+[02:08:34] 
+[td]Requst Order Insert... [02:08:34] [td]Order: #Successed
+
+[02:08:34] [02:08:34] [td]Requst Order Insert... Successed[td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+
+[02:08:34] [02:08:34] [td]Order: #[td]Requst Order Insert... Successed
+
+[02:08:34] [02:08:34] [td]ErrorID=[td]Requst Order Insert... 30Successed, ErrorMsg=
+CTP:平仓量超过持仓量[02:08:34] 
+[td]Requst Order Insert... [02:08:34] Successed[td]Order: #
+
+[02:08:34] [02:08:34] [td]Requst Order Insert... [td]ErrorID=Successed30, ErrorMsg=CTP:平仓量超过持仓量
+
+[02:08:34] [02:08:34] [td]Requst Order Insert... Successed[td]Order: #
+
+[02:08:35] [02:08:35] [td]Requst Order Insert... Successed[td]ErrorID=30
+, ErrorMsg=[02:08:35] [td]Requst Order Insert... SuccessedCTP:平仓量超过持仓量
+
+[02:08:35] [02:08:35] [td]Order: #[td]Requst Order Insert... Successed
+
+[02:08:35] [02:08:35] [td]ErrorID=30[td]Requst Order Insert... , ErrorMsg=CTP:平仓量超过持仓量Successed
+
+[02:08:35] [02:08:35] [td]Direction: [td]Requst Order Insert... SuccessedBuy, Price: 727.5
+, Status: [02:08:35] 报单已提交[td]Requst Order Insert... Successed
+
+[02:08:35] [02:08:35] [td]Direction: Buy[td]Requst Order Insert... Successed, Price: 727.5, Status: 报单已提交
+
+[02:08:35] [02:08:35] [td]Requst Order Insert... [td]Direction: SuccessedBuy
+, Price: [02:08:35] 727.5[td]Requst Order Insert... , Status: Successed
+报单已提交[02:08:35] 
+[td]Requst Order Insert... Successed[02:08:35] 
+[td]Order: #[02:08:35] [td]Requst Order Insert... 
+Successed[02:08:35] 
+[td]ErrorID=[02:08:35] 30[td]Requst Order Insert... Successed, ErrorMsg=CTP:平仓量超过持仓量
+
+[02:08:35] [td]Requst Order Insert... [02:08:35] Successed[td]Order: #
+
+[02:08:35] [02:08:35] [td]Requst Order Insert... Successed[td]ErrorID=
+30[02:08:35] [td]Requst Order Insert... , ErrorMsg=CTP:平仓量超过持仓量Successed
+
+[02:08:35] [02:08:35] [td]Requst Order Insert... [td]Direction: BuySuccessed, Price: 727.5, Status: 报单已提交
+
+[02:08:35] [02:08:35] [td]Requst Order Insert... Successed[td]Direction: Buy, Price: 727.5, Status: 报单已提交
+
+[02:08:35] [02:08:35] [td]Requst Order Insert... Successed[td]Direction: Buy, Price: 727.5
+, Status: [02:08:35] [td]Requst Order Insert... Successed报单已提交
+[02:08:35] 
+[td]Requst Order Insert... [02:08:35] [td]Direction: Buy, Price: 727.5Successed, Status: 报单已提交
+
+[02:08:35] [02:08:35] [td]Requst Order Insert... [td]Direction: Buy, Price: 727.5Successed, Status: 报单已提交
+
+[02:08:35] [02:08:35] [td]Direction: [td]Requst Order Insert... SuccessedBuy, Price: 727.5
+, Status: [02:08:35] [td]Requst Order Insert... Successed报单已提交
+
+[02:08:35] [02:08:35] [td]Requst Order Insert... Successed[td]Order: #
+
+[02:08:35] [02:08:35] [td]ErrorID=30[td]Requst Order Insert... , ErrorMsg=SuccessedCTP:平仓量超过持仓量
+
+[02:08:35] [02:08:35] [td]Requst Order Insert... Successed[td]Order: #
+
+[02:08:35] [02:08:35] [td]Requst Order Insert... Successed[td]ErrorID=
+30[02:08:35] [td]Requst Order Insert... , ErrorMsg=SuccessedCTP:平仓量超过持仓量
+
+[02:08:35] [02:08:35] [td]Order: #[td]Requst Order Insert... Successed
+
+[02:08:35] [02:08:35] [td]ErrorID=[td]Requst Order Insert... 30, ErrorMsg=CTP:平仓量超过持仓量Successed
+
+[02:08:35] [02:08:35] [td]Order: #[td]Requst Order Insert... Successed
+
+[02:08:35] [02:08:35] [td]ErrorID=[td]Requst Order Insert... Successed30, ErrorMsg=
+CTP:平仓量超过持仓量[02:08:35] [td]Requst Order Insert... 
+Successed[02:08:35] 
+[td]Order: #[02:08:35] [td]Requst Order Insert... Successed
+
+[02:08:35] [02:08:35] [td]ErrorID=[td]Requst Order Insert... 30Successed, ErrorMsg=
+CTP:平仓量超过持仓量[02:08:35] 
+[td]Requst Order Insert... [02:08:35] Successed[td]Order: #
+
+[02:10:36] [md]Front Connected...
+[02:10:36] [md]Send Login Request... Successed
+[02:10:36] [md]Date: 20170221
+[02:10:36] [td]Front Connected...
+[02:10:36] [td]Send Login Request... Successed
+[02:10:36] [td]Date: 20170221
+[02:10:37] [td]Request Settlement Info Confirm... Successed
+[02:10:37] [td]Instruments:[02:10:37] 
+[td]Requst Order Insert... Successed
+[02:11:18] [md]Front Connected...
+[02:11:18] [md]Send Login Request... Successed
+[02:11:18] [md]Date: 20170221
+[02:11:18] [td]Front Connected...
+[02:11:18] [td]Send Login Request... Successed
+[02:11:18] [td]Date: 20170221
+[02:11:19] [td]Request Settlement Info Confirm... Successed
+[02:11:19] [td]Instruments:
+[02:11:20] [02:11:20] [td]Requst Order Insert... Successed[td]Request Query Instrument... 
+Successed
+[02:11:42] [td]Instrument Id:	i1705
+[02:11:44] [td]Request Query Trading Account... Successed
+[02:11:44] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:11:44] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:11:44] [td]Balance: 996510.00
+[02:11:44] [td]Available: 979866.00
+[02:11:44] [td]Close Profit: -400.00
+[02:11:44] [td]Position Profit: 0.00
+[02:11:46] [td]Request Query Investor Position... Successed
+[02:11:46] [td]Open Volume:0
+[02:55:19] [md]Front Connected...
+[02:55:19] [md]Send Login Request... Successed
+[02:55:19] [md]Date: 20170221
+[02:55:19] [td]Front Connected...
+[02:55:19] [td]Send Login Request... Successed
+[02:55:19] [td]Date: 20170221
+[02:55:20] [td]Request Settlement Info Confirm... Successed
+[02:55:20] [td]Instruments:
+[02:55:21] [td]Requst Order Insert... [02:55:21] Successed[td]Request Query Instrument... 
+Successed
+[02:55:21] [td]Direction: Buy, Price: 727.5, Status: 报单已提交
+[02:55:21] [td]Direction: Buy, Price: 727.5, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[02:55:21] [td]Instrument Id:	i1705
+[02:55:23] [td]Request Query Trading Account... Successed
+[02:55:23] [td]Balance: 996410.00
+[02:55:23] [td]Available: 979766.00
+[02:55:23] [td]Close Profit: -400.00
+[02:55:23] [td]Position Profit: -100.00
+[16:54:19] [cm]Command Received (abcdefghijklmnopqrstuvwxyz)
+[16:54:19] [cm]Illegal Command
+[16:55:15] [cm]Command Received (abcd)
+[16:55:15] [cm]Illegal Command
+[16:57:58] [cm]Command Received (abcdefghijklmnopqrstuvwxyz)
+[16:57:58] [cm]Illegal Command
+[17:34:18] [cm]Command Received (abcdef)
+[17:34:18] [cm]Illegal Command
+[18:19:59] [cm]Command Received (1)
+[18:19:59] [cm]Illegal Command
+[18:23:59] [cm]Illegal Command
+[cm]Command Received (abc)
+[cm]Command Received (123)
+[cm]Command Received (1)
+[cm]Command Received (2)
+[cm]Command Received (3)
+[cm]Command Received (4)
+[cm]Command Received (5)
+[cm]Command Received (abcde)
+[cm]Command Received (abc)
+[cm]Command Received (123)
+[cm]Command Received (123)
+[cm]Command Received (123)
+[cm]Command Received (345)
+[cm]Command Received (234)
+[cm]Command Received (123)
+[cm]Command Received (66666)
+[04:11:22] [cm]Command Received (1)
+[04:11:22] [cm]Illegal Command
+[04:11:32] [cm]Command Received (2)
+[04:11:32] [cm]Illegal Command
+[04:11:34] [cm]Command Received (3)
+[04:11:34] [cm]Illegal Command
+[04:13:53] [cm]Command Received (1)
+[04:13:53] [cm]Illegal Command
+[04:13:54] [cm]Command Received (2)
+[04:13:54] [cm]Illegal Command
+[04:13:55] [cm]Command Received (3)
+[04:13:55] [cm]Illegal Command
+[04:13:56] [cm]Command Received (4)
+[04:13:56] [cm]Illegal Command
+[04:13:57] [cm]Command Received (5)
+[04:13:57] [cm]Illegal Command
+[04:13:59] [cm]Command Received ()
+[04:13:59] [cm]Illegal Command
+[04:13:59] [cm]Command Received ()
+[04:13:59] [cm]Illegal Command
+[04:13:59] [cm]Command Received ()
+[04:13:59] [cm]Illegal Command
+[04:14:00] [cm]Command Received ()
+[04:14:00] [cm]Illegal Command
+[04:14:00] [cm]Command Received ()
+[04:14:00] [cm]Illegal Command
+[04:14:00] [cm]Command Received ()
+[04:14:00] [cm]Illegal Command
+[04:14:00] [cm]Command Received ()
+[04:14:00] [cm]Illegal Command
+[04:14:00] [cm]Command Received ()
+[04:14:00] [cm]Illegal Command
+[04:14:00] [cm]Command Received ()
+[04:14:00] [cm]Illegal Command
+[04:14:00] [cm]Command Received ()
+[04:14:00] [cm]Illegal Command
+[04:14:00] [cm]Command Received ()
+[04:14:00] [cm]Illegal Command
+[04:14:00] [cm]Command Received ()
+[04:14:00] [cm]Illegal Command
+[04:14:00] [cm]Command Received ()
+[04:14:00] [cm]Illegal Command
+[04:14:00] [cm]Command Received ()
+[04:14:00] [cm]Illegal Command
+[04:14:00] [cm]Command Received ()
+[04:14:00] [cm]Illegal Command
+[04:14:00] [cm]Command Received ()
+[04:14:00] [cm]Illegal Command
+[04:14:01] [cm]Command Received ()
+[04:14:01] [cm]Illegal Command
+[04:14:01] [cm]Command Received ()
+[04:14:01] [cm]Illegal Command
+[04:14:02] [cm]Command Received ()
+[04:14:02] [cm]Illegal Command
+[04:14:02] [cm]Command Received ()
+[04:14:02] [cm]Illegal Command
+[04:14:03] [cm]Command Received ()
+[04:14:03] [cm]Illegal Command
+[04:14:03] [cm]Command Received ()
+[04:14:03] [cm]Illegal Command
+[04:14:03] [cm]Command Received ()
+[04:14:03] [cm]Illegal Command
+[04:14:04] [cm]Command Received ()
+[04:14:04] [cm]Illegal Command
+[04:14:04] [cm]Command Received ()
+[04:14:04] [cm]Illegal Command
+[04:14:04] [cm]Command Received ()
+[04:14:04] [cm]Illegal Command
+[04:14:04] [cm]Command Received ()
+[04:14:04] [cm]Illegal Command
+[04:14:05] [cm]Command Received ()
+[04:14:05] [cm]Illegal Command
+[04:14:05] [cm]Command Received ()
+[04:14:05] [cm]Illegal Command
+[04:14:05] [cm]Command Received ()
+[04:14:05] [cm]Illegal Command
+[04:14:05] [cm]Command Received ()
+[04:14:05] [cm]Illegal Command
+[04:14:06] [cm]Command Received ()
+[04:14:06] [cm]Illegal Command
+[04:14:06] [cm]Command Received ()
+[04:14:06] [cm]Illegal Command
+[04:14:06] [cm]Command Received ()
+[04:14:06] [cm]Illegal Command
+[04:14:06] [cm]Command Received ()
+[04:14:06] [cm]Illegal Command
+[04:14:06] [cm]Command Received ()
+[04:14:06] [cm]Illegal Command
+[04:14:07] [cm]Command Received ()
+[04:14:07] [cm]Illegal Command
+[04:14:07] [cm]Command Received ()
+[04:14:07] [cm]Illegal Command
+[04:14:22] [cm]Command Received ()
+[04:14:22] [cm]Illegal Command
+[04:14:22] [cm]Command Received ()
+[04:14:22] [cm]Illegal Command
+[04:14:22] [cm]Command Received ()
+[04:14:22] [cm]Illegal Command
+[04:14:23] [cm]Command Received ()
+[04:14:23] [cm]Illegal Command
+[04:14:23] [cm]Command Received ()
+[04:14:23] [cm]Illegal Command
+[04:14:23] [cm]Command Received ()
+[04:14:23] [cm]Illegal Command
+[04:14:24] [cm]Command Received ()
+[04:14:24] [cm]Illegal Command
+[04:14:24] [cm]Command Received ()
+[04:14:24] [cm]Illegal Command
+[04:14:24] [cm]Command Received ()
+[04:14:24] [cm]Illegal Command
+[04:14:24] [cm]Command Received ()
+[04:14:24] [cm]Illegal Command
+[04:14:24] [cm]Command Received ()
+[04:14:24] [cm]Illegal Command
+[04:14:25] [cm]Command Received ()
+[04:14:25] [cm]Illegal Command
+[04:14:25] [cm]Command Received ()
+[04:14:25] [cm]Illegal Command
+[04:14:25] [cm]Command Received ()
+[04:14:25] [cm]Illegal Command
+[04:14:25] [cm]Command Received ()
+[04:14:25] [cm]Illegal Command
+[04:14:25] [cm]Command Received ()
+[04:14:25] [cm]Illegal Command
+[04:14:25] [cm]Command Received ()
+[04:14:25] [cm]Illegal Command
+[04:14:25] [cm]Command Received ()
+[04:14:25] [cm]Illegal Command
+[04:14:25] [cm]Command Received ()
+[04:14:25] [cm]Illegal Command
+[04:14:25] [cm]Command Received ()
+[04:14:25] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:26] [cm]Command Received ()
+[04:14:26] [cm]Illegal Command
+[04:14:27] [cm]Command Received ()
+[04:14:27] [cm]Illegal Command
+[04:14:27] [cm]Command Received ()
+[04:14:27] [cm]Illegal Command
+[04:14:27] [cm]Command Received ()
+[04:14:27] [cm]Illegal Command
+[04:14:27] [cm]Command Received ()
+[04:14:27] [cm]Illegal Command
+[04:14:27] [cm]Command Received ()
+[04:14:27] [cm]Illegal Command
+[04:14:27] [cm]Command Received ()
+[04:14:27] [cm]Illegal Command
+[04:14:27] [cm]Command Received ()
+[04:14:27] [cm]Illegal Command
+[04:14:27] [cm]Command Received ()
+[04:14:27] [cm]Illegal Command
+[04:14:27] [cm]Command Received ()
+[04:14:27] [cm]Illegal Command
+[04:15:27] [cm]Command Received (1)
+[04:15:27] [cm]Illegal Command
+[04:15:28] [cm]Command Received (2)
+[04:15:28] [cm]Illegal Command
+[04:15:28] [cm]Command Received (3)
+[04:15:28] [cm]Illegal Command
+[04:15:29] [cm]Command Received ()
+[04:15:29] [cm]Illegal Command
+[04:15:30] [cm]Command Received ()
+[04:15:30] [cm]Illegal Command
+[04:15:30] [cm]Command Received ()
+[04:15:30] [cm]Illegal Command
+[04:15:30] [cm]Command Received ()
+[04:15:30] [cm]Illegal Command
+[04:15:30] [cm]Command Received ()
+[04:15:30] [cm]Illegal Command
+[04:15:30] [cm]Command Received ()
+[04:15:30] [cm]Illegal Command
+[04:15:30] [cm]Command Received ()
+[04:15:30] [cm]Illegal Command
+[04:15:30] [cm]Command Received ()
+[04:15:30] [cm]Illegal Command
+[04:15:30] [cm]Command Received ()
+[04:15:30] [cm]Illegal Command
+[04:15:30] [cm]Command Received ()
+[04:15:30] [cm]Illegal Command
+[04:15:30] [cm]Command Received ()
+[04:15:30] [cm]Illegal Command
+[04:15:30] [cm]Command Received ()
+[04:15:30] [cm]Illegal Command
+[04:15:30] [cm]Command Received ()
+[04:15:30] [cm]Illegal Command
+[04:15:30] [cm]Command Received ()
+[04:15:30] [cm]Illegal Command
+[04:15:30] [cm]Command Received ()
+[04:15:30] [cm]Illegal Command
+[04:15:31] [cm]Command Received ()
+[04:15:31] [cm]Illegal Command
+[04:15:31] [cm]Command Received ()
+[04:15:31] [cm]Illegal Command
+[04:15:31] [cm]Command Received ()
+[04:15:31] [cm]Illegal Command
+[04:15:31] [cm]Command Received ()
+[04:15:31] [cm]Illegal Command
+[04:15:31] [cm]Command Received ()
+[04:15:31] [cm]Illegal Command
+[04:15:32] [cm]Command Received ()
+[04:15:32] [cm]Illegal Command
+[04:15:32] [cm]Command Received ()
+[04:15:32] [cm]Illegal Command
+[04:15:32] [cm]Command Received ()
+[04:15:32] [cm]Illegal Command
+[04:15:33] [cm]Command Received ()
+[04:15:33] [cm]Illegal Command
+[04:15:33] [cm]Command Received ()
+[04:15:33] [cm]Illegal Command
+[04:15:33] [cm]Command Received ()
+[04:15:33] [cm]Illegal Command
+[04:15:33] [cm]Command Received ()
+[04:15:33] [cm]Illegal Command
+[04:15:34] [cm]Command Received ()
+[04:15:34] [cm]Illegal Command
+[04:15:35] [cm]Command Received ()
+[04:15:35] [cm]Illegal Command
+[04:15:35] [cm]Command Received ()
+[04:15:35] [cm]Illegal Command
+[04:15:35] [cm]Command Received ()
+[04:15:35] [cm]Illegal Command
+[04:15:35] [cm]Command Received ()
+[04:15:35] [cm]Illegal Command
+[04:15:35] [cm]Command Received ()
+[04:15:35] [cm]Illegal Command
+[04:15:35] [cm]Command Received ()
+[04:15:35] [cm]Illegal Command
+[04:15:35] [cm]Command Received ()
+[04:15:35] [cm]Illegal Command
+[04:15:35] [cm]Command Received ()
+[04:15:35] [cm]Illegal Command
+[04:15:35] [cm]Command Received ()
+[04:15:35] [cm]Illegal Command
+[04:15:35] [cm]Command Received ()
+[04:15:35] [cm]Illegal Command
+[04:15:35] [cm]Command Received ()
+[04:15:35] [cm]Illegal Command
+[04:15:35] [cm]Command Received ()
+[04:15:35] [cm]Illegal Command
+[04:15:35] [cm]Command Received ()
+[04:15:35] [cm]Illegal Command
+[04:15:35] [cm]Command Received ()
+[04:15:35] [cm]Illegal Command
+[04:15:35] [cm]Command Received ()
+[04:15:35] [cm]Illegal Command
+[04:15:35] [cm]Command Received ()
+[04:15:35] [cm]Illegal Command
+[04:15:35] [cm]Command Received ()
+[04:15:35] [cm]Illegal Command
+[04:15:49] [cm]Command Received (hello world)
+[04:15:49] [cm]Illegal Command
+[04:16:40] [cm]Command Received (3)
+[04:16:40] [cm]Illegal Command
+[04:17:11] [cm]Command Received (123)
+[04:17:11] [cm]Illegal Command
+[04:21:41] [cm]Command Received (1)
+[04:21:41] [cm]Illegal Command
+[04:21:42] [cm]Command Received (2)
+[04:21:42] [cm]Illegal Command
+[04:21:43] [cm]Command Received (3)
+[04:21:43] [cm]Illegal Command
+[04:21:44] [cm]Command Received (4)
+[04:21:44] [cm]Illegal Command
+[04:21:44] [cm]Command Received (5)
+[04:21:44] [cm]Illegal Command
+[04:21:45] [cm]Command Received (6)
+[04:21:45] [cm]Illegal Command
+[04:21:47] [cm]Command Received (dk)
+[04:21:47] [cm]Illegal Command
+[04:27:32] [md]Front Connected...
+[04:27:32] [md]Send Login Request... Successed
+[04:27:32] [md]Date: 20170222
+[04:27:33] [td]Front Connected...
+[04:27:33] [td]Send Login Request... Successed
+[04:27:33] [td]Date: 20170222
+[04:27:34] [td]Request Settlement Info Confirm... Successed
+[04:27:34] [td]Instruments:
+[04:27:35] [td]Request Query Instrument... Successed
+[04:27:35] [td]Instrument Id:	i1705
+[04:27:37] [td]Request Query Trading Account... Successed
+[04:27:37] [td]Balance: 995910.00
+[04:27:37] [td]Available: 979281.00
+[04:27:37] [td]Close Profit: 0.00
+[04:27:37] [td]Position Profit: -850.00
+[04:27:39] [td]Request Query Investor Position... Successed
+[04:28:18] [md]Front Connected...
+[04:28:18] [md]Send Login Request... Successed
+[04:28:18] [md]Date: 20170222
+[04:28:18] [td]Front Connected...
+[04:28:18] [td]Send Login Request... Successed
+[04:28:18] [td]Date: 20170222
+[04:28:19] [td]Request Settlement Info Confirm... Successed
+[04:28:19] [td]Instruments:
+[04:28:20] [td]Request Query Instrument... Successed
+[04:28:20] [td]Instrument Id:	i1705
+[04:28:22] [td]Request Query Trading Account... Successed
+[04:28:22] [td]Balance: 995910.00
+[04:28:22] [td]Available: 979281.00
+[04:28:22] [td]Close Profit: 0.00
+[04:28:22] [td]Position Profit: -850.00
+[04:28:24] [td]Request Query Investor Position... Successed
+[04:28:37] [cm]Command Received (cl)
+[04:28:39] [cm]Command Received (cl)
+[04:28:41] [cm]Command Received (cl)
+[04:28:42] [cm]Command Received (cl)
+[04:28:43] [cm]Command Received (cl)
+[04:29:22] [md]Front Connected...
+[04:29:22] [md]Send Login Request... Successed
+[04:29:22] [md]Date: 20170222
+[04:29:47] [md]Front Connected...
+[04:29:47] [md]Send Login Request... Successed
+[04:29:47] [md]Date: 20170222
+[04:30:09] [md]Front Connected...
+[04:31:13] [md]Send Login Request... Successed
+[04:31:39] [md]Date: 20170222
+[04:32:09] [md]Front Connected...
+[04:32:11] [md]Send Login Request... Successed
+[04:32:12] [md]Date: 20170222
+[04:34:17] [md]Front Disconnected... [04:34:17] Reason: 8193
+[04:34:17] [md]Front Connected...
+[04:34:21] [md]Send Login Request... Successed
+[04:34:21] [md]Date: 20170222
+[04:35:03] [md]Front Connected...
+[04:35:03] [md]Send Login Request... Successed
+[04:35:03] [md]Date: 20170222
+[04:36:25] [md]Front Connected...
+[04:36:25] [md]Send Login Request... Successed
+[04:36:25] [md]Date: 20170222
+[04:37:17] [md]Front Connected...
+[04:37:17] [md]Send Login Request... Successed
+[04:37:17] [md]Date: 20170222
+[04:37:48] [md]Front Connected...
+[04:37:48] [md]Send Login Request... Successed
+[04:37:48] [md]Date: 20170222
+[04:37:48] [td]Front Connected...
+[04:37:48] [td]Send Login Request... Successed
+[04:37:48] [td]Date: 20170222
+[04:37:49] [td]Request Settlement Info Confirm... Successed
+[04:37:49] [td]Instruments:
+[04:37:50] [td]Request Query Instrument... Successed
+[04:37:50] [td]Instrument Id:	i1705
+[04:37:52] [td]Request Query Trading Account... Successed
+[04:37:52] [td]Balance: 995910.00
+[04:37:52] [td]Available: 979281.00
+[04:37:52] [td]Close Profit: 0.00
+[04:37:52] [td]Position Profit: -850.00
+[04:37:54] [td]Request Query Investor Position... Successed
+[04:39:12] [md]Front Connected...
+[04:39:12] [md]Send Login Request... Successed
+[04:39:13] [md]Date: 20170222
+[04:39:13] [td]Front Connected...
+[04:39:13] [td]Send Login Request... Successed
+[04:39:13] [td]Date: 20170222
+[04:39:14] [td]Request Settlement Info Confirm... Successed
+[04:39:14] [td]Instruments:
+[04:39:15] [td]Request Query Instrument... Successed
+[04:39:15] [td]Instrument Id:	i1705
+[04:39:17] [td]Request Query Trading Account... Successed
+[04:39:17] [td]Balance: 995910.00
+[04:39:17] [td]Available: 979281.00
+[04:39:17] [td]Close Profit: 0.00
+[04:39:17] [td]Position Profit: -850.00
+[04:39:19] [td]Request Query Investor Position... Successed
+[04:39:40] [md]Front Connected...
+[04:39:40] [md]Send Login Request... Successed
+[04:39:40] [md]Date: 20170222
+[04:39:40] [td]Front Connected...
+[04:39:40] [td]Send Login Request... Successed
+[04:39:40] [td]Date: 20170222
+[04:39:41] [td]Request Settlement Info Confirm... Successed
+[04:39:41] [td]Instruments:
+[04:39:42] [td]Request Query Instrument... Successed
+[04:39:42] [td]Instrument Id:	i1705
+[04:39:44] [td]Request Query Trading Account... Successed
+[04:39:44] [td]Balance: 995910.00
+[04:39:44] [td]Available: 979281.00
+[04:39:44] [td]Close Profit: 0.00
+[04:39:44] [td]Position Profit: -850.00
+[04:39:46] [td]Request Query Investor Position... Successed
+[04:40:09] [md]Front Connected...
+[04:40:09] [md]Send Login Request... Successed
+[04:40:09] [md]Date: 20170222
+[04:40:09] [td]Front Connected...
+[04:40:09] [td]Send Login Request... Successed
+[04:40:09] [td]Date: 20170222
+[04:40:10] [td]Request Settlement Info Confirm... Successed
+[04:40:10] [td]Instruments:
+[04:40:11] [td]Request Query Instrument... Successed
+[04:40:11] [td]Instrument Id:	i1705
+[04:40:13] [td]Request Query Trading Account... Successed
+[04:40:13] [td]Balance: 995910.00
+[04:40:13] [td]Available: 979281.00
+[04:40:13] [td]Close Profit: 0.00
+[04:40:13] [td]Position Profit: -850.00
+[04:40:15] [td]Request Query Investor Position... Successed
+[04:40:39] [md]Front Connected...
+[04:40:39] [md]Send Login Request... Successed
+[04:40:39] [md]Date: 20170222
+[04:40:39] [td]Front Connected...
+[04:40:39] [td]Send Login Request... Successed
+[04:40:39] [td]Date: 20170222
+[04:40:40] [td]Request Settlement Info Confirm... Successed
+[04:40:40] [td]Instruments:
+[04:40:41] [td]Request Query Instrument... Successed
+[04:40:41] [td]Instrument Id:	i1705
+[04:40:43] [td]Request Query Trading Account... Successed
+[04:40:43] [td]Balance: 995910.00
+[04:40:43] [td]Available: 979281.00
+[04:40:43] [td]Close Profit: 0.00
+[04:40:43] [td]Position Profit: -850.00
+[04:40:45] [td]Request Query Investor Position... Successed
+[04:40:54] [md]Front Connected...
+[04:40:54] [md]Send Login Request... Successed
+[04:40:54] [md]Date: 20170222
+[04:40:54] [td]Front Connected...
+[04:40:54] [td]Send Login Request... Successed
+[04:40:54] [td]Date: 20170222
+[04:40:55] [td]Request Settlement Info Confirm... Successed
+[04:40:55] [td]Instruments:
+[04:40:56] [td]Request Query Instrument... Successed
+[04:40:56] [td]Instrument Id:	i1705
+[04:40:58] [td]Request Query Trading Account... Successed
+[04:40:59] [td]Balance: 995910.00
+[04:40:59] [td]Available: 979281.00
+[04:40:59] [td]Close Profit: 0.00
+[04:40:59] [td]Position Profit: -850.00
+[04:41:10] [md]Front Connected...
+[04:41:10] [md]Send Login Request... Successed
+[04:41:10] [md]Date: 20170222
+[04:41:10] [td]Front Connected...
+[04:41:10] [td]Send Login Request... Successed
+[04:41:10] [td]Date: 20170222
+[04:41:11] [td]Request Settlement Info Confirm... Successed
+[04:41:11] [td]Instruments:
+[04:41:12] [td]Request Query Instrument... Successed
+[04:41:12] [td]Instrument Id:	i1705
+[04:41:14] [td]Request Query Trading Account... Successed
+[04:41:15] [td]Balance: 995910.00
+[04:41:15] [td]Available: 979281.00
+[04:41:15] [td]Close Profit: 0.00
+[04:41:15] [td]Position Profit: -850.00
+[04:41:17] [td]Request Query Investor Position... Successed
+[04:42:26] [md]Front Connected...
+[04:42:26] [md]Send Login Request... Successed
+[04:42:26] [md]Date: 20170222
+[04:42:26] [td]Front Connected...
+[04:42:26] [td]Send Login Request... Successed
+[04:42:26] [td]Date: 20170222
+[04:42:27] [td]Request Settlement Info Confirm... Successed
+[04:42:28] [td]Instruments:
+[04:42:29] [td]Request Query Instrument... Successed
+[04:42:29] [td]Instrument Id:	i1705
+[04:42:31] [td]Request Query Trading Account... Successed
+[04:42:31] [td]Balance: 995910.00
+[04:42:31] [td]Available: 979281.00
+[04:42:31] [td]Close Profit: 0.00
+[04:42:31] [td]Position Profit: -850.00
+[04:42:33] [td]Request Query Investor Position... Successed
+[04:42:59] [md]Front Connected...
+[04:42:59] [md]Send Login Request... Successed
+[04:42:59] [md]Date: 20170222
+[04:42:59] [td]Front Connected...
+[04:42:59] [td]Send Login Request... Successed
+[04:42:59] [td]Date: 20170222
+[04:43:00] [td]Request Settlement Info Confirm... Successed
+[04:43:00] [td]Instruments:
+[04:46:00] [md]Front Connected...
+[04:46:00] [md]Send Login Request... Successed
+[04:46:00] [md]Date: 20170222
+[04:46:00] [td]Front Connected...
+[04:46:00] [td]Send Login Request... Successed
+[04:46:00] [td]Date: 20170222
+[04:46:01] [td]Request Settlement Info Confirm... Successed
+[04:46:01] [td]Instruments:
+[04:46:54] [md]Front Connected...
+[04:46:54] [md]Send Login Request... Successed
+[04:46:54] [md]Date: 20170222
+[04:46:54] [td]Front Connected...
+[04:46:54] [td]Send Login Request... Successed
+[04:46:55] [td]Date: 20170222
+[04:46:56] [td]Request Settlement Info Confirm... Successed
+[04:46:56] [td]Instruments:
+[04:49:33] [md]Front Connected...
+[04:49:33] [md]Send Login Request... Successed
+[04:49:33] [md]Date: 20170222
+[04:49:33] [td]Front Connected...
+[04:49:33] [td]Send Login Request... Successed
+[04:49:33] [td]Date: 20170222
+[04:49:34] [td]Request Settlement Info Confirm... Successed
+[04:49:34] [td]Instruments:
+[04:49:59] [md]Front Connected...
+[04:49:59] [md]Send Login Request... Successed
+[04:49:59] [md]Date: 20170222
+[04:49:59] [td]Front Connected...
+[04:49:59] [td]Send Login Request... Successed
+[04:49:59] [td]Date: 20170222
+[04:50:00] [td]Request Settlement Info Confirm... Successed
+[04:50:00] [td]Instruments:
+[04:50:01] [td]Request Query Instrument... Successed
+[04:50:01] [td]Instrument Id:	i1705
+[04:50:03] [td]Request Query Trading Account... Successed
+[04:50:03] [td]Balance: 995910.00
+[04:50:03] [td]Available: 979281.00
+[04:50:03] [td]Close Profit: 0.00
+[04:50:03] [td]Position Profit: -850.00
+[04:50:05] [td]Request Query Investor Position... Successed
+[04:51:11] [md]Front Connected...
+[04:51:11] [md]Send Login Request... Successed
+[04:51:11] [md]Date: 20170222
+[04:51:11] [td]Front Connected...
+[04:51:11] [td]Send Login Request... Successed
+[04:51:11] [td]Date: 20170222
+[04:51:12] [td]Request Settlement Info Confirm... Successed
+[04:51:12] [td]Instruments:
+[04:51:13] [td]Request Query Instrument... Successed
+[04:51:13] [td]Instrument Id:	i1705
+[04:51:15] [td]Request Query Trading Account... Successed
+[04:51:15] [td]Balance: 995910.00
+[04:51:15] [td]Available: 979281.00
+[04:51:15] [td]Close Profit: 0.00
+[04:51:15] [td]Position Profit: -850.00
+[04:51:17] [td]Request Query Investor Position... Successed
+[04:52:36] [md]Front Connected...
+[04:52:36] [md]Send Login Request... Successed
+[04:52:36] [md]Date: 20170222
+[04:52:36] [td]Front Connected...
+[04:52:36] [td]Send Login Request... Successed
+[04:52:36] [td]Date: 20170222
+[04:52:37] [td]Request Settlement Info Confirm... Successed
+[04:52:37] [td]Instruments:
+[04:52:38] [td]Request Query Instrument... Successed
+[04:52:38] [td]Instrument Id:	i1705
+[04:52:40] [td]Request Query Trading Account... Successed
+[04:52:40] [td]Balance: 995910.00
+[04:52:40] [td]Available: 979281.00
+[04:52:40] [td]Close Profit: 0.00
+[04:52:40] [td]Position Profit: -850.00
+[04:52:46] [td]Request Query Investor Position... Successed
+[04:55:33] [md]Front Connected...
+[04:55:33] [md]Send Login Request... Successed
+[04:55:33] [md]Date: 20170222
+[04:55:33] [td]Front Connected...
+[04:55:33] [td]Send Login Request... Successed
+[04:55:33] [td]Date: 20170222
+[04:55:34] [td]Request Settlement Info Confirm... Successed
+[04:55:34] [td]Instruments:
+[04:55:35] [td]Request Query Instrument... Successed
+[04:55:35] [td]Instrument Id:	i1705
+[04:55:37] [td]Request Query Trading Account... Successed
+[04:55:37] [td]Balance: 995910.00
+[04:55:37] [td]Available: 979281.00
+[04:55:37] [td]Close Profit: 0.00
+[04:55:37] [td]Position Profit: -850.00
+[04:55:58] [md]Front Connected...
+[04:55:58] [md]Send Login Request... Successed
+[04:55:58] [md]Date: 20170222
+[04:55:58] [td]Front Connected...
+[04:55:58] [td]Send Login Request... Successed
+[04:55:58] [td]Date: 20170222
+[04:55:59] [td]Request Settlement Info Confirm... Successed
+[04:56:00] [td]Instruments:
+[04:56:01] [td]Request Query Instrument... Successed
+[04:56:01] [td]Instrument Id:	i1705
+[04:56:03] [td]Request Query Trading Account... Successed
+[04:56:03] [td]Balance: 995910.00
+[04:56:03] [td]Available: 979281.00
+[04:56:03] [td]Close Profit: 0.00
+[04:56:03] [td]Position Profit: -850.00
+[04:56:05] [td]Request Query Investor Position... Successed
+[04:56:16] [cm]Command Received (eeeeeeeeeeeeeeeeeeeeeeeeeee)
+[04:56:16] [cm]Illegal Command
+[04:56:23] [cm]Command Received (eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee)
+[04:56:23] [cm]Illegal Command
+[04:56:33] [cm]Command Received (eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee)
+[04:56:33] [cm]Illegal Command
+[04:56:43] [cm]Command Received (h)
+[04:56:43] [cm]b [num]          买num手
+[04:56:43] [cm]s [num]          卖num手
+[04:56:43] [cm]cb [num]         平买num手
+[04:56:43] [cm]cs [num]         平卖num手
+[04:56:43] [cm]t                查看所有订单
+[04:56:43] [cm]q                停止自动交易
+[04:56:43] [cm]rs               （重新）开始自动交易
+[04:56:43] [cm]exit             退出程序
+[04:56:46] [cm]Command Received (h)
+[04:56:46] [cm]b [num]          买num手
+[04:56:46] [cm]s [num]          卖num手
+[04:56:46] [cm]cb [num]         平买num手
+[04:56:46] [cm]cs [num]         平卖num手
+[04:56:46] [cm]t                查看所有订单
+[04:56:46] [cm]q                停止自动交易
+[04:56:46] [cm]rs               （重新）开始自动交易
+[04:56:46] [cm]exit             退出程序
+[04:56:53] [cm]Command Received (h)
+[04:56:53] [cm]b [num]          买num手
+[04:56:53] [cm]s [num]          卖num手
+[04:56:53] [cm]cb [num]         平买num手
+[04:56:53] [cm]cs [num]         平卖num手
+[04:56:53] [cm]t                查看所有订单
+[04:56:53] [cm]q                停止自动交易
+[04:56:53] [cm]rs               （重新）开始自动交易
+[04:56:53] [cm]exit             退出程序
+[04:56:55] [cm]Command Received (h)
+[04:56:55] [cm]b [num]          买num手
+[04:56:55] [cm]s [num]          卖num手
+[04:56:55] [cm]cb [num]         平买num手
+[04:56:55] [cm]cs [num]         平卖num手
+[04:56:55] [cm]t                查看所有订单
+[04:56:55] [cm]q                停止自动交易
+[04:56:55] [cm]rs               （重新）开始自动交易
+[04:56:55] [cm]exit             退出程序
+[04:56:56] [cm]Command Received (h)
+[04:56:56] [cm]b [num]          买num手
+[04:56:56] [cm]s [num]          卖num手
+[04:56:56] [cm]cb [num]         平买num手
+[04:56:56] [cm]cs [num]         平卖num手
+[04:56:56] [cm]t                查看所有订单
+[04:56:56] [cm]q                停止自动交易
+[04:56:56] [cm]rs               （重新）开始自动交易
+[04:56:56] [cm]exit             退出程序
+[04:56:57] [cm]Command Received (h)
+[04:56:57] [cm]b [num]          买num手
+[04:56:57] [cm]s [num]          卖num手
+[04:56:57] [cm]cb [num]         平买num手
+[04:56:57] [cm]cs [num]         平卖num手
+[04:56:57] [cm]t                查看所有订单
+[04:56:57] [cm]q                停止自动交易
+[04:56:57] [cm]rs               （重新）开始自动交易
+[04:56:57] [cm]exit             退出程序
+[04:56:57] [cm]Command Received (h)
+[04:56:57] [cm]b [num]          买num手
+[04:56:57] [cm]s [num]          卖num手
+[04:56:57] [cm]cb [num]         平买num手
+[04:56:57] [cm]cs [num]         平卖num手
+[04:56:57] [cm]t                查看所有订单
+[04:56:57] [cm]q                停止自动交易
+[04:56:57] [cm]rs               （重新）开始自动交易
+[04:56:57] [cm]exit             退出程序
+[04:56:58] [cm]Command Received (h)
+[04:56:58] [cm]b [num]          买num手
+[04:56:58] [cm]s [num]          卖num手
+[04:56:58] [cm]cb [num]         平买num手
+[04:56:58] [cm]cs [num]         平卖num手
+[04:56:58] [cm]t                查看所有订单
+[04:56:58] [cm]q                停止自动交易
+[04:56:58] [cm]rs               （重新）开始自动交易
+[04:56:58] [cm]exit             退出程序
+[04:56:59] [cm]Command Received (h)
+[04:56:59] [cm]b [num]          买num手
+[04:56:59] [cm]s [num]          卖num手
+[04:56:59] [cm]cb [num]         平买num手
+[04:56:59] [cm]cs [num]         平卖num手
+[04:56:59] [cm]t                查看所有订单
+[04:56:59] [cm]q                停止自动交易
+[04:56:59] [cm]rs               （重新）开始自动交易
+[04:56:59] [cm]exit             退出程序
+[04:57:00] [cm]Command Received ()
+[04:57:00] [cm]Illegal Command
+[04:57:01] [cm]Command Received ()
+[04:57:01] [cm]Illegal Command
+[04:57:01] [cm]Command Received ()
+[04:57:01] [cm]Illegal Command
+[04:57:01] [cm]Command Received ()
+[04:57:01] [cm]Illegal Command
+[04:57:02] [cm]Command Received ()
+[04:57:02] [cm]Illegal Command
+[04:57:02] [cm]Command Received ()
+[04:57:02] [cm]Illegal Command
+[04:57:02] [cm]Command Received ()
+[04:57:02] [cm]Illegal Command
+[04:57:02] [cm]Command Received ()
+[04:57:02] [cm]Illegal Command
+[04:57:02] [cm]Command Received ()
+[04:57:02] [cm]Illegal Command
+[04:57:02] [cm]Command Received ()
+[04:57:02] [cm]Illegal Command
+[04:57:02] [cm]Command Received ()
+[04:57:02] [cm]Illegal Command
+[04:57:02] [cm]Command Received ()
+[04:57:02] [cm]Illegal Command
+[04:57:02] [cm]Command Received ()
+[04:57:02] [cm]Illegal Command
+[04:57:02] [cm]Command Received ()
+[04:57:02] [cm]Illegal Command
+[04:57:02] [cm]Command Received ()
+[04:57:02] [cm]Illegal Command
+[04:57:02] [cm]Command Received ()
+[04:57:02] [cm]Illegal Command
+[04:57:02] [cm]Command Received ()
+[04:57:02] [cm]Illegal Command
+[04:57:02] [cm]Command Received ()
+[04:57:02] [04:57:02] [cm]Illegal Command[cm]Command Received ()
+[04:57:27] [md]Front Connected...
+[04:57:27] [md]Send Login Request... Successed
+[04:57:27] [md]Date: 20170222
+[04:57:27] [td]Front Connected...
+[04:57:27] [td]Send Login Request... Successed
+[04:57:27] [td]Date: 20170222
+[04:57:28] [td]Request Settlement Info Confirm... Successed
+[04:57:28] [td]Instruments:
+[04:57:28] [cm]Command Received ()
+[04:57:28] [cm]Illegal Command
+[04:57:28] [cm]Command Received ()
+[04:57:28] [cm]Illegal Command
+[04:57:28] [cm]Command Received ()
+[04:57:28] [cm]Illegal Command
+[04:57:28] [cm]Command Received ()
+[04:57:28] [cm]Illegal Command
+[04:57:28] [cm]Command Received ()
+[04:57:28] [cm]Illegal Command
+[04:57:28] [cm]Command Received ()
+[04:57:28] [cm]Illegal Command
+[04:57:28] [cm]Command Received ()
+[04:57:28] [cm]Illegal Command
+[04:57:28] [cm]Command Received ()
+[04:57:28] [cm]Illegal Command
+[04:57:28] [cm]Command Received ()
+[04:57:28] [cm]Illegal Command
+[04:57:28] [cm]Command Received ()
+[04:57:28] [cm]Illegal Command
+[04:57:28] [cm]Command Received ()
+[04:57:28] [cm]Illegal Command
+[04:57:28] [cm]Command Received ()
+[04:57:28] [cm]Illegal Command
+[04:57:28] [cm]Command Received ()
+[04:57:28] [04:57:28] [cm]Illegal Command[cm]Command Received ()
+[04:58:14] [md]Front Connected...
+[04:58:14] [md]Send Login Request... Successed
+[04:58:14] [md]Date: 20170222
+[04:58:14] [td]Front Connected...
+[04:58:14] [td]Send Login Request... Successed
+[04:58:14] [td]Date: 20170222
+[04:58:15] [td]Request Settlement Info Confirm... Successed
+[04:58:15] [td]Instruments:
+[04:58:16] [td]Request Query Instrument... Successed
+[04:58:16] [td]Instrument Id:	i1705
+[04:58:17] [cm]Command Received (aaqqqerew)
+[04:58:17] [cm]Illegal Command
+[04:58:18] [td]Request Query Trading Account... Successed
+[04:58:19] [td]Balance: 995910.00
+[04:58:19] [td]Available: 979281.00
+[04:58:19] [td]Close Profit: 0.00
+[04:58:19] [td]Position Profit: -850.00
+[04:58:19] [cm]Command Received (ero3rk)
+[04:58:19] [cm]Illegal Command
+[04:58:20] [cm]Command Received (h)
+[04:58:20] [cm]b [num]          买num手
+[04:58:20] [cm]s [num]          卖num手
+[04:58:20] [cm]cb [num]         平买num手
+[04:58:20] [cm]cs [num]         平卖num手
+[04:58:20] [cm]t                查看所有订单
+[04:58:20] [cm]q                停止自动交易
+[04:58:20] [cm]rs               （重新）开始自动交易
+[04:58:20] [cm]exit             退出程序
+[04:58:21] [td]Request Query Investor Position... Successed
+[04:58:21] [cm]Command Received (h)
+[04:58:21] [cm]b [num]          买num手
+[04:58:21] [cm]s [num]          卖num手
+[04:58:21] [cm]cb [num]         平买num手
+[04:58:21] [cm]cs [num]         平卖num手
+[04:58:21] [cm]t                查看所有订单
+[04:58:21] [cm]q                停止自动交易
+[04:58:21] [cm]rs               （重新）开始自动交易
+[04:58:21] [cm]exit             退出程序
+[04:58:22] [cm]Command Received (h)
+[04:58:22] [cm]b [num]          买num手
+[04:58:22] [cm]s [num]          卖num手
+[04:58:22] [cm]cb [num]         平买num手
+[04:58:22] [cm]cs [num]         平卖num手
+[04:58:22] [cm]t                查看所有订单
+[04:58:22] [cm]q                停止自动交易
+[04:58:22] [cm]rs               （重新）开始自动交易
+[04:58:22] [cm]exit             退出程序
+[04:58:22] [cm]Command Received (h)
+[04:58:22] [cm]b [num]          买num手
+[04:58:22] [cm]s [num]          卖num手
+[04:58:22] [cm]cb [num]         平买num手
+[04:58:22] [cm]cs [num]         平卖num手
+[04:58:22] [cm]t                查看所有订单
+[04:58:22] [cm]q                停止自动交易
+[04:58:22] [cm]rs               （重新）开始自动交易
+[04:58:22] [cm]exit             退出程序
+[04:58:23] [cm]Command Received (h)
+[04:58:23] [cm]b [num]          买num手
+[04:58:23] [cm]s [num]          卖num手
+[04:58:23] [cm]cb [num]         平买num手
+[04:58:23] [cm]cs [num]         平卖num手
+[04:58:23] [cm]t                查看所有订单
+[04:58:23] [cm]q                停止自动交易
+[04:58:23] [cm]rs               （重新）开始自动交易
+[04:58:23] [cm]exit             退出程序
+[04:58:23] [cm]Command Received (h)
+[04:58:23] [cm]b [num]          买num手
+[04:58:23] [cm]s [num]          卖num手
+[04:58:23] [cm]cb [num]         平买num手
+[04:58:23] [cm]cs [num]         平卖num手
+[04:58:23] [cm]t                查看所有订单
+[04:58:23] [cm]q                停止自动交易
+[04:58:23] [cm]rs               （重新）开始自动交易
+[04:58:23] [cm]exit             退出程序
+[04:58:24] [cm]Command Received (h)
+[04:58:24] [cm]b [num]          买num手
+[04:58:24] [cm]s [num]          卖num手
+[04:58:24] [cm]cb [num]         平买num手
+[04:58:24] [cm]cs [num]         平卖num手
+[04:58:24] [cm]t                查看所有订单
+[04:58:24] [cm]q                停止自动交易
+[04:58:24] [cm]rs               （重新）开始自动交易
+[04:58:24] [cm]exit             退出程序
+[04:58:25] [cm]Command Received (h)
+[04:58:25] [cm]b [num]          买num手
+[04:58:25] [cm]s [num]          卖num手
+[04:58:25] [cm]cb [num]         平买num手
+[04:58:25] [cm]cs [num]         平卖num手
+[04:58:25] [cm]t                查看所有订单
+[04:58:25] [cm]q                停止自动交易
+[04:58:25] [cm]rs               （重新）开始自动交易
+[04:58:25] [cm]exit             退出程序
+[04:58:26] [cm]Command Received (h)
+[04:58:26] [cm]b [num]          买num手
+[04:58:26] [cm]s [num]          卖num手
+[04:58:26] [cm]cb [num]         平买num手
+[04:58:26] [cm]cs [num]         平卖num手
+[04:58:26] [cm]t                查看所有订单
+[04:58:26] [cm]q                停止自动交易
+[04:58:26] [cm]rs               （重新）开始自动交易
+[04:58:26] [cm]exit             退出程序
+[04:58:26] [cm]Command Received (h)
+[04:58:26] [cm]b [num]          买num手
+[04:58:26] [cm]s [num]          卖num手
+[04:58:26] [cm]cb [num]         平买num手
+[04:58:26] [cm]cs [num]         平卖num手
+[04:58:26] [cm]t                查看所有订单
+[04:58:26] [cm]q                停止自动交易
+[04:58:26] [cm]rs               （重新）开始自动交易
+[04:58:26] [cm]exit             退出程序
+[04:58:27] [cm]Command Received (h)
+[04:58:27] [cm]b [num]          买num手
+[04:58:27] [cm]s [num]          卖num手
+[04:58:27] [cm]cb [num]         平买num手
+[04:58:27] [cm]cs [num]         平卖num手
+[04:58:27] [cm]t                查看所有订单
+[04:58:27] [cm]q                停止自动交易
+[04:58:27] [cm]rs               （重新）开始自动交易
+[04:58:27] [cm]exit             退出程序
+[04:58:36] [cm]Command Received (cm)
+[04:58:36] [cm]Illegal Command
+[04:58:38] [cm]Command Received (h)
+[04:58:38] [cm]b [num]          买num手
+[04:58:38] [cm]s [num]          卖num手
+[04:58:38] [cm]cb [num]         平买num手
+[04:58:38] [cm]cs [num]         平卖num手
+[04:58:38] [cm]t                查看所有订单
+[04:58:38] [cm]q                停止自动交易
+[04:58:38] [cm]rs               （重新）开始自动交易
+[04:58:38] [cm]exit             退出程序
+[04:58:40] [cm]Command Received (help)
+[04:58:40] [cm]Illegal Command
+[04:58:43] [cm]Command Received (h)
+[04:58:43] [cm]b [num]          买num手
+[04:58:43] [cm]s [num]          卖num手
+[04:58:43] [cm]cb [num]         平买num手
+[04:58:43] [cm]cs [num]         平卖num手
+[04:58:43] [cm]t                查看所有订单
+[04:58:43] [cm]q                停止自动交易
+[04:58:43] [cm]rs               （重新）开始自动交易
+[04:58:43] [cm]exit             退出程序
+[04:58:46] [cm]Command Received (b 1)
+[04:58:46] [td]Requst Order Insert... Successed
+[04:58:46] [td]Direction: Buy, Price: 723.00, Status: 报单已提交
+[04:58:46] [td]Direction: Buy, Price: 723.00, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[05:00:34] [md]Front Connected...
+[05:00:34] [md]Send Login Request... Successed
+[05:00:34] [md]Date: 20170222
+[05:00:34] [td]Front Connected...
+[05:00:34] [td]Send Login Request... Successed
+[05:00:34] [td]Date: 20170222
+[05:00:35] [td]Request Settlement Info Confirm... Successed
+[05:00:35] [td]Instruments:
+[05:00:36] [td]Request Query Instrument... Successed
+[05:00:36] [td]Instrument Id:	i1705
+[05:00:51] [md]Front Connected...
+[05:00:51] [md]Send Login Request... Successed
+[05:00:51] [md]Date: 20170222
+[05:00:51] [td]Front Connected...
+[05:00:51] [td]Send Login Request... Successed
+[05:00:51] [td]Date: 20170222
+[05:00:52] [td]Request Settlement Info Confirm... Successed
+[05:00:52] [td]Instruments:
+[05:00:53] [td]Request Query Instrument... Successed
+[05:00:53] [td]Instrument Id:	i1705
+[05:00:56] [td]Request Query Trading Account... Successed
+[05:00:56] [td]Balance: 995910.00
+[05:00:56] [td]Available: 979281.00
+[05:00:56] [td]Close Profit: 0.00
+[05:00:56] [td]Position Profit: -850.00
+[05:00:58] [td]Request Query Investor Position... Successed
+[05:00:58] [td]Open Volume:0
+[05:01:11] [md]Front Connected...
+[05:01:11] [md]Send Login Request... Successed
+[05:01:11] [md]Date: 20170222
+[05:01:11] [td]Front Connected...
+[05:01:11] [td]Send Login Request... Successed
+[05:01:11] [td]Date: 20170222
+[05:01:12] [td]Request Settlement Info Confirm... Successed
+[05:01:12] [td]Instruments:
+[05:01:13] [td]Request Query Instrument... Successed
+[05:01:13] [td]Instrument Id:	i1705
+[05:01:15] [td]Request Query Trading Account... Successed
+[05:01:16] [td]Balance: 995910.00
+[05:01:16] [td]Available: 979281.00
+[05:01:16] [td]Close Profit: 0.00
+[05:01:16] [td]Position Profit: -850.00
+[05:02:46] [md]Front Connected...
+[05:02:46] [md]Send Login Request... Successed
+[05:02:46] [md]Date: 20170222
+[05:02:46] [td]Front Connected...
+[05:02:46] [td]Send Login Request... Successed
+[05:02:46] [td]Date: 20170222
+[05:02:47] [td]Request Settlement Info Confirm... Successed
+[05:02:47] [td]Instruments:
+[05:02:48] [td]Request Query Instrument... Successed
+[05:02:48] [td]Instrument Id:	i1705
+[05:02:50] [td]Request Query Trading Account... Successed
+[05:02:50] [td]Balance: 995910.00
+[05:02:50] [td]Available: 979281.00
+[05:02:50] [td]Close Profit: 0.00
+[05:02:50] [td]Position Profit: -850.00
+[05:03:09] [md]Front Connected...
+[05:03:09] [md]Send Login Request... Successed
+[05:03:09] [md]Date: 20170222
+[05:03:09] [td]Front Connected...
+[05:03:09] [td]Send Login Request... Successed
+[05:03:09] [td]Date: 20170222
+[05:03:10] [td]Request Settlement Info Confirm... Successed
+[05:03:10] [td]Instruments:
+[05:03:11] [td]Request Query Instrument... Successed
+[05:03:11] [td]Instrument Id:	i1705
+[05:04:05] [md]Front Connected...
+[05:04:05] [md]Send Login Request... Successed
+[05:04:05] [md]Date: 20170222
+[05:04:05] [td]Front Connected...
+[05:04:05] [td]Send Login Request... Successed
+[05:04:05] [td]Date: 20170222
+[05:04:06] [td]Request Settlement Info Confirm... Successed
+[05:04:06] [td]Instruments:
+[05:04:07] [td]Request Query Instrument... Successed
+[05:04:08] [td]Instrument Id:	i1705
+[05:04:10] [td]Request Query Trading Account... Successed
+[05:04:10] [td]Balance: 995910.00
+[05:04:10] [td]Available: 979281.00
+[05:04:10] [td]Close Profit: 0.00
+[05:04:10] [td]Position Profit: -850.00
+[05:04:12] [td]Request Query Investor Position... Successed
+[05:04:12] [td]Open Volume:0
+[05:04:32] [md]Front Connected...
+[05:04:32] [md]Send Login Request... Successed
+[05:04:32] [md]Date: 20170222
+[05:04:32] [td]Front Connected...
+[05:04:32] [td]Send Login Request... Successed
+[05:04:32] [td]Date: 20170222
+[05:04:33] [td]Request Settlement Info Confirm... Successed
+[05:04:33] [td]Instruments:
+[05:04:34] [td]Request Query Instrument... Successed
+[05:04:34] [td]Instrument Id:	i1705
+[05:05:04] [md]Front Connected...
+[05:05:04] [md]Send Login Request... Successed
+[05:05:04] [md]Date: 20170222
+[05:05:04] [td]Front Connected...
+[05:05:04] [td]Send Login Request... Successed
+[05:05:04] [td]Date: 20170222
+[05:05:05] [td]Request Settlement Info Confirm... Successed
+[05:05:05] [td]Instruments:
+[05:05:06] [td]Request Query Instrument... Successed
+[05:05:06] [td]Instrument Id:	i1705
+[05:05:08] [td]Request Query Trading Account... Successed
+[05:05:08] [td]Balance: 995910.00
+[05:05:08] [td]Available: 979281.00
+[05:05:08] [td]Close Profit: 0.00
+[05:05:08] [td]Position Profit: -850.00
+[05:05:10] [td]Request Query Investor Position... Successed
+[05:05:10] [td]Open Volume:0
+[05:06:02] [md]Front Connected...
+[05:06:02] [md]Send Login Request... Successed
+[05:06:02] [md]Date: 20170222
+[05:06:02] [td]Front Connected...
+[05:06:02] [td]Send Login Request... Successed
+[05:06:02] [td]Date: 20170222
+[05:06:03] [td]Request Settlement Info Confirm... Successed
+[05:06:04] [td]Instruments:
+[05:06:05] [td]Request Query Instrument... Successed
+[05:06:05] [td]Instrument Id:	i1705
+[05:06:07] [td]Request Query Trading Account... Successed
+[05:06:07] [td]Balance: 995910.00
+[05:06:07] [td]Available: 979281.00
+[05:06:07] [td]Close Profit: 0.00
+[05:06:07] [td]Position Profit: -850.00
+[05:06:09] [td]Request Query Investor Position... Successed
+[05:06:09] [td]Open Volume:0
+[05:06:17] [cm]Command Received (b 1)
+[05:06:17] [td]Requst Order Insert... Successed
+[05:06:17] [td]Order: #
+[05:06:17] [td]ErrorID=21, ErrorMsg=CTP:该交易席位未连接到交易所
+[05:06:21] [cm]Command Received (b 1)
+[05:06:21] [td]Requst Order Insert... Successed
+[05:06:21] [td]Order: #
+[05:06:21] [td]ErrorID=21, ErrorMsg=CTP:该交易席位未连接到交易所
+[05:06:36] [md]Front Connected...
+[05:06:36] [md]Send Login Request... Successed
+[05:06:36] [md]Date: 20170222
+[05:06:36] [td]Front Connected...
+[05:06:36] [td]Send Login Request... Successed
+[05:06:37] [td]Date: 20170222
+[05:06:38] [td]Request Settlement Info Confirm... Successed
+[05:06:38] [td]Instruments:
+[05:06:39] [td]Request Query Instrument... Successed
+[05:06:39] [td]Instrument Id:	i1705
+[05:06:41] [td]Request Query Trading Account... Successed
+[05:06:41] [td]Balance: 995910.00
+[05:06:41] [td]Available: 979281.00
+[05:06:41] [td]Close Profit: 0.00
+[05:06:41] [td]Position Profit: -850.00
+[05:06:43] [td]Request Query Investor Position... Successed
+[05:06:43] [td]Open Volume:0
+[05:06:52] [cm]Command Received (b 1)
+[05:06:52] [td]Requst Order Insert... Successed
+[05:06:52] [td]Order: #
+[05:06:52] [td]ErrorID=21, ErrorMsg=CTP:该交易席位未连接到交易所
+[05:06:55] [cm]Command Received (s 1)
+[05:06:55] [td]Requst Order Insert... Successed
+[05:06:55] [td]Order: #
+[05:06:55] [td]ErrorID=21, ErrorMsg=CTP:该交易席位未连接到交易所
+[05:06:57] [cm]Command Received (cb 1)
+[05:06:57] [td]Requst Order Insert... Successed
+[05:06:57] [td]Order: #
+[05:06:57] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[05:06:59] [cm]Command Received (cs 1)
+[05:06:59] [td]Requst Order Insert... Successed
+[05:06:59] [td]Order: #
+[05:06:59] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[05:07:17] [cm]Command Received (h)
+[05:07:17] [cm]b [num]          买num手
+[05:07:17] [cm]s [num]          卖num手
+[05:07:17] [cm]cb [num]         平买num手
+[05:07:17] [cm]cs [num]         平卖num手
+[05:07:17] [cm]t                查看所有订单
+[05:07:17] [cm]q                停止自动交易
+[05:07:17] [cm]rs               （重新）开始自动交易
+[05:07:17] [cm]exit             退出程序
+[05:07:18] [cm]Command Received (h)
+[05:07:18] [cm]b [num]          买num手
+[05:07:18] [cm]s [num]          卖num手
+[05:07:18] [cm]cb [num]         平买num手
+[05:07:18] [cm]cs [num]         平卖num手
+[05:07:18] [cm]t                查看所有订单
+[05:07:18] [cm]q                停止自动交易
+[05:07:18] [cm]rs               （重新）开始自动交易
+[05:07:18] [cm]exit             退出程序
+[05:07:18] [cm]Command Received (h)
+[05:07:18] [cm]b [num]          买num手
+[05:07:18] [cm]s [num]          卖num手
+[05:07:18] [cm]cb [num]         平买num手
+[05:07:18] [cm]cs [num]         平卖num手
+[05:07:18] [cm]t                查看所有订单
+[05:07:18] [cm]q                停止自动交易
+[05:07:18] [cm]rs               （重新）开始自动交易
+[05:07:18] [cm]exit             退出程序
+[05:07:19] [cm]Command Received (h)
+[05:07:19] [cm]b [num]          买num手
+[05:07:19] [cm]s [num]          卖num手
+[05:07:19] [cm]cb [num]         平买num手
+[05:07:19] [cm]cs [num]         平卖num手
+[05:07:19] [cm]t                查看所有订单
+[05:07:19] [cm]q                停止自动交易
+[05:07:19] [cm]rs               （重新）开始自动交易
+[05:07:19] [cm]exit             退出程序
+[05:07:19] [cm]Command Received (h)
+[05:07:19] [cm]b [num]          买num手
+[05:07:19] [cm]s [num]          卖num手
+[05:07:19] [cm]cb [num]         平买num手
+[05:07:19] [cm]cs [num]         平卖num手
+[05:07:19] [cm]t                查看所有订单
+[05:07:19] [cm]q                停止自动交易
+[05:07:19] [cm]rs               （重新）开始自动交易
+[05:07:19] [cm]exit             退出程序
+[05:09:16] [md]Front Connected...
+[05:09:16] [md]Send Login Request... Successed
+[05:09:16] [md]Date: 20170222
+[05:09:16] [td]Front Connected...
+[05:09:16] [td]Send Login Request... Successed
+[05:09:17] [td]Date: 20170222
+[05:09:18] [td]Request Settlement Info Confirm... Successed
+[05:09:18] [td]Instruments:
+[05:09:19] [td]Request Query Instrument... Successed
+[05:09:19] [td]Instrument Id:	i1705
+[05:09:21] [td]Request Query Trading Account... Successed
+[05:09:21] [td]Balance: 995910.00
+[05:09:21] [td]Available: 979281.00
+[05:09:21] [td]Close Profit: 0.00
+[05:09:21] [td]Position Profit: -850.00
+[05:09:23] [td]Request Query Investor Position... Successed
+[05:09:23] [td]Open Volume:0
+[05:10:43] [md]Front Connected...
+[05:10:43] [md]Send Login Request... Successed
+[05:10:43] [md]Date: 20170222
+[05:10:43] [td]Front Connected...
+[05:10:43] [td]Send Login Request... Successed
+[05:10:43] [td]Date: 20170222
+[05:10:44] [td]Request Settlement Info Confirm... Successed
+[05:10:44] [td]Instruments:
+[05:10:45] [td]Request Query Instrument... Successed
+[05:10:45] [td]Instrument Id:	i1705
+[05:10:47] [td]Request Query Trading Account... Successed
+[05:10:47] [td]Balance: 995910.00
+[05:10:48] [td]Available: 979281.00
+[05:10:48] [td]Close Profit: 0.00
+[05:10:48] [td]Position Profit: -850.00
+[05:10:50] [td]Request Query Investor Position... Successed
+[05:10:50] [td]Open Volume:0
+[05:12:12] [md]Front Connected...
+[05:12:12] [md]Send Login Request... Successed
+[05:12:12] [md]Date: 20170222
+[05:12:12] [td]Front Connected...
+[05:12:12] [td]Send Login Request... Successed
+[05:12:12] [td]Date: 20170222
+[05:12:13] [td]Request Settlement Info Confirm... Successed
+[05:12:13] [td]Instruments:
+[05:12:14] [td]Request Query Instrument... Successed
+[05:12:14] [td]Instrument Id:	i1705
+[05:12:16] [td]Request Query Trading Account... Successed
+[05:12:16] [td]Balance: 995910.00
+[05:12:16] [td]Available: 979281.00
+[05:12:16] [td]Close Profit: 0.00
+[05:12:16] [td]Position Profit: -850.00
+[05:12:18] [td]Request Query Investor Position... Successed
+[05:12:18] [td]Open Volume:0
+[05:12:50] [md]Front Connected...
+[05:12:50] [md]Send Login Request... Successed
+[05:12:50] [md]Date: 20170222
+[05:12:51] [td]Front Connected...
+[05:12:51] [td]Send Login Request... Successed
+[05:12:51] [td]Date: 20170222
+[05:12:52] [td]Request Settlement Info Confirm... Successed
+[05:12:52] [td]Instruments:
+[05:12:53] [td]Request Query Instrument... Successed
+[05:12:53] [td]Instrument Id:	i1705
+[05:12:55] [td]Request Query Trading Account... Successed
+[05:12:55] [td]Balance: 995910.00
+[05:12:55] [td]Available: 979281.00
+[05:12:55] [td]Close Profit: 0.00
+[05:12:55] [td]Position Profit: -850.00
+[05:12:57] [td]Request Query Investor Position... Successed
+[05:12:57] [td]Open Volume:0
+[05:14:15] [md]Front Connected...
+[05:14:15] [md]Send Login Request... Successed
+[05:14:15] [md]Date: 20170222
+[05:14:15] [td]Front Connected...
+[05:14:15] [td]Send Login Request... Successed
+[05:14:15] [td]Date: 20170222
+[05:14:16] [td]Request Settlement Info Confirm... Successed
+[05:14:16] [td]Instruments:
+[05:14:17] [td]Request Query Instrument... Successed
+[05:14:17] [td]Instrument Id:	i1705
+[05:14:42] [md]Front Connected...
+[05:14:42] [md]Send Login Request... Successed
+[05:14:42] [md]Date: 20170222
+[05:14:42] [td]Front Connected...
+[05:14:42] [td]Send Login Request... Successed
+[05:14:43] [td]Date: 20170222
+[05:14:44] [td]Request Settlement Info Confirm... Successed
+[05:14:44] [td]Instruments:
+[05:14:45] [td]Request Query Instrument... Successed
+[05:14:45] [td]Instrument Id:	i1705
+[05:14:47] [td]Request Query Trading Account... Successed
+[05:14:47] [td]Balance: 995910.00
+[05:14:47] [td]Available: 979281.00
+[05:14:47] [td]Close Profit: 0.00
+[05:14:47] [td]Position Profit: -850.00
+[05:16:07] [md]Front Connected...
+[05:16:07] [md]Send Login Request... Successed
+[05:16:07] [md]Date: 20170222
+[05:16:07] [td]Front Connected...
+[05:16:07] [td]Send Login Request... Successed
+[05:16:08] [td]Date: 20170222
+[05:16:09] [td]Request Settlement Info Confirm... Successed
+[05:16:09] [td]Instruments:
+[05:16:10] [td]Request Query Instrument... Successed
+[05:16:10] [td]Instrument Id:	i1705
+[05:16:12] [td]Request Query Trading Account... Successed
+[05:16:12] [td]Balance: 995910.00
+[05:16:12] [td]Available: 979281.00
+[05:16:12] [td]Close Profit: 0.00
+[05:16:12] [td]Position Profit: -850.00
+[05:16:14] [td]Request Query Investor Position... Successed
+[05:16:14] [td]Open Volume:0
+[05:16:39] [md]Front Connected...
+[05:16:39] [md]Send Login Request... Successed
+[05:16:39] [md]Date: 20170222
+[05:16:39] [td]Front Connected...
+[05:16:39] [td]Send Login Request... Successed
+[05:16:39] [td]Date: 20170222
+[05:16:40] [td]Request Settlement Info Confirm... Successed
+[05:16:40] [td]Instruments:
+[05:16:41] [td]Request Query Instrument... Successed
+[05:16:41] [td]Instrument Id:	i1705
+[05:16:58] [md]Front Connected...
+[05:16:58] [md]Send Login Request... Successed
+[05:16:58] [md]Date: 20170222
+[05:16:58] [td]Front Connected...
+[05:16:58] [td]Send Login Request... Successed
+[05:16:58] [td]Date: 20170222
+[05:16:59] [td]Request Settlement Info Confirm... Successed
+[05:16:59] [td]Instruments:
+[05:17:00] [td]Request Query Instrument... Successed
+[05:17:00] [td]Instrument Id:	i1705
+[05:17:02] [td]Request Query Trading Account... Successed
+[05:17:02] [td]Balance: 995910.00
+[05:17:02] [td]Available: 979281.00
+[05:17:02] [td]Close Profit: 0.00
+[05:17:02] [td]Position Profit: -850.00
+[05:17:04] [td]Request Query Investor Position... Successed
+[05:17:04] [td]Open Volume:0
+[05:17:18] [cm]Command Received (helloworld)
+[05:17:18] [cm]Illegal Command
+[05:17:21] [cm]Command Received (hello)
+[05:17:21] [cm]Illegal Command
+[11:45:22] [md]Front Connected...
+[11:45:22] [md]Send Login Request... Successed
+[11:45:22] [md]Date: 20170222
+[11:45:22] [td]Front Connected...
+[11:45:22] [td]Send Login Request... Successed
+[11:45:22] [td]Date: 20170222
+[11:45:23] [td]Request Settlement Info Confirm... Successed
+[11:45:23] [td]Instruments:
+[11:45:24] [td]Request Query Instrument... Successed
+[11:45:24] [td]Instrument Id:	i1705
+[11:45:26] [td]Request Query Trading Account... Successed
+[11:45:26] [td]Balance: 996410.00
+[11:45:26] [td]Available: 979781.00
+[11:45:26] [td]Close Profit: 0.00
+[11:45:26] [td]Position Profit: -350.00
+[11:45:28] [td]Request Query Investor Position... Successed
+[11:45:28] [td]Open Volume:0
+[11:45:42] [cm]Command Received (b 1)
+[11:45:42] [td]Requst Order Insert... Successed
+[11:45:42] [td]Direction: Buy, Price: 723.00, Status: 报单已提交
+[11:45:42] [td]Direction: Buy, Price: 723.00, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[11:50:56] [md]Front Connected...
+[11:50:57] [md]Send Login Request... Successed
+[11:50:57] [md]Date: 20170222
+[11:50:57] [td]Front Connected...
+[11:50:57] [td]Send Login Request... Successed
+[11:50:57] [td]Date: 20170222
+[11:50:58] [td]Request Settlement Info Confirm... Successed
+[11:50:58] [td]Instruments:
+[11:50:59] [td]Request Query Instrument... Successed
+[11:51:00] [td]Instrument Id:	i1705
+[11:51:02] [td]Request Query Trading Account... Successed
+[11:51:02] [td]Balance: 996410.00
+[11:51:02] [td]Available: 979781.00
+[11:51:02] [td]Close Profit: 0.00
+[11:51:02] [td]Position Profit: -350.00
+[11:51:58] [md]Front Connected...
+[11:51:58] [md]Send Login Request... Successed
+[11:51:58] [md]Date: 20170222
+[11:51:59] [td]Front Connected...
+[11:51:59] [td]Send Login Request... Successed
+[11:51:59] [td]Date: 20170222
+[11:52:00] [td]Request Settlement Info Confirm... Successed
+[11:52:00] [td]Instruments:
+[11:52:01] [td]Request Query Instrument... Successed
+[11:52:01] [td]Instrument Id:	i1705
+[11:52:03] [td]Request Query Trading Account... Successed
+[11:52:03] [td]Balance: 996410.00
+[11:52:03] [td]Available: 979781.00
+[11:52:03] [td]Close Profit: 0.00
+[11:52:03] [td]Position Profit: -350.00
+[11:52:05] [td]Request Query Investor Position... Successed
+[11:52:05] [td]Open Volume:0
+[11:55:00] [md]Front Connected...
+[11:55:00] [md]Send Login Request... Successed
+[11:55:00] [md]Date: 20170222
+[11:55:00] [td]Front Connected...
+[11:55:00] [td]Send Login Request... Successed
+[11:55:00] [td]Date: 20170222
+[11:55:01] [td]Request Settlement Info Confirm... Successed
+[11:55:02] [td]Instruments:
+[11:55:03] [td]Request Query Instrument... Successed
+[11:55:03] [td]Instrument Id:	i1705
+[11:55:05] [td]Request Query Trading Account... Successed
+[11:55:05] [td]Balance: 996410.00
+[11:55:05] [td]Available: 979781.00
+[11:55:05] [td]Close Profit: 0.00
+[11:55:05] [td]Position Profit: -350.00
+[11:55:07] [td]Request Query Investor Position... Successed
+[11:55:07] [td]Open Volume:0
+[11:56:04] [md]Front Connected...
+[11:56:04] [md]Send Login Request... Successed
+[11:56:04] [md]Date: 20170222
+[11:56:04] [td]Front Connected...
+[11:56:04] [td]Send Login Request... Successed
+[11:56:04] [td]Date: 20170222
+[11:56:05] [td]Request Settlement Info Confirm... Successed
+[11:56:05] [td]Instruments:
+[11:56:06] [td]Request Query Instrument... Successed
+[11:56:06] [td]Instrument Id:	i1705
+[11:56:08] [td]Request Query Trading Account... Successed
+[11:56:08] [td]Balance: 996410.00
+[11:56:08] [td]Available: 979781.00
+[11:56:08] [td]Close Profit: 0.00
+[11:56:08] [td]Position Profit: -350.00
+[11:57:03] [md]Front Connected...
+[11:57:03] [md]Send Login Request... Successed
+[11:57:03] [md]Date: 20170222
+[11:57:03] [td]Front Connected...
+[11:57:03] [td]Send Login Request... Successed
+[11:57:03] [td]Date: 20170222
+[11:57:04] [td]Request Settlement Info Confirm... Successed
+[11:57:04] [td]Instruments:
+[11:57:05] [td]Request Query Instrument... Successed
+[11:57:05] [td]Instrument Id:	i1705
+[11:57:07] [td]Request Query Trading Account... Successed
+[11:57:08] [td]Balance: 996410.00
+[11:57:08] [td]Available: 979781.00
+[11:57:08] [td]Close Profit: 0.00
+[11:57:08] [td]Position Profit: -350.00
+[11:57:10] [td]Request Query Investor Position... Successed
+[11:57:10] [td]Open Volume:0
+[11:57:32] [md]Front Connected...
+[11:57:32] [md]Send Login Request... Successed
+[11:57:32] [md]Date: 20170222
+[11:57:32] [td]Front Connected...
+[11:57:32] [td]Send Login Request... Successed
+[11:57:32] [td]Date: 20170222
+[11:57:33] [td]Request Settlement Info Confirm... Successed
+[11:57:33] [td]Instruments:
+[11:57:34] [td]Request Query Instrument... Successed
+[11:57:34] [td]Instrument Id:	i1705
+[11:57:36] [td]Request Query Trading Account... Successed
+[11:57:37] [td]Balance: 996410.00
+[11:57:37] [td]Available: 979781.00
+[11:57:37] [td]Close Profit: 0.00
+[11:57:37] [td]Position Profit: -350.00
+[11:57:39] [td]Request Query Investor Position... Successed
+[11:57:39] [td]Open Volume:0
+[11:59:01] [md]Front Connected...
+[11:59:01] [md]Send Login Request... Successed
+[11:59:01] [md]Date: 20170222
+[11:59:01] [td]Front Connected...
+[11:59:01] [td]Send Login Request... Successed
+[11:59:01] [td]Date: 20170222
+[11:59:02] [td]Request Settlement Info Confirm... Successed
+[11:59:02] [td]Instruments:
+[11:59:03] [td]Request Query Instrument... Successed
+[11:59:03] [td]Instrument Id:	i1705
+[11:59:30] [md]Front Connected...
+[11:59:30] [md]Send Login Request... Successed
+[11:59:30] [md]Date: 20170222
+[11:59:30] [td]Front Connected...
+[11:59:30] [td]Send Login Request... Successed
+[11:59:30] [td]Date: 20170222
+[11:59:31] [td]Request Settlement Info Confirm... Successed
+[11:59:31] [td]Instruments:
+[12:00:47] [md]Front Connected...
+[12:00:47] [md]Send Login Request... Successed
+[12:00:47] [md]Date: 20170222
+[12:00:48] [td]Front Connected...
+[12:00:48] [td]Send Login Request... Successed
+[12:00:48] [td]Date: 20170222
+[12:00:49] [td]Request Settlement Info Confirm... Successed
+[12:00:49] [td]Instruments:
+[12:03:19] [md]Front Connected...
+[12:03:19] [md]Send Login Request... Successed
+[12:03:19] [md]Date: 20170222
+[12:03:19] [td]Front Connected...
+[12:03:19] [td]Send Login Request... Successed
+[12:03:19] [td]Date: 20170222
+[12:03:20] [td]Request Settlement Info Confirm... Successed
+[12:03:20] [td]Instruments:
+[12:04:43] [md]Front Connected...
+[12:04:43] [md]Send Login Request... Successed
+[12:04:43] [md]Date: 20170222
+[12:04:43] [td]Front Connected...
+[12:04:43] [td]Send Login Request... Successed
+[12:04:43] [td]Date: 20170222
+[12:04:44] [td]Request Settlement Info Confirm... Successed
+[12:04:44] [td]Instruments:
+[12:49:35] [md]Front Connected...
+[12:49:35] [md]Send Login Request... Successed
+[12:49:35] [md]Date: 20170222
+[12:49:35] [td]Front Connected...
+[12:49:35] [td]Send Login Request... Successed
+[12:49:35] [td]Date: 20170222
+[12:49:36] [td]Request Settlement Info Confirm... Successed
+[12:49:36] [td]Instruments:
+[12:51:13] [md]Front Connected...
+[12:51:13] [md]Send Login Request... Successed
+[12:51:13] [md]Date: 20170222
+[12:51:13] [td]Front Connected...
+[12:51:13] [td]Send Login Request... Successed
+[12:51:13] [td]Date: 20170222
+[12:51:14] [td]Request Settlement Info Confirm... Successed
+[12:51:14] [td]Instruments:
+[12:51:55] [md]Front Connected...
+[12:51:55] [md]Send Login Request... Successed
+[12:51:56] [md]Date: 20170222
+[12:51:56] [td]Front Connected...
+[12:51:56] [td]Send Login Request... Successed
+[12:51:56] [td]Date: 20170222
+[12:51:57] [td]Request Settlement Info Confirm... Successed
+[12:51:57] [td]Instruments:
+[12:54:46] [md]Front Connected...
+[12:54:46] [md]Send Login Request... Successed
+[12:54:46] [md]Date: 20170222
+[12:54:46] [td]Front Connected...
+[12:54:46] [td]Send Login Request... Successed
+[12:54:46] [td]Date: 20170222
+[12:54:47] [td]Request Settlement Info Confirm... Successed
+[12:54:48] [td]Instruments:
+[12:55:07] [md]Front Connected...
+[12:55:07] [md]Send Login Request... Successed
+[12:55:08] [md]Date: 20170222
+[12:55:08] [td]Front Connected...
+[12:55:08] [td]Send Login Request... Successed
+[12:55:08] [td]Date: 20170222
+[12:55:09] [td]Request Settlement Info Confirm... Successed
+[12:55:09] [td]Instruments:
+[12:58:56] [md]Front Connected...
+[12:58:56] [md]Send Login Request... Successed
+[12:58:57] [md]Date: 20170222
+[12:58:57] [td]Front Connected...
+[12:58:57] [td]Send Login Request... Successed
+[12:58:57] [td]Date: 20170222
+[12:58:58] [td]Request Settlement Info Confirm... Successed
+[12:58:58] [td]Instruments:
+[13:00:37] [md]Front Connected...
+[13:00:37] [md]Send Login Request... Successed
+[13:00:37] [md]Date: 20170222
+[13:00:37] [td]Front Connected...
+[13:00:37] [td]Send Login Request... Successed
+[13:00:37] [td]Date: 20170222
+[13:00:38] [td]Request Settlement Info Confirm... Successed
+[13:00:38] [td]Instruments:
+[13:02:04] [md]Front Connected...
+[13:02:04] [md]Send Login Request... Successed
+[13:02:04] [md]Date: 20170222
+[13:02:05] [td]Front Connected...
+[13:02:05] [td]Send Login Request... Successed
+[13:02:05] [td]Date: 20170222
+[13:02:06] [td]Request Settlement Info Confirm... Successed
+[13:02:06] [td]Instruments:
+[13:04:12] [md]Front Connected...
+[13:04:12] [md]Send Login Request... Successed
+[13:04:12] [md]Date: 20170222
+[13:04:12] [td]Front Connected...
+[13:04:12] [td]Send Login Request... Successed
+[13:04:12] [td]Date: 20170222
+[13:04:13] [td]Request Settlement Info Confirm... Successed
+[13:04:13] [td]Instruments:
+[13:05:39] [md]Front Connected...
+[13:05:39] [md]Send Login Request... Successed
+[13:05:39] [md]Date: 20170222
+[13:05:39] [td]Front Connected...
+[13:05:39] [td]Send Login Request... Successed
+[13:05:39] [td]Date: 20170222
+[13:05:40] [td]Request Settlement Info Confirm... Successed
+[13:05:41] [td]Instruments:
+[13:05:42] [td]Request Query Instrument... Successed
+[13:05:42] [td]Instrument Id:	i1705
+[13:05:44] [td]Request Query Trading Account... Successed
+[13:05:44] [td]Balance: 996410.00
+[13:05:44] [td]Available: 979781.00
+[13:05:44] [td]Close Profit: 0.00
+[13:05:44] [td]Position Profit: -350.00
+[13:05:46] [td]Request Query Investor Position... Successed
+[13:05:46] [td]Open Volume:0
+[13:05:53] [md]Front Connected...
+[13:05:53] [md]Send Login Request... Successed
+[13:05:53] [md]Date: 20170222
+[13:05:53] [td]Front Connected...
+[13:05:53] [td]Send Login Request... Successed
+[13:05:54] [td]Date: 20170222
+[13:05:55] [td]Request Settlement Info Confirm... Successed
+[13:05:55] [td]Instruments:
+[13:06:16] [md]Front Connected...
+[13:06:16] [md]Send Login Request... Successed
+[13:06:17] [md]Date: 20170222
+[13:06:17] [td]Front Connected...
+[13:06:17] [td]Send Login Request... Successed
+[13:06:17] [td]Date: 20170222
+[13:06:18] [td]Request Settlement Info Confirm... Successed
+[13:06:18] [td]Instruments:
+[13:06:43] [md]Front Connected...
+[13:06:43] [md]Send Login Request... Successed
+[13:06:44] [md]Date: 20170222
+[13:06:44] [td]Front Connected...
+[13:06:44] [td]Send Login Request... Successed
+[13:06:44] [td]Date: 20170222
+[13:06:45] [td]Request Settlement Info Confirm... Successed
+[13:06:45] [td]Instruments:
+[13:07:00] [td]Request Query Instrument... Successed
+[13:07:00] [td]Instrument Id:	i1705
+[13:07:02] [td]Request Query Trading Account... Successed
+[13:07:02] [td]Balance: 996410.00
+[13:07:02] [td]Available: 979781.00
+[13:07:02] [td]Close Profit: 0.00
+[13:07:02] [td]Position Profit: -350.00
+[13:07:04] [td]Request Query Investor Position... Successed
+[13:07:04] [td]Open Volume:0
+[13:07:19] [cm]Command Received (hello world)
+[13:07:19] [cm]Illegal Command
+[13:14:04] [md]Front Connected...
+[13:14:05] [md]Send Login Request... Successed
+[13:14:05] [md]Date: 20170222
+[13:14:05] [td]Front Connected...
+[13:14:05] [td]Send Login Request... Successed
+[13:14:05] [td]Date: 20170222
+[13:14:06] [td]Request Settlement Info Confirm... Successed
+[13:14:06] [td]Instruments:
+[13:14:07] [td]Request Query Instrument... Successed
+[13:14:07] [td]Instrument Id:	i1705
+[13:14:09] [td]Request Query Trading Account... Successed
+[13:14:09] [td]Balance: 996410.00
+[13:14:09] [td]Available: 979781.00
+[13:14:09] [td]Close Profit: 0.00
+[13:14:09] [td]Position Profit: -350.00
+[13:14:11] [td]Request Query Investor Position... Successed
+[13:14:11] [td]Open Volume:0
+[13:14:31] [cm]Command Received (command)
+[13:14:31] [cm]Illegal Command
+[13:15:39] [md]Front Connected...
+[13:15:39] [md]Send Login Request... Successed
+[13:15:39] [md]Date: 20170222
+[13:15:39] [td]Front Connected...
+[13:15:39] [td]Send Login Request... Successed
+[13:15:39] [td]Date: 20170222
+[13:15:40] [td]Request Settlement Info Confirm... Successed
+[13:15:40] [td]Instruments:
+[13:15:41] [td]Request Query Instrument... Successed
+[13:15:42] [td]Instrument Id:	i1705
+[13:15:44] [td]Request Query Trading Account... Successed
+[13:15:44] [td]Balance: 996410.00
+[13:15:44] [td]Available: 979781.00
+[13:15:44] [td]Close Profit: 0.00
+[13:15:44] [td]Position Profit: -350.00
+[13:15:46] [td]Request Query Investor Position... Successed
+[13:15:46] [td]Open Volume:0
+[13:15:51] [cm]Command Received (b 1)
+[13:15:51] [td]Requst Order Insert... Successed
+[13:15:51] [td]Direction: Buy, Price: 723.00, Status: 报单已提交
+[13:15:51] [td]Direction: Buy, Price: 723.00, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[13:15:54] [cm]Command Received (b 2)
+[13:15:54] [td]Requst Order Insert... Successed
+[13:15:54] [td]Direction: Buy, Price: 723.00, Status: 报单已提交
+[13:15:54] [td]Direction: Buy, Price: 723.00, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[13:15:59] [cm]Command Received (cl)
+[13:16:58] [md]Front Connected...
+[13:16:58] [md]Send Login Request... Successed
+[13:16:59] [md]Date: 20170222
+[13:16:59] [td]Front Connected...
+[13:16:59] [td]Send Login Request... Successed
+[13:16:59] [td]Date: 20170222
+[13:17:00] [td]Request Settlement Info Confirm... Successed
+[13:17:00] [td]Instruments:
+[13:17:01] [cm]Command Received (cl)
+[13:17:01] [td]Request Query Instrument... Successed
+[13:17:01] [td]Instrument Id:	i1705
+[13:17:03] [cm]Command Received (cl)
+[13:17:03] [td]Request Query Trading Account... Successed
+[13:17:03] [td]Balance: 996410.00
+[13:17:03] [td]Available: 979781.00
+[13:17:03] [td]Close Profit: 0.00
+[13:17:03] [td]Position Profit: -350.00
+[13:17:05] [td]Request Query Investor Position... Successed
+[13:17:06] [td]Open Volume:0
+[13:17:06] [cm]Command Received (cl)
+[13:17:08] [cm]Command Received (cl)
+[13:17:10] [cm]Command Received (cl)
+[13:17:19] [cm]Command Received (b 1)
+[13:17:19] [td]Requst Order Insert... Successed
+[13:17:19] [td]Direction: Buy, Price: 723.00, Status: 报单已提交
+[13:17:19] [td]Direction: Buy, Price: 723.00, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[13:17:22] [cm]Command Received (s 1)
+[13:17:22] [td]Requst Order Insert... Successed
+[13:17:22] [td]Direction: Sell, Price: 722.50, Status: 报单已提交
+[13:17:22] [td]Direction: Sell, Price: 722.50, Status: 已撤单报单被拒绝DCE:当前状态禁止此项操作
+[13:17:34] [md]Front Connected...
+[13:17:34] [md]Send Login Request... Successed
+[13:17:35] [md]Date: 20170222
+[13:17:35] [td]Front Connected...
+[13:17:35] [td]Send Login Request... Successed
+[13:17:35] [td]Date: 20170222
+[13:17:36] [td]Request Settlement Info Confirm... Successed
+[13:17:36] [td]Instruments:
+[13:17:36] [cm]Command Received ()
+[13:17:36] [cm]Illegal Command
+[13:17:37] [cm]Command Received ()
+[13:17:37] [cm]Illegal Command
+[13:17:37] [td]Request Query Instrument... Successed
+[13:17:37] [td]Instrument Id:	i1705
+[13:17:38] [cm]Command Received ()
+[13:17:38] [cm]Illegal Command
+[13:17:38] [cm]Command Received ()
+[13:17:38] [cm]Illegal Command
+[13:17:38] [cm]Command Received ()
+[13:17:38] [cm]Illegal Command
+[13:17:38] [cm]Command Received ()
+[13:17:38] [cm]Illegal Command
+[13:17:38] [cm]Command Received ()
+[13:17:38] [cm]Illegal Command
+[13:17:39] [cm]Command Received ()
+[13:17:39] [cm]Illegal Command
+[13:17:39] [cm]Command Received ()
+[13:17:39] [cm]Illegal Command
+[13:17:39] [cm]Command Received ()
+[13:17:39] [cm]Illegal Command
+[13:17:39] [td]Request Query Trading Account... Successed
+[13:17:39] [cm]Command Received ()
+[13:17:39] [cm]Illegal Command
+[13:17:39] [td]Balance: 996410.00
+[13:17:39] [td]Available: 979781.00
+[13:17:39] [td]Close Profit: 0.00
+[13:17:39] [td]Position Profit: -350.00
+[13:17:39] [cm]Command Received ()
+[13:17:39] [cm]Illegal Command
+[13:17:39] [cm]Command Received ()
+[13:17:39] [cm]Illegal Command
+[13:17:39] [cm]Command Received ()
+[13:17:39] [cm]Illegal Command
+[13:17:40] [cm]Command Received ()
+[13:17:40] [cm]Illegal Command
+[13:17:40] [cm]Command Received ()
+[13:17:40] [cm]Illegal Command
+[13:17:40] [cm]Command Received ()
+[13:17:40] [cm]Illegal Command
+[13:17:40] [cm]Command Received ()
+[13:17:40] [cm]Illegal Command
+[13:17:40] [cm]Command Received ()
+[13:17:40] [cm]Illegal Command
+[13:17:40] [cm]Command Received ()
+[13:17:40] [cm]Illegal Command
+[13:17:41] [cm]Command Received ()
+[13:17:41] [cm]Illegal Command
+[13:17:41] [cm]Command Received ()
+[13:17:41] [cm]Illegal Command
+[13:17:41] [cm]Command Received ()
+[13:17:41] [cm]Illegal Command
+[13:17:41] [cm]Command Received ()
+[13:17:41] [cm]Illegal Command
+[13:17:41] [td]Request Query Investor Position... Successed
+[13:17:41] [td]Open Volume:0
+[13:17:41] [cm]Command Received ()
+[13:17:41] [cm]Illegal Command
+[13:17:41] [cm]Command Received ()
+[13:17:41] [cm]Illegal Command
+[13:17:42] [cm]Command Received ()
+[13:17:42] [cm]Illegal Command
+[13:17:42] [cm]Command Received ()
+[13:17:42] [cm]Illegal Command
+[13:17:42] [cm]Command Received ()
+[13:17:42] [cm]Illegal Command
+[13:17:42] [cm]Command Received ()
+[13:17:42] [cm]Illegal Command
+[13:17:42] [cm]Command Received ()
+[13:17:42] [cm]Illegal Command
+[13:17:42] [cm]Command Received ()
+[13:17:42] [cm]Illegal Command
+[13:17:42] [cm]Command Received ()
+[13:17:42] [cm]Illegal Command
+[13:17:43] [cm]Command Received ()
+[13:17:43] [cm]Illegal Command
+[13:17:43] [cm]Command Received ()
+[13:17:43] [cm]Illegal Command
+[13:17:43] [cm]Command Received ()
+[13:17:43] [cm]Illegal Command
+[13:17:43] [cm]Command Received ()
+[13:17:43] [cm]Illegal Command
+[13:17:43] [cm]Command Received ()
+[13:17:43] [cm]Illegal Command
+[13:17:43] [cm]Command Received ()
+[13:17:43] [cm]Illegal Command
+[13:17:43] [cm]Command Received ()
+[13:17:43] [cm]Illegal Command
+[13:17:44] [cm]Command Received ()
+[13:17:44] [cm]Illegal Command
+[13:17:44] [cm]Command Received ()
+[13:17:44] [cm]Illegal Command
+[13:17:44] [cm]Command Received ()
+[13:17:44] [cm]Illegal Command
+[13:17:44] [cm]Command Received ()
+[13:17:44] [cm]Illegal Command
+[13:17:44] [cm]Command Received ()
+[13:17:44] [cm]Illegal Command
+[13:17:44] [cm]Command Received ()
+[13:17:44] [cm]Illegal Command
+[13:17:45] [cm]Command Received ()
+[13:17:45] [cm]Illegal Command
+[13:17:45] [cm]Command Received ()
+[13:17:45] [cm]Illegal Command
+[13:17:45] [cm]Command Received ()
+[13:17:45] [cm]Illegal Command
+[13:17:45] [cm]Command Received ()
+[13:17:45] [cm]Illegal Command
+[13:17:45] [cm]Command Received ()
+[13:17:45] [cm]Illegal Command
+[13:17:45] [cm]Command Received ()
+[13:17:45] [cm]Illegal Command
+[13:17:46] [cm]Command Received ()
+[13:17:46] [cm]Illegal Command
+[13:17:46] [cm]Command Received ()
+[13:17:46] [cm]Illegal Command
+[13:17:46] [cm]Command Received ()
+[13:17:46] [cm]Illegal Command
+[13:17:54] [md]Front Connected...
+[13:17:54] [md]Send Login Request... Successed
+[13:17:54] [md]Date: 20170222
+[13:17:54] [td]Front Connected...
+[13:17:54] [td]Send Login Request... Successed
+[13:17:54] [td]Date: 20170222
+[13:17:55] [td]Request Settlement Info Confirm... Successed
+[13:17:55] [td]Instruments:
+[13:17:56] [td]Request Query Instrument... Successed
+[13:17:56] [td]Instrument Id:	i1705
+[13:17:58] [td]Request Query Trading Account... Successed
+[13:17:58] [td]Balance: 996410.00
+[13:17:58] [td]Available: 979781.00
+[13:17:58] [td]Close Profit: 0.00
+[13:17:58] [td]Position Profit: -350.00
+[13:18:00] [td]Request Query Investor Position... Successed
+[13:18:01] [td]Open Volume:0
