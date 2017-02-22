@@ -48,6 +48,12 @@
     <ClCompile Include="command.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DisplayBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ThostFtdcMdApi.h">
@@ -85,6 +91,15 @@
     </ClInclude>
     <ClInclude Include="command.h">
       <Filter>头文件\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vars.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -17,28 +17,15 @@ void SleepFor(int milliseconds)
 void InitScreen()
 {
 	//_Get_Output_Mutex
-	system("mode con:cols=110  lines=51");
-	SetCursorPosition(90, 0);
-	std::cout << "     " << ppInstrumentID[0];
-	SetCursorPosition(90, 1);
-	std::cout << "Ask: ";
-	SetCursorPosition(90, 2);
-	std::cout << "-----------------";
-	SetCursorPosition(90, 3);
-	std::cout << "Bid: ";
-	SetCursorPosition(0, 49);
-	std::cout << "Command > ";
-	SetCursorPosition(0, 0);
-
+	system("mode con:cols=120  lines=52");
+	InitDisplayBuffer();
+	FirstPrintDisplayBuffer();
 	//_Release_Output_Mutex
 }
 
 void InitThreads()
 {
-	threads[0] = std::thread(price::thread_work);
-	threads[1] = std::thread(command::thread_work);
-	threads[0].join();
-	threads[1].join();
+	
 }
 
 #ifdef _WIN32

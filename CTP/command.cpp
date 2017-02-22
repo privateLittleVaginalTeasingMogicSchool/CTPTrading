@@ -3,6 +3,7 @@
 #include "Common.h"
 #include "command.h"
 #include "Trade.h"
+#include "Query.h"
 
 #include <conio.h>
 #include <sstream>
@@ -21,16 +22,16 @@ void command::thread_work()
 		{
 			if (!can_input)
 				continue;
-			
+			_Get_Output_Mutex
 			StoreCursorPosition(&coord);
-			SetCursorPosition(pbuf - buffer + 10, 49);
+			SetCursorPosition(pbuf - buffer + 12, BUFFER_ROW_NUM - 2);
 			switch (c)
 			{
 				case VK_RETURN:
 					{
 						can_input = false;
 						int len = (int)(pbuf - buffer);
-						_Get_Output_Mutex
+						
 						for (int i = 0;i < len; i++)
 						{
 							putchar('\b');
@@ -43,7 +44,6 @@ void command::thread_work()
 						{
 							putchar('\b');
 						}
-						_Release_Output_Mutex
 						*pbuf = 0;
 						Analyzer = new std::thread(analyze_command);
 					}
@@ -53,22 +53,24 @@ void command::thread_work()
 						if (pbuf>buffer)
 						{
 							pbuf--;
-							_Get_Output_Mutex
 							puts("\b \b");
-							_Release_Output_Mutex
 						}
 					}
 					break;
 				default:
 					{
-						*(pbuf++) = c;
-						_Get_Output_Mutex
-						putchar(c);
-						_Release_Output_Mutex
+						if (pbuf - buffer < 50)
+						{
+							*(pbuf++) = c;
+							putchar(c);
+						}
+						else
+							break;
 					}
 					break;
 			}
 			RestoreCursorPosition(&coord);
+			_Release_Output_Mutex
 		}
 	}
 }
@@ -81,6 +83,7 @@ void command::thread_work()
 *   s [num]          卖num手
 *   cb [num]         平买num手
 *   cs [num]         平卖num手
+*   t                查看所有订单
 *   q                停止自动交易
 *   rs               （重新）开始自动交易
 *   exit             退出程序
@@ -97,13 +100,13 @@ void command::analyze_command()
 	std::string cmdstr = cmd;
 	lgr << Log::t << "[cm]Command Received (" << cmd << ")" << Log::endl;
 
-
 	if (cmdstr == "h")
 	{
 		lgr << Log::t << "[cm]b [num]          买num手" << Log::endl
 			<< Log::t << "[cm]s [num]          卖num手" << Log::endl
 			<< Log::t << "[cm]cb [num]         平买num手" << Log::endl
 			<< Log::t << "[cm]cs [num]         平卖num手" << Log::endl
+			<< Log::t << "[cm]t                查看所有订单" << Log::endl
 			<< Log::t << "[cm]q                停止自动交易" << Log::endl
 			<< Log::t << "[cm]rs               （重新）开始自动交易" << Log::endl
 			<< Log::t << "[cm]exit             退出程序" << Log::endl;
@@ -129,11 +132,11 @@ void command::analyze_command()
 
 			catch (std::exception)
 			{
-				lgr << "Illegal Command" << Log::endl;
+				lgr << Log::t << "[cm]Illegal Command" << Log::endl;
 			}
 		}
 		else
-			lgr << "Illegal Command" << Log::endl;
+			lgr << Log::t << "[cm]Illegal Command" << Log::endl;
 	}
 
 	else if (cmdstr[0] == 's')
@@ -150,11 +153,11 @@ void command::analyze_command()
 
 			catch (std::exception)
 			{
-				lgr << "Illegal Command" << Log::endl;
+				lgr << Log::t << "[cm]Illegal Command" << Log::endl;
 			}
 		}
 		else
-			lgr << "Illegal Command" << Log::endl;
+			lgr << Log::t << "[cm]Illegal Command" << Log::endl;
 	}
 
 	else if (cmdstr[0] == 'c')
@@ -166,12 +169,12 @@ void command::analyze_command()
 				std::stringstream ss(cmd + 3);
 				int lot = 0;
 				ss >> lot;
-				OrderSend(ppInstrumentID[0], THOST_FTDC_OF_CloseToday, THOST_FTDC_D_Sell, lot);
+				OrderSend(ppInstrumentID[0], THOST_FTDC_OF_Close, THOST_FTDC_D_Sell, lot);
 			}
 
 			catch (std::exception)
 			{
-				lgr << "Illegal Command" << Log::endl;
+				lgr << Log::t << "[cm]Illegal Command" << Log::endl;
 			}
 		}
 		else if (cmdstr[1] == 's')
@@ -181,20 +184,24 @@ void command::analyze_command()
 				std::stringstream ss(cmd + 3);
 				int lot = 0;
 				ss >> lot;
-				OrderSend(ppInstrumentID[0], THOST_FTDC_OF_CloseToday, THOST_FTDC_D_Buy, lot);
+				OrderSend(ppInstrumentID[0], THOST_FTDC_OF_Close, THOST_FTDC_D_Buy, lot);
 			}
 
 			catch (std::exception)
 			{
-				lgr << "Illegal Command" << Log::endl;
+				lgr << Log::t << "[cm]Illegal Command" << Log::endl;
 			}
 		}
 		else
-			lgr << "Illegal Command" << Log::endl;
+			lgr << Log::t << "[cm]Illegal Command" << Log::endl;
+	}
+
+	else if (cmdstr == "exit")
+	{
+		// TODO: Safely terminate the program.
 	}
 
 	else
-		lgr << "Illegal Command" << Log::endl;
-	
+		lgr << Log::t << "[cm]Illegal Command" << Log::endl;
 	Analyzer = nullptr;
 }
