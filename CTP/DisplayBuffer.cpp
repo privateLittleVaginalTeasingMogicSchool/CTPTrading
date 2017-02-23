@@ -42,12 +42,7 @@ void InitDisplayBuffer()
 	memcpy(&DisplayBuffer[BUFFER_ROW_NUM - 2][2], "Command > ", 10);
 	DisplayBuffer[BUFFER_ROW_NUM - 2][96] = ' ';
 	DisplayBuffer[BUFFER_ROW_NUM - 2][97] = ' ';
-	int len = strlen(ppInstrumentID[0]);
-	std::stringstream ss;
-	int rightblank = (20 - len) / 2;
-	ss << std::setw(20 - rightblank) << std::right << ppInstrumentID[0];
-	ss << std::setw(rightblank) << std::right << " ";
-	info[0] = ss.str();
+	
 }
 
 void FirstPrintDisplayBuffer()
@@ -95,7 +90,7 @@ void PrintDisplayBuffer()
 	}
 }
 
-void NewInfo(const char* str)
+void NewPrompt(const char* str)
 {
 	int len = strlen(str);
 	prompt[prompt_begin%prompt.size()] = str;
@@ -106,7 +101,7 @@ void NewInfo(const char* str)
 	prompt_begin++;
 }
 
-void NewInfo(std::string& str)
+void NewPrompt(std::string& str)
 {
 	prompt[prompt_begin%prompt.size()] = str;
 	for (int i = str.size();i < 94;i++)
@@ -114,4 +109,9 @@ void NewInfo(std::string& str)
 		prompt[prompt_begin%prompt.size()].push_back(' ');
 	}
 	prompt_begin++;
+}
+
+void NewInfo(std::string& str)
+{
+
 }

@@ -8,6 +8,19 @@
 
 COORD price::coord;
 
+void show_instruments()
+{
+	for (int i = 0;i < iInstrumentID;i++)
+	{
+		int len = strlen(ppInstrumentID[i]);
+		std::stringstream ss;
+		int rightblank = (20 - len) / 2;
+		ss << std::setw(20 - rightblank) << std::right << ppInstrumentID[0];
+		ss << std::setw(rightblank) << std::right << " ";
+		info[3 * i] = ss.str();
+	}
+}
+
 void chg_price()
 {
 	std::stringstream ask;
@@ -24,6 +37,7 @@ void chg_price()
 
 void price::thread_work()
 {
+	show_instruments();
 	while (true)
 	{
 		SleepFor(500);

@@ -15,8 +15,10 @@ void PrintDisplayBuffer();
 void SetTextColor(int back_color, int fore_color);
 void RestoreTextColor();
 void SetCursorPosition(int x, int y);
-void NewInfo(const char* str);
+void NewPrompt(const char* str);
+void NewPrompt(std::string& str);
 void NewInfo(std::string& str);
+
 
 #define _Get_Output_Mutex      do{\
                                while(output_mutex);\

@@ -13,6 +13,8 @@
 
 #include<iomanip>
 #include<vector>
+#include<array>
+
 
 int nMdRequestID = 0;
 int nTdRequestID = 0;
