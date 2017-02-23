@@ -67,7 +67,7 @@ Logger& Logger::operator<<(Logger& (__cdecl *pfunc)(Logger&))
 Logger& Logger::endl(Logger& logger)
 {
 	_Get_Output_Mutex
-	NewInfo(logger.info);
+	NewPrompt(logger.info);
 	std::endl(logger._of);
 	logger.info = "";
 	_Release_Output_Mutex

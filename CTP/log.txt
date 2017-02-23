@@ -3605,3 +3605,378 @@ Successed
 [13:17:58] [td]Position Profit: -350.00
 [13:18:00] [td]Request Query Investor Position... Successed
 [13:18:01] [td]Open Volume:0
+[13:35:01] [md]Front Connected...
+[13:35:01] [md]Send Login Request... Successed
+[13:35:02] [md]Date: 20170222
+[13:35:02] [td]Front Connected...
+[13:35:02] [td]Send Login Request... Successed
+[13:35:02] [td]Date: 20170222
+[13:35:03] [td]Request Settlement Info Confirm... Successed
+[13:35:03] [td]Instruments:
+[13:35:04] [td]Request Query Instrument... Successed
+[13:35:04] [td]Instrument Id:	i1705
+[13:35:06] [td]Request Query Trading Account... Successed
+[13:35:06] [td]Balance: 996660.00
+[13:35:06] [td]Available: 980031.00
+[13:35:06] [td]Close Profit: 0.00
+[13:35:06] [td]Position Profit: -100.00
+[13:35:08] [td]Request Query Investor Position... Successed
+[13:35:09] [td]Open Volume:0
+[13:50:48] [md]Front Connected...
+[13:50:48] [md]Send Login Request... Successed
+[13:50:48] [md]Date: 20170222
+[13:50:48] [td]Front Connected...
+[13:50:48] [td]Send Login Request... Successed
+[13:50:49] [td]Date: 20170222
+[13:50:50] [td]Request Settlement Info Confirm... Successed
+[13:50:50] [td]Instruments:
+[13:50:51] [td]Request Query Instrument... Successed
+[13:50:51] [td]Instrument Id:	i1705
+[13:50:53] [td]Request Query Trading Account... Successed
+[13:50:53] [td]Balance: 996560.00
+[13:50:53] [td]Available: 979931.00
+[13:50:53] [td]Close Profit: 0.00
+[13:50:53] [td]Position Profit: -200.00
+[13:50:55] [td]Request Query Investor Position... Successed
+[13:50:55] [td]Open Volume:0
+[13:51:04] [cm]Command Received (b 1)
+[13:51:04] [td]Requst Order Insert... Successed
+[13:51:04] [td]Direction: Buy, Price: 718.00, Status: 报单已提交
+[13:51:04] [td]Direction: Buy, Price: 718.00, Status: 报单已提交
+[13:51:04] [td]Direction: Buy, Price: 718.00, Status: 全部成交报单已提交
+[13:51:04] [td]i1705 At Price: 718.00, 1 Traded
+[13:51:06] [cm]Command Received (s 1)
+[13:51:06] [td]Requst Order Insert... Successed
+[13:51:06] [td]Direction: Sell, Price: 717.50, Status: 报单已提交
+[13:51:06] [td]Direction: Sell, Price: 717.50, Status: 报单已提交
+[13:51:06] [td]Direction: Sell, Price: 717.50, Status: 全部成交报单已提交
+[13:51:07] [td]i1705 At Price: 717.50, 1 Traded
+[13:51:09] [cm]Command Received (s 1)
+[13:51:09] [td]Requst Order Insert... Successed
+[13:51:09] [td]Direction: Sell, Price: 717.50, Status: 报单已提交
+[13:51:09] [td]Direction: Sell, Price: 717.50, Status: 报单已提交
+[13:51:09] [td]Direction: Sell, Price: 717.50, Status: 全部成交报单已提交
+[13:51:09] [td]i1705 At Price: 717.50, 1 Traded
+[13:51:10] [cm]Command Received (s 1)
+[13:51:10] [td]Requst Order Insert... Successed
+[13:51:10] [td]Direction: Sell, Price: 717.50, Status: 报单已提交
+[13:51:10] [td]Direction: Sell, Price: 717.50, Status: 报单已提交
+[13:51:10] [td]Direction: Sell, Price: 717.50, Status: 全部成交报单已提交
+[13:51:11] [td]i1705 At Price: 717.50, 1 Traded
+[13:51:12] [cm]Command Received (s 1)
+[13:51:12] [td]Requst Order Insert... Successed
+[13:51:12] [td]Direction: Sell, Price: 717.50, Status: 报单已提交
+[13:51:12] [td]Direction: Sell, Price: 717.50, Status: 报单已提交
+[13:51:12] [td]Direction: Sell, Price: 717.50, Status: 全部成交报单已提交
+[13:51:12] [td]i1705 At Price: 717.50, 1 Traded
+[13:51:16] [cm]Command Received (cs 5)
+[13:51:16] [td]Requst Order Insert... Successed
+[13:51:17] [td]Order: #
+[13:51:17] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[13:51:19] [cm]Command Received (cs 4)
+[13:51:19] [td]Requst Order Insert... Successed
+[13:51:19] [td]Direction: Buy, Price: 717.50, Status: 报单已提交
+[13:51:19] [td]Direction: Buy, Price: 717.50, Status: 报单已提交
+[13:51:19] [td]Direction: Buy, Price: 717.50, Status: 全部成交报单已提交
+[13:51:19] [td]i1705 At Price: 717.50, 4 Traded
+[13:51:22] [cm]Command Received (cb 3)
+[13:51:22] [td]Requst Order Insert... Successed
+[13:51:22] [td]Order: #
+[13:51:22] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[13:51:24] [cm]Command Received (cb 2)
+[13:51:24] [td]Requst Order Insert... Successed
+[13:51:24] [td]Order: #
+[13:51:24] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[13:51:25] [cm]Command Received (cb 1)
+[13:51:25] [td]Requst Order Insert... Successed
+[13:51:25] [td]Direction: Sell, Price: 717.50, Status: 报单已提交
+[13:51:25] [td]Direction: Sell, Price: 717.50, Status: 报单已提交
+[13:51:25] [td]Direction: Sell, Price: 717.50, Status: 全部成交报单已提交
+[13:51:25] [td]i1705 At Price: 717.50, 1 Traded
+[13:51:51] [md]Front Connected...
+[13:51:51] [md]Send Login Request... Successed
+[13:51:52] [md]Date: 20170222
+[13:51:52] [td]Front Connected...
+[13:51:52] [td]Send Login Request... Successed
+[13:51:52] [td]Date: 20170222
+[13:51:53] [td]Request Settlement Info Confirm... Successed
+[13:51:54] [td]Instruments:
+[13:51:55] [td]Request Query Instrument... Successed
+[13:51:55] [td]Instrument Id:	i1705
+[13:51:57] [td]Request Query Trading Account... Successed
+[13:51:57] [td]Balance: 996427.71
+[13:51:57] [td]Available: 979798.71
+[13:51:57] [td]Close Profit: -50.00
+[13:51:57] [td]Position Profit: -250.00
+[13:51:59] [td]Request Query Investor Position... Successed
+[13:52:00] [td]Open Volume:1
+[13:52:07] [cm]Command Received (cb 1)
+[13:52:07] [td]Requst Order Insert... Successed
+[13:52:08] [td]Order: #
+[13:52:08] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[13:52:11] [cm]Command Received (cs 1)
+[13:52:11] [td]Requst Order Insert... Successed
+[13:52:11] [td]Order: #
+[13:52:11] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[14:29:55] [md]Front Connected...
+[14:29:55] [md]Send Login Request... Successed
+[14:29:55] [md]Date: 20170222
+[14:29:55] [td]Front Connected...
+[14:29:55] [td]Send Login Request... Successed
+[14:29:56] [td]Date: 20170222
+[14:29:57] [td]Request Settlement Info Confirm... Successed
+[14:29:59] [td]Instruments:
+[14:30:00] [td]Request Query Instrument... Successed
+[14:30:02] [td]Instrument Id:	i1705
+[14:30:06] [md]Front Connected...
+[14:30:06] [md]Send Login Request... Successed
+[14:30:06] [md]Date: 20170222
+[14:30:07] [td]Front Connected...
+[14:30:07] [td]Send Login Request... Successed
+[14:30:08] [td]Date: 20170222
+[14:30:09] [td]Request Settlement Info Confirm... Successed
+[14:30:09] [td]Instruments:
+[14:30:10] [td]Request Query Instrument... Successed
+[14:30:11] [td]Instrument Id:	i1705
+[14:30:13] [td]Request Query Trading Account... Successed
+[14:30:14] [td]Balance: 996627.71
+[14:30:14] [td]Available: 979998.71
+[14:30:14] [td]Close Profit: -50.00
+[14:30:14] [td]Position Profit: -50.00
+[14:30:16] [td]Request Query Investor Position... Successed
+[14:30:17] [td]Open Volume:1
+[14:30:19] [cm]Command Received (cl)
+[14:30:26] [md]Front Connected...
+[14:30:26] [md]Send Login Request... Successed
+[14:30:27] [md]Date: 20170222
+[14:30:28] [td]Front Connected...
+[14:30:28] [td]Send Login Request... Successed
+[14:30:28] [td]Date: 20170222
+[14:30:29] [td]Request Settlement Info Confirm... Successed
+[14:30:31] [td]Instruments:
+[14:30:32] [td]Request Query Instrument... Successed
+[14:30:33] [td]Instrument Id:	i1705
+[14:30:35] [td]Request Query Trading Account... Successed
+[14:30:35] [td]Balance: 996627.71
+[14:30:35] [td]Available: 979998.71
+[14:30:35] [td]Close Profit: -50.00
+[14:30:35] [td]Position Profit: -50.00
+[14:30:37] [td]Request Query Investor Position... Successed
+[14:30:38] [td]Open Volume:1
+[15:27:40] [md]Front Connected...
+[15:27:40] [md]Send Login Request... Successed
+[15:27:40] [md]Date: 20170222
+[15:28:02] [md]Front Connected...
+[15:28:02] [md]Send Login Request... Successed
+[15:28:02] [md]Date: 20170222
+[15:28:23] [md]Front Connected...
+[15:28:23] [md]Send Login Request... Successed
+[15:28:23] [md]Date: 20170222
+[15:28:23] [td]Front Connected...
+[15:28:23] [td]Send Login Request... Successed
+[15:28:23] [td]Date: 20170222
+[15:28:24] [td]Request Settlement Info Confirm... Successed
+[15:28:24] [td]Instruments:
+[15:28:25] [td]Request Query Instrument... Successed
+[15:28:25] [td]Instrument Id:	i1705
+[15:28:27] [td]Request Query Trading Account... Successed
+[15:28:28] [td]Balance: 996627.71
+[15:28:28] [td]Available: 979998.71
+[15:28:28] [td]Close Profit: -50.00
+[15:28:28] [td]Position Profit: -50.00
+[15:28:30] [td]Request Query Investor Position... Successed
+[15:28:30] [td]Open Volume:1
+[15:47:39] [md]Front Connected...
+[15:47:39] [md]Send Login Request... Successed
+[15:47:39] [md]Date: 20170222
+[15:47:39] [td]Front Connected...
+[15:47:39] [td]Send Login Request... Successed
+[15:47:39] [td]Date: 20170222
+[15:47:40] [td]Request Settlement Info Confirm... Successed
+[15:47:40] [td]Instruments:
+[15:47:41] [td]Request Query Instrument... Successed
+[15:47:41] [td]Instrument Id:	i1705
+[15:47:43] [td]Request Query Trading Account... Successed
+[15:47:44] [td]Balance: 996627.71
+[15:47:44] [td]Available: 979998.71
+[15:47:44] [td]Close Profit: -50.00
+[15:47:44] [td]Position Profit: -50.00
+[15:47:46] [td]Request Query Investor Position... Successed
+[15:47:46] [td]Open Volume:1
+[15:56:26] [md]Front Connected...
+[15:56:26] [md]Send Login Request... Successed
+[15:56:26] [md]Date: 20170222
+[15:56:26] [td]Front Connected...
+[15:56:26] [td]Send Login Request... Successed
+[15:56:27] [td]Date: 20170222
+[15:56:28] [td]Request Settlement Info Confirm... Successed
+[15:56:28] [td]Instruments:
+[15:56:29] [td]Request Query Instrument... Successed
+[15:56:29] [td]Instrument Id:	i1705
+[15:56:31] [td]Request Query Trading Account... Successed
+[15:56:31] [td]Balance: 996627.71
+[15:56:31] [td]Available: 979998.71
+[15:56:31] [td]Close Profit: -50.00
+[15:56:31] [td]Position Profit: -50.00
+[15:56:33] [td]Request Query Investor Position... Successed
+[15:56:33] [td]Open Volume:1
+[15:57:02] [md]Front Connected...
+[15:57:02] [md]Send Login Request... Successed
+[15:57:02] [md]Date: 20170222
+[16:08:12] [md]Front Connected...
+[16:12:33] [md]Front Connected...
+[16:12:33] [md]Send Login Request... Successed
+[16:12:33] [md]Date: 20170222
+[16:15:13] [md]Front Connected...
+[16:15:13] [md]Send Login Request... Successed
+[16:15:13] [md]Date: 20170222
+[23:32:22] [md]Front Connected...
+[23:32:22] [md]Send Login Request... Successed
+[23:32:22] [md]Date: 20170223
+[00:09:25] [md]Front Connected...
+[00:09:25] [md]Send Login Request... Successed
+[00:09:25] [md]Date: 20170223
+[00:09:36] [md]Front Connected...
+[00:09:36] [md]Send Login Request... Successed
+[00:09:36] [md]Date: 20170223
+[00:09:36] [td]Front Connected...
+[00:09:36] [td]Send Login Request... Successed
+[00:09:36] [td]Date: 20170223
+[00:09:37] [td]Request Settlement Info Confirm... Successed
+[00:09:37] [td]Instruments:
+[00:09:38] [td]Request Query Instrument... Successed
+[00:09:38] [td]Instrument Id:	i1705
+[00:09:40] [td]Request Query Trading Account... Successed
+[00:09:40] [td]Balance: 996738.49
+[00:09:40] [td]Available: 980115.49
+[00:09:40] [td]Close Profit: 0.00
+[00:09:40] [td]Position Profit: -50.00
+[00:09:42] [td]Request Query Investor Position... Successed
+[00:09:45] [cm]Command Received (h)
+[00:09:45] [cm]b [num]          买num手
+[00:09:45] [cm]s [num]          卖num手
+[00:09:45] [cm]cb [num]         平买num手
+[00:09:45] [cm]cs [num]         平卖num手
+[00:09:45] [cm]t                查看所有订单
+[00:09:45] [cm]q                停止自动交易
+[00:09:45] [cm]rs               （重新）开始自动交易
+[00:09:45] [cm]exit             退出程序
+[13:53:29] [md]Front Connected...
+[13:53:29] [md]Send Login Request... Successed
+[13:53:29] [md]Date: 20170223
+[13:53:29] [td]Front Connected...
+[13:53:29] [td]Send Login Request... Successed
+[13:53:29] [td]Date: 20170223
+[13:53:30] [td]Request Settlement Info Confirm... Successed
+[13:53:30] [td]Instruments:
+[13:53:31] [td]Request Query Instrument... Successed
+[13:53:31] [td]Instrument Id:	i1705
+[13:53:33] [td]Request Query Trading Account... Successed
+[13:53:34] [td]Balance: 996238.49
+[13:53:34] [td]Available: 979615.49
+[13:53:34] [td]Close Profit: 0.00
+[13:53:34] [td]Position Profit: -550.00
+[13:53:36] [td]Request Query Investor Position... Successed
+[13:53:38] [cm]Command Received (h)
+[13:53:38] [cm]b [num]          买num手
+[13:53:38] [cm]s [num]          卖num手
+[13:53:38] [cm]cb [num]         平买num手
+[13:53:38] [cm]cs [num]         平卖num手
+[13:53:38] [cm]t                查看所有订单
+[13:53:38] [cm]q                停止自动交易
+[13:53:38] [cm]rs               （重新）开始自动交易
+[13:53:38] [cm]exit             退出程序
+[13:53:45] [cm]Command Received (b 1)
+[13:53:45] [td]Requst Order Insert... Successed
+[13:53:45] [td]Order: #
+[13:53:45] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[13:53:48] [cm]Command Received (b 1)
+[13:53:48] [td]Requst Order Insert... Successed
+[13:53:48] [td]Order: #
+[13:53:48] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[13:53:51] [cm]Command Received (cb 1)
+[13:53:51] [td]Requst Order Insert... Successed
+[13:53:51] [td]Order: #
+[13:53:51] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[13:53:54] [cm]Command Received (s 1)
+[13:53:54] [td]Requst Order Insert... Successed
+[13:53:54] [td]Order: #
+[13:53:54] [td]ErrorID=30, ErrorMsg=CTP:平仓量超过持仓量
+[13:54:21] [md]Front Connected...
+[13:54:21] [md]Send Login Request... Successed
+[13:54:21] [md]Date: 20170223
+[13:54:21] [td]Front Connected...
+[13:54:21] [td]Send Login Request... Successed
+[13:54:21] [td]Date: 20170223
+[13:54:22] [td]Request Settlement Info Confirm... Successed
+[13:54:22] [td]Instruments:
+[13:54:23] [td]Request Query Instrument... Successed
+[13:54:23] [td]Instrument Id:	i1705
+[13:54:25] [td]Request Query Trading Account... Successed
+[13:54:25] [td]Balance: 996288.49
+[13:54:25] [td]Available: 979665.49
+[13:54:25] [td]Close Profit: 0.00
+[13:54:25] [td]Position Profit: -500.00
+[13:54:27] [td]Request Query Investor Position... Successed
+[13:54:32] [cm]Command Received (b 1)
+[13:54:32] [td]Requst Order Insert... Successed
+[13:54:32] [td]Direction: Buy, Price: 712.50, Status: 报单已提交
+[13:54:32] [td]Direction: Buy, Price: 712.50, Status: 报单已提交
+[13:54:32] [td]Direction: Buy, Price: 712.50, Status: 全部成交报单已提交
+[13:54:32] [td]i1705 At Price: 712.50, 1 Traded
+[13:54:38] [cm]Command Received (s 1)
+[13:54:38] [td]Requst Order Insert... Successed
+[13:54:38] [td]Direction: Sell, Price: 712.00, Status: 报单已提交
+[13:54:38] [td]Direction: Sell, Price: 712.00, Status: 报单已提交
+[13:54:38] [td]Direction: Sell, Price: 712.00, Status: 全部成交报单已提交
+[13:54:38] [td]i1705 At Price: 712.00, 1 Traded
+[13:54:40] [cm]Command Received (cb 1)
+[13:54:40] [td]Requst Order Insert... Successed
+[13:54:40] [td]Direction: Sell, Price: 712.50, Status: 报单已提交
+[13:54:40] [td]Direction: Sell, Price: 712.50, Status: 报单已提交
+[13:54:40] [td]Direction: Sell, Price: 712.50, Status: 全部成交报单已提交
+[13:54:40] [td]i1705 At Price: 712.50, 1 Traded
+[13:54:42] [cm]Command Received (cs 1)
+[13:54:42] [td]Requst Order Insert... Successed
+[13:54:42] [td]Direction: Buy, Price: 713.00, Status: 报单已提交
+[13:54:42] [td]Direction: Buy, Price: 713.00, Status: 报单已提交
+[13:54:42] [td]Direction: Buy, Price: 713.00, Status: 全部成交报单已提交
+[13:54:42] [td]i1705 At Price: 713.00, 1 Traded
+[13:54:57] [cm]Command Received (h)
+[13:54:57] [cm]b [num]          买num手
+[13:54:57] [cm]s [num]          卖num手
+[13:54:57] [cm]cb [num]         平买num手
+[13:54:57] [cm]cs [num]         平卖num手
+[13:54:57] [cm]t                查看所有订单
+[13:54:57] [cm]q                停止自动交易
+[13:54:57] [cm]rs               （重新）开始自动交易
+[13:54:57] [cm]exit             退出程序
+[14:33:43] [md]Front Connected...
+[14:33:43] [md]Send Login Request... Successed
+[14:33:43] [md]Date: 20170223
+[14:33:43] [td]Front Connected...
+[14:33:43] [td]Send Login Request... Successed
+[14:33:43] [td]Date: 20170223
+[14:33:44] [td]Request Settlement Info Confirm... Successed
+[14:33:44] [td]Instruments:
+[14:33:45] [td]Request Query Instrument... Successed
+[14:33:45] [td]Instrument Id:	i1705
+[14:33:47] [td]Request Query Trading Account... Successed
+[14:33:48] [td]Balance: 996375.67
+[14:33:48] [td]Available: 979752.67
+[14:33:48] [td]Close Profit: -100.00
+[14:33:48] [td]Position Profit: -300.00
+[14:33:49] [cm]Command Received (b 1)
+[14:33:49] [td]Requst Order Insert... Successed
+[14:33:50] [td]Request Query Investor Position... Successed
+[14:33:50] [td]Direction: Buy, Price: 706.50, Status: 报单已提交
+[14:33:50] [td]Direction: Buy, Price: 706.50, Status: 报单已提交
+[14:33:50] [td]Direction: Buy, Price: 706.50, Status: 全部成交报单已提交
+[14:33:50] [td]i1705 At Price: 706.50, 1 Traded
+[14:33:50] [td]Open Volume:2
+[14:33:52] [cm]Command Received (s 1)
+[14:33:52] [td]Requst Order Insert... Successed
+[14:33:52] [td]Direction: Sell, Price: 706.00, Status: 报单已提交
+[14:33:52] [td]Direction: Sell, Price: 706.00, Status: 报单已提交
+[14:33:52] [td]Direction: Sell, Price: 706.00, Status: 全部成交报单已提交
+[14:33:52] [td]i1705 At Price: 706.00, 1 Traded
