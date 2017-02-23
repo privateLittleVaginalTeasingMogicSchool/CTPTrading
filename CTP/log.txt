@@ -3980,3 +3980,90 @@ Successed
 [14:33:52] [td]Direction: Sell, Price: 706.00, Status: 报单已提交
 [14:33:52] [td]Direction: Sell, Price: 706.00, Status: 全部成交报单已提交
 [14:33:52] [td]i1705 At Price: 706.00, 1 Traded
+[14:52:46] [md]Front Connected...
+[14:52:46] [md]Send Login Request... Successed
+[14:52:46] [md]Date: 20170223
+[14:53:11] [md]Front Connected...
+[14:53:11] [md]Send Login Request... Successed
+[14:53:11] [md]Date: 20170223
+[15:00:14] [md]Front Connected...
+[15:00:15] [md]Send Login Request... Successed
+[15:00:15] [md]Date: 20170223
+[15:06:05] [md]Front Connected...
+[15:06:05] [md]Send Login Request... Successed
+[15:06:06] [md]Date: 20170223
+[15:07:31] [md]Front Connected...
+[15:07:31] [md]Send Login Request... Successed
+[15:07:31] [md]Date: 20170223
+[15:07:31] [td]Front Connected...
+[15:07:31] [td]Send Login Request... Successed
+[15:07:31] [td]Date: 20170223
+[15:07:32] [td]Request Settlement Info Confirm... Successed
+[15:07:32] [td]Instruments:
+[15:07:33] [td]Request Query Instrument... Successed
+[15:07:33] [td]Instrument Id:	i1705
+[15:07:35] [td]Request Query Trading Account... Successed
+[15:07:35] [td]Balance: 995917.19
+[15:07:35] [td]Available: 972231.69
+[15:07:35] [td]Close Profit: -100.00
+[15:07:35] [td]Position Profit: -750.00
+[15:07:37] [td]Request Query Investor Position... Successed
+[15:09:06] [md]Front Connected...
+[15:09:06] [md]Send Login Request... Successed
+[15:09:06] [md]Date: 20170223
+[15:09:45] [md]Front Connected...
+[15:09:45] [md]Send Login Request... Successed
+[15:09:45] [md]Date: 20170223
+[15:17:01] [md]Front Connected...
+[15:17:02] [md]Send Login Request... Successed
+[15:17:02] [md]Date: 20170223
+[15:18:11] [md]Front Connected...
+[15:18:11] [md]Send Login Request... Successed
+[15:18:12] [md]Date: 20170223
+[15:19:30] [md]Front Connected...
+[15:19:30] [md]Send Login Request... Successed
+[15:19:30] [md]Date: 20170223
+[15:21:26] [md]Front Connected...
+[15:21:26] [md]Send Login Request... Successed
+[15:21:26] [md]Date: 20170223
+[15:26:22] [md]Front Connected...
+[15:26:22] [md]Send Login Request... Successed
+[15:26:22] [md]Date: 20170223
+[15:31:44] [td]Front Connected...
+[15:31:45] [td]Send Login Request... Successed
+[15:31:45] [td]Date: 20170223
+[15:33:13] [md]Front Connected...
+[15:33:22] [md]Send Login Request... Successed
+[15:33:48] [md]Front Connected...
+[15:33:48] [md]Send Login Request... Successed
+[15:33:48] [md]Date: 20170223
+[15:34:21] [md]Front Connected...
+[15:34:21] [md]Send Login Request... Successed
+[15:34:21] [md]Date: 20170223
+[15:35:01] [md]Front Connected...
+[15:35:01] [md]Send Login Request... Successed
+[15:35:14] [md]Front Connected...
+[15:35:14] [md]Send Login Request... Successed
+[15:35:28] [md]Front Connected...
+[15:35:28] [md]Send Login Request... Successed
+[15:36:02] [md]Front Connected...
+[15:36:02] [md]Send Login Request... Successed
+[15:36:02] [md]Date: 20170223
+[15:37:13] [md]Front Connected...
+[15:37:13] [md]Send Login Request... Successed
+[15:37:13] [md]Date: 20170223
+[15:37:20] [md]Front Connected...
+[15:37:20] [md]Send Login Request... Successed
+[15:37:26] [md]Date: 20170223
+[15:44:26] [md]Front Connected...
+[15:44:26] [md]Send Login Request... Successed
+[15:44:26] [md]Date: 20170223
+[16:01:37] [md]Front Connected...
+[16:01:37] [md]Send Login Request... Successed
+[16:01:37] [md]Date: 20170223
+[16:02:24] [md]Front Connected...
+[16:02:24] [md]Send Login Request... Successed
+[16:02:24] [md]Date: 20170223
+[17:01:20] [md]Front Connected...
+[17:01:20] [md]Send Login Request... Successed
+[17:01:23] [md]Front Disconnected... [17:01:23] Reason: 4097
