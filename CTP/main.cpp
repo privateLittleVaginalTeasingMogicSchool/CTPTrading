@@ -6,7 +6,6 @@
 #include "Common.h"
 #include "Query.h"
 #include "Trade.h"
-
 #include "price.h"
 #include "command.h"
 #include "EA.h"
@@ -18,7 +17,7 @@
 
 int nMdRequestID = 0;
 int nTdRequestID = 0;
-CThostFtdcDepthMarketDataField* MarketData;
+CThostFtdcDepthMarketDataField MarketData;
 char* FRONTADD_MD = "tcp://180.168.146.187:10010";
 char* FRONTADD_TD = "tcp://180.168.146.187:10000";
 int SESSION;
@@ -27,14 +26,14 @@ TThostFtdcOrderRefType ORDER_REF;
 const char* USERID = "079056";
 const char* PASSWD = "123456";
 const char* BROKER = "9999";
-const char* XCHGER = "DCE";
+const char* XCHGER = "SHFE";
 CThostFtdcMdApi* mdapi;
 CThostFtdcTraderApi* tdapi;
 MdSpi* mdspi;
 TdSpi* tdspi;
-bool mdlogin = false;
-bool tdlogin = false;
-char* ppInstrumentID[1] = { "i1705" };
+bool mdlogin;
+bool tdlogin;
+char* ppInstrumentID[1] = { "au1706" };
 int iInstrumentID = 1;
 std::vector<TThostFtdcTradeIDType> trade_orders;
 Logger lgr("log.txt");
@@ -75,9 +74,11 @@ int main()
 	threads[0] = std::thread(price::thread_work);
 	threads[1] = std::thread(command::thread_work);
 	threads[2] = std::thread(PrintDisplayBuffer);
+	threads[3] = std::thread(EA);
 	Sleep(1000);
 	threads[0].join();
 	threads[1].join();
 	threads[2].join();
+	threads[3].join();
 	return 0;
 }

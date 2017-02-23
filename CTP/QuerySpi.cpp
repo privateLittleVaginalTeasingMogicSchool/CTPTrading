@@ -29,7 +29,6 @@ void MdSpi::OnHeartBeatWarning(int nTimeLapse)
 
 void MdSpi::OnFrontConnected()
 {
-	mdlogin = false;
 	lgr << Log::t << "[md]Front Connected..." << Log::endl;
 	///ÓÃ»§µÇÂ¼ÇëÇó
 	ReqUserLogin();
@@ -69,7 +68,7 @@ void MdSpi::OnRspUnSubMarketData(CThostFtdcSpecificInstrumentField *pSpecificIns
 
 void MdSpi::OnRtnDepthMarketData(CThostFtdcDepthMarketDataField *pDepthMarketData)
 {
-	memcpy(MarketData, pDepthMarketData, sizeof(CThostFtdcDepthMarketDataField));
+	memcpy(&MarketData, pDepthMarketData, sizeof(CThostFtdcDepthMarketDataField));
 }
 
 

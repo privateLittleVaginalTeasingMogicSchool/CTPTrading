@@ -169,7 +169,7 @@ void command::analyze_command()
 				std::stringstream ss(cmd + 3);
 				int lot = 0;
 				ss >> lot;
-				OrderSend(ppInstrumentID[0], THOST_FTDC_OF_Close, THOST_FTDC_D_Sell, lot);
+				OrderSend(ppInstrumentID[0], THOST_FTDC_OF_CloseToday, THOST_FTDC_D_Sell, lot);
 			}
 
 			catch (std::exception)
@@ -184,7 +184,7 @@ void command::analyze_command()
 				std::stringstream ss(cmd + 3);
 				int lot = 0;
 				ss >> lot;
-				OrderSend(ppInstrumentID[0], THOST_FTDC_OF_Close, THOST_FTDC_D_Buy, lot);
+				OrderSend(ppInstrumentID[0], THOST_FTDC_OF_CloseToday, THOST_FTDC_D_Buy, lot);
 			}
 
 			catch (std::exception)
@@ -194,6 +194,11 @@ void command::analyze_command()
 		}
 		else
 			lgr << Log::t << "[cm]Illegal Command" << Log::endl;
+	}
+
+	else if (cmdstr == "accinfo")
+	{
+		tdspi->ReqQryTradingAccount();
 	}
 
 	else if (cmdstr == "exit")

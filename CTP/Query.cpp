@@ -13,8 +13,7 @@ void InitQuery()
 	mdapi->RegisterFront(FRONTADD_MD);
 	mdapi->Init();
 
-	MarketData = new CThostFtdcDepthMarketDataField;
-	memset(MarketData, 0, sizeof(MarketData));
+	memset(&MarketData, 0, sizeof(MarketData));
 }
 
 void UpdatePrice()

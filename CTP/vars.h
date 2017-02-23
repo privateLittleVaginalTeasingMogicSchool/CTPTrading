@@ -14,7 +14,7 @@ class TdSpi;
 
 extern int nMdRequestID;
 extern int nTdRequestID;
-extern CThostFtdcDepthMarketDataField* MarketData;
+extern CThostFtdcDepthMarketDataField MarketData;
 extern char* FRONTADD_MD;
 extern char* FRONTADD_TD;
 extern TThostFtdcFrontIDType FRONTID;

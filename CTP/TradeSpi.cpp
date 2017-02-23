@@ -312,8 +312,8 @@ void TdSpi::OnRspQryTrade(
 			<< (pTrade->Volume)
 			<< " " << pTrade->InstrumentID << " "
 			<< " @ " << Log::_2point << pTrade->Price
-			<< pTrade->Volume * ((pTrade->Direction == THOST_FTDC_D_Buy) ? (MarketData->BidPrice1 - pTrade->Price) :
-			(pTrade->Price - MarketData->AskPrice1)) << Log::endl;
+			<< pTrade->Volume * ((pTrade->Direction == THOST_FTDC_D_Buy) ? (MarketData.BidPrice1 - pTrade->Price) :
+			(pTrade->Price - MarketData.AskPrice1)) << Log::endl;
 		SleepFor(1000);
 	}
 }

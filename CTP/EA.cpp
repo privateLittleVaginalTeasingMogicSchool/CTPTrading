@@ -5,7 +5,7 @@
 void EA()
 {
 	int tmp_direction = THOST_FTDC_D_Buy;
-	double lastp = MarketData->AskPrice1;
+	double lastp = MarketData.AskPrice1;
 	int holding = 0;
 	int lot = 1;
 	OrderSend(ppInstrumentID[0], THOST_FTDC_OF_Open, tmp_direction, lot);
@@ -18,7 +18,7 @@ void EA()
 	{
 		if (tmp_direction == THOST_FTDC_D_Buy)
 		{
-			if (MarketData->BidPrice1 < lastp - interval)
+			if (MarketData.BidPrice1 < lastp - interval)
 			{
 				// Ö¹ËðÂò£¬·´ÊÖÂô
 				OrderSend(ppInstrumentID[0], THOST_FTDC_OF_Close, THOST_FTDC_D_Sell, lot);
@@ -27,7 +27,7 @@ void EA()
 				tmp_direction = THOST_FTDC_D_Sell;
 				OrderSend(ppInstrumentID[0], THOST_FTDC_OF_Open, THOST_FTDC_D_Sell, lot);
 			}
-			else if (MarketData->BidPrice1 - lastp > loss / lot + tp)
+			else if (MarketData.BidPrice1 - lastp > loss / lot + tp)
 			{
 				OrderSend(ppInstrumentID[0], THOST_FTDC_OF_Close, THOST_FTDC_D_Sell, lot);
 				lot = 1;
@@ -38,7 +38,7 @@ void EA()
 		}
 		else if (tmp_direction == THOST_FTDC_D_Sell)
 		{
-			if (MarketData->AskPrice1 > lastp + interval)
+			if (MarketData.AskPrice1 > lastp + interval)
 			{
 				OrderSend(ppInstrumentID[0], THOST_FTDC_OF_Close, THOST_FTDC_D_Buy, lot);
 				lot = pow(mul, ++layer);
@@ -46,7 +46,7 @@ void EA()
 				tmp_direction = THOST_FTDC_D_Buy;
 				OrderSend(ppInstrumentID[0], THOST_FTDC_OF_Open, THOST_FTDC_D_Buy, lot);
 			}
-			else if (lastp - MarketData->AskPrice1 > loss / lot + tp)
+			else if (lastp - MarketData.AskPrice1 > loss / lot + tp)
 			{
 				OrderSend(ppInstrumentID[0], THOST_FTDC_OF_Close, THOST_FTDC_D_Buy, lot);
 				lot = 1;

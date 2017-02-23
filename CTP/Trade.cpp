@@ -40,7 +40,7 @@ void OrderSend(const char* instrument_id, char type, char direction, int volume)
 	///组合投机套保标志
 	req.CombHedgeFlag[0] = THOST_FTDC_HF_Speculation;
 	///价格
-	req.LimitPrice = (direction == THOST_FTDC_D_Buy) ? MarketData->AskPrice1 : MarketData->BidPrice1;
+	req.LimitPrice = (direction == THOST_FTDC_D_Buy) ? MarketData.AskPrice1 : MarketData.BidPrice1;
 	///数量: 1
 	req.VolumeTotalOriginal = volume;
 	///有效期类型: 当日有效
